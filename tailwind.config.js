@@ -21,7 +21,8 @@ module.exports = {
         purple: '#785FA4',
         orange: '#F18F35',
         blue: '#088DCD',
-        lightGrey: '#f1f1f1'
+        lightGrey: '#f1f1f1',
+        darkGrey: '#38373C'
       },
       fontSize: {
         '10xl': '12rem',

@@ -2467,20 +2467,52 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _public_assets_telephone_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../public/assets/telephone.svg */ "./public/assets/telephone.svg");
+/* harmony import */ var _public_assets_email_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../public/assets/email.svg */ "./public/assets/email.svg");
+/* harmony import */ var _SocialMedia__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SocialMedia */ "./resources/js/components/SocialMedia.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //ASSETS
+
+
+ //COMPONENTS
+
 
 
 
 
 var Header = function Header() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
     className: "block top-0 w-full border-b-2 border-lightGrey",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-      className: "flex justify-between items-center max-w-7xl mx-auto px-4 py-4 sm:px-6 md:justify-start md:space-x-10 lg:px-8",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        children: "Social Media"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        children: "Contact"
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+      className: "flex w-full justify-between items-center max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_SocialMedia__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: "flex",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+          className: "flex",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            src: _public_assets_telephone_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
+            alt: "Telephone icon",
+            className: "h-6"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            children: ["Call on", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+              href: "tel:01274 897714",
+              children: " 01274 897714"
+            })]
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+          className: "flex",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            src: _public_assets_email_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
+            alt: "Email icon",
+            className: "h-6"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            className: "ml-4",
+            children: ["Email", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+              href: "mailto:info@mymup.org",
+              children: " info@mymup.org"
+            })]
+          })]
+        })]
       })]
     })
   });
@@ -2569,124 +2601,113 @@ var navigation = [{
 }];
 
 var Navbar = function Navbar() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_sticky__WEBPACK_IMPORTED_MODULE_1__.Sticky, {
-    topOffset: -60,
-    children: function children(_ref) {
-      var style = _ref.style,
-          isSticky = _ref.isSticky;
-      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("header", {
-        style: {
-          style: style,
-          marginTop: isSticky ? 60 : 0
-        },
-        className: "w-full z-20 bg-white overflow-hidden",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Popover, {
-          children: function children(_ref2) {
-            var open = _ref2.open;
-            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.Fragment, {
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-                className: "flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                  className: "flex justify-start lg:w-0 lg:flex-1",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("a", {
-                    href: "/",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
-                      className: "sr-only",
-                      children: "MYMUP Digital"
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                      className: "h-8 w-auto sm:h-10",
-                      src: _public_assets_logo_png__WEBPACK_IMPORTED_MODULE_2__["default"],
-                      alt: "MYMUP Digital logo"
-                    })]
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                  className: "-mr-2 -my-2 md:hidden",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Popover.Button, {
-                    className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-grey hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lightTeal",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
-                      className: "sr-only",
-                      children: "Open menu"
-                    })
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                  className: "hidden md:flex space-x-10",
-                  children: navigation.map(function (link) {
-                    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_NavLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                      href: link.href,
-                      name: link.name
-                    }, link.name);
-                  })
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                  className: "hidden md:flex items-center justify-end md:flex-1 lg:w-0",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
-                    href: "/contact",
-                    className: "whitespace-nowrap px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-black bg-yellow",
-                    children: "ENQUIRE NOW"
-                  })
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("header", {
+    className: "w-full z-20 bg-white overflow-hidden",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Popover, {
+      children: function children(_ref) {
+        var open = _ref.open;
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.Fragment, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            className: "flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              className: "flex justify-start lg:w-0 lg:flex-1",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("a", {
+                href: "/",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
+                  className: "sr-only",
+                  children: "MYMUP Digital"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                  className: "h-8 w-auto sm:h-10",
+                  src: _public_assets_logo_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+                  alt: "MYMUP Digital logo"
                 })]
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_6__.Transition, {
-                show: open,
-                as: react__WEBPACK_IMPORTED_MODULE_0__.Fragment,
-                enter: "duration-200 ease-out",
-                enterFrom: "opacity-0 scale-95",
-                enterTo: "opacity-100 scale-100",
-                leave: "duration-100 ease-in",
-                leaveFrom: "opacity-100 scale-100",
-                leaveTo: "opacity-0 scale-95",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Popover.Panel, {
-                  focus: true,
-                  "static": true,
-                  className: "absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden",
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              className: "-mr-2 -my-2 md:hidden",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Popover.Button, {
+                className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-grey hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lightTeal",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
+                  className: "sr-only",
+                  children: "Open menu"
+                })
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              className: "hidden md:flex space-x-10",
+              children: navigation.map(function (link) {
+                return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_NavLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                  href: link.href,
+                  name: link.name
+                }, link.name);
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+              className: "hidden md:flex items-center justify-end md:flex-1 lg:w-0",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                href: "/contact",
+                className: "whitespace-nowrap px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-black bg-yellow",
+                children: "ENQUIRE NOW"
+              })
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_6__.Transition, {
+            show: open,
+            as: react__WEBPACK_IMPORTED_MODULE_0__.Fragment,
+            enter: "duration-200 ease-out",
+            enterFrom: "opacity-0 scale-95",
+            enterTo: "opacity-100 scale-100",
+            leave: "duration-100 ease-in",
+            leaveFrom: "opacity-100 scale-100",
+            leaveTo: "opacity-0 scale-95",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Popover.Panel, {
+              focus: true,
+              "static": true,
+              className: "absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                className: "rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                  className: "pt-5 pb-6 px-5",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-                    className: "rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50",
+                    className: "flex items-center justify-between",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                      className: "pt-5 pb-6 px-5",
-                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-                        className: "flex items-center justify-between",
-                        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                            className: "h-8 w-auto",
-                            src: _public_assets_logo_png__WEBPACK_IMPORTED_MODULE_2__["default"],
-                            alt: "MYMUP Digital logo"
-                          })
-                        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                          className: "-mr-2",
-                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Popover.Button, {
-                            className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-grey hover:bg-lightGrey focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lightTeal",
-                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
-                              className: "sr-only",
-                              children: "Close menu"
-                            })
-                          })
-                        })]
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                        className: "h-8 w-auto",
+                        src: _public_assets_logo_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+                        alt: "MYMUP Digital logo"
                       })
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-                      className: "py-6 px-5",
-                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                        className: "grid grid-cols-2 gap-4",
-                        children: navigation.map(function (link) {
-                          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_NavLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                            href: link.href,
-                            name: link.name
-                          }, link.name);
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                      className: "-mr-2",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_5__.Popover.Button, {
+                        className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-grey hover:bg-lightGrey focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lightTeal",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
+                          className: "sr-only",
+                          children: "Close menu"
                         })
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                        className: "mt-6",
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
-                          href: "/contact",
-                          className: "w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-black bg-yellow",
-                          children: "ENQUIRE NOW"
-                        })
-                      })]
+                      })
                     })]
                   })
-                })
-              })]
-            });
-          }
-        })
-      });
-    }
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "py-6 px-5",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                    className: "grid grid-cols-2 gap-4",
+                    children: navigation.map(function (link) {
+                      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_NavLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                        href: link.href,
+                        name: link.name
+                      }, link.name);
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                    className: "mt-6",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      href: "/contact",
+                      className: "w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-black bg-yellow",
+                      children: "ENQUIRE NOW"
+                    })
+                  })]
+                })]
+              })
+            })
+          })]
+        });
+      }
+    })
   });
 };
 
@@ -2706,78 +2727,53 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+/* harmony import */ var _public_assets_facebook_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../public/assets/facebook.png */ "./public/assets/facebook.png");
+/* harmony import */ var _public_assets_twitter_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../public/assets/twitter.png */ "./public/assets/twitter.png");
+/* harmony import */ var _public_assets_youtube_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../public/assets/youtube.png */ "./public/assets/youtube.png");
+/* harmony import */ var _public_assets_vimeo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../public/assets/vimeo.png */ "./public/assets/vimeo.png");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //ASSETS
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 
 
 var social = [{
   name: 'Facebook',
   href: '#',
-  icon: function icon(props) {
-    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", _objectSpread(_objectSpread({
-      fill: "currentColor",
-      viewBox: "0 0 24 24"
-    }, props), {}, {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-        fillRule: "evenodd",
-        d: "M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z",
-        clipRule: "evenodd"
-      })
-    }));
-  }
+  icon: _public_assets_facebook_png__WEBPACK_IMPORTED_MODULE_1__["default"]
 }, {
   name: 'Twitter',
   href: '#',
-  icon: function icon(props) {
-    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", _objectSpread(_objectSpread({
-      fill: "currentColor",
-      viewBox: "0 0 24 24"
-    }, props), {}, {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-        d: "M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
-      })
-    }));
-  }
+  icon: _public_assets_twitter_png__WEBPACK_IMPORTED_MODULE_2__["default"]
 }, {
   name: 'YouTube',
   href: '#',
-  icon: function icon(props) {
-    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", _objectSpread(_objectSpread({
-      fill: "currentColor",
-      viewBox: "0 0 24 24"
-    }, props), {}, {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-        fillRule: "evenodd",
-        d: "M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z",
-        clipRule: "evenodd"
-      })
-    }));
-  }
+  icon: _public_assets_youtube_png__WEBPACK_IMPORTED_MODULE_3__["default"]
 }, {
   name: 'Vimeo',
   href: '#',
-  icon: function icon(props) {
-    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", _objectSpread(_objectSpread({
-      fill: "currentColor",
-      viewBox: "0 0 24 24"
-    }, props), {}, {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
-        fillRule: "evenodd",
-        d: "M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z",
-        clipRule: "evenodd"
-      })
-    }));
-  }
+  icon: _public_assets_vimeo_png__WEBPACK_IMPORTED_MODULE_4__["default"]
 }];
 
 var SocialMedia = function SocialMedia() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-    children: "Social Media"
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+    className: "flex space-x-1",
+    children: social.map(function (item) {
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("a", {
+        href: item.href,
+        className: "flex justify-center items-center h-10 w-10 rounded-full bg-lightGrey text-gray-400 hover:text-gray-500",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("span", {
+          className: "sr-only",
+          children: item.name
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+          src: item.icon,
+          className: "h-3"
+        })]
+      }, item.name);
+    })
   });
 };
 
@@ -2914,30 +2910,30 @@ var FirstHeroSection = function FirstHeroSection() {
           src: _public_assets_slide1_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
           alt: ""
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "absolute inset-0 bg-white opacity-50 mix-blend-multiply"
+          className: "absolute inset-0 bg-gray-200 opacity-50 mix-blend-multiply"
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "relative flex flex-col h-full justify-center items-center max-w-lg mx-auto sm:max-w-3xl",
+        className: "relative flex flex-col h-full justify-center max-w-lg mx-auto sm:max-w-3xl",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
-          className: "text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl",
+          className: "text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
-            className: "block text-white",
+            className: "block text-darkGrey",
             children: "Designed in collaboration."
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
-          className: "mt-6 text-center text-xl text-grey ",
+          className: "mt-6 text-xl text-grey ",
           children: "MYMUP Digital is a simple, but powerful, recording, reporting and self help tool, designed in collaboration with service users and health care professionals. MYMUP Digital empowers mental health services and practitioners to easily record their work and effectively demonstrate impact to commissioners, as well as flowing to the Mental Health Services Dataset on your behalf."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center",
+          className: "mt-10 max-w-sm sm:max-w-none sm:flex",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5",
+            className: "space-y-4 sm:space-y-0 sm:inline-grid sm:grid-cols-2 sm:gap-5",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
               href: "#",
-              className: "flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
+              className: "flex justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
               children: "Watch video"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
               href: "#",
-              className: "flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
+              className: "flex justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
               children: "Request demo"
             })]
           })
@@ -2958,30 +2954,30 @@ var SecondHeroSection = function SecondHeroSection() {
           src: _public_assets_slide2_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
           alt: ""
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "absolute inset-0 bg-white opacity-50 mix-blend-multiply"
+          className: "absolute inset-0 bg-gray-200 opacity-50 mix-blend-multiply"
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "relative flex flex-col h-full justify-center items-center max-w-lg mx-auto sm:max-w-3xl",
+        className: "relative flex flex-col h-full justify-center max-w-lg mx-auto sm:max-w-3xl",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
-          className: "text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl",
+          className: "text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
-            className: "block text-white",
+            className: "block text-darkGrey",
             children: "Transforming digital."
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
-          className: "mt-6 text-center text-xl text-grey ",
+          className: "mt-6 text-xl text-grey ",
           children: "MYMUP Digital is a simple, but powerful, recording, reporting and self help tool, designed in collaboration with service users and health care professionals. MYMUP Digital empowers mental health services and practitioners to easily record their work and effectively demonstrate impact to commissioners, as well as flowing to the Mental Health Services Dataset on your behalf."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center",
+          className: "mt-10 max-w-sm sm:max-w-none sm:flex",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5",
+            className: "space-y-4 sm:space-y-0 sm:inline-grid sm:grid-cols-2 sm:gap-5",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
               href: "#",
-              className: "flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
+              className: "flex justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
               children: "Watch video"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
               href: "#",
-              className: "flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
+              className: "flex justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
               children: "Request demo"
             })]
           })
@@ -3277,6 +3273,36 @@ var TermsConditions = function TermsConditions() {
 
 /***/ }),
 
+/***/ "./public/assets/email.svg":
+/*!*********************************!*\
+  !*** ./public/assets/email.svg ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/email.svg?218398eb2df5eb328b67c5e9a366da6a");
+
+/***/ }),
+
+/***/ "./public/assets/facebook.png":
+/*!************************************!*\
+  !*** ./public/assets/facebook.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/facebook.png?b6244f88eab8457484c8b0aff8b2259a");
+
+/***/ }),
+
 /***/ "./public/assets/logo.png":
 /*!********************************!*\
   !*** ./public/assets/logo.png ***!
@@ -3319,6 +3345,66 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/slide2.jpg?3d078eb61625a9b24e48e5c3aa36cece");
+
+/***/ }),
+
+/***/ "./public/assets/telephone.svg":
+/*!*************************************!*\
+  !*** ./public/assets/telephone.svg ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/telephone.svg?e24593b094ec020170e73c1295d0329f");
+
+/***/ }),
+
+/***/ "./public/assets/twitter.png":
+/*!***********************************!*\
+  !*** ./public/assets/twitter.png ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/twitter.png?2c8b493a0fcb907ea3c0cfea6035de60");
+
+/***/ }),
+
+/***/ "./public/assets/vimeo.png":
+/*!*********************************!*\
+  !*** ./public/assets/vimeo.png ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/vimeo.png?e913b0c7979e6e86cea36ce195dbd831");
+
+/***/ }),
+
+/***/ "./public/assets/youtube.png":
+/*!***********************************!*\
+  !*** ./public/assets/youtube.png ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/youtube.png?22df12453a0dc74eee3354dd9b854dce");
 
 /***/ }),
 

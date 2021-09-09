@@ -21,12 +21,7 @@ const navigation = [
   
 const Navbar = () => {
     return (
-      <Sticky topOffset={-60}>
-        {({
-          style,
-          isSticky
-        }) => (
-        <header style={{style, marginTop: isSticky ? 60 : 0}} className="w-full z-20 bg-white overflow-hidden">
+        <header className="w-full z-20 bg-white overflow-hidden">
           <Popover>
           {({ open }) => (
             <>
@@ -114,8 +109,6 @@ const Navbar = () => {
           )}
           </Popover>
         </header>
-        )}
-      </Sticky>
     )
 }
 
