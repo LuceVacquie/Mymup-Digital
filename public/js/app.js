@@ -2467,13 +2467,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _public_assets_telephone_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../public/assets/telephone.svg */ "./public/assets/telephone.svg");
-/* harmony import */ var _public_assets_email_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../public/assets/email.svg */ "./public/assets/email.svg");
-/* harmony import */ var _SocialMedia__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SocialMedia */ "./resources/js/components/SocialMedia.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
- //ASSETS
-
-
+/* harmony import */ var _SocialMedia__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SocialMedia */ "./resources/js/components/SocialMedia.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
  //COMPONENTS
 
 
@@ -2481,34 +2476,59 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Header = function Header() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
     className: "block top-0 w-full border-b-2 border-lightGrey",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
       className: "flex w-full justify-between items-center max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_SocialMedia__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_SocialMedia__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
         className: "flex",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-          className: "flex",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            src: _public_assets_telephone_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
-            alt: "Telephone icon",
-            className: "h-6"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            children: ["Call on", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "flex items-center",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+            className: "text-blue",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("svg", {
+              xmlns: "http://www.w3.org/2000/svg",
+              className: "h-6 w-6",
+              fill: "none",
+              viewBox: "0 0 24 24",
+              stroke: "currentColor",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                strokeWidth: "1",
+                d: "M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+              })
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "ml-2 text-darkGrey",
+            children: ["Call on", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
               href: "tel:01274 897714",
+              className: "text-mediumGrey",
               children: " 01274 897714"
             })]
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-          className: "flex",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            src: _public_assets_email_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
-            alt: "Email icon",
-            className: "h-6"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            className: "ml-4",
-            children: ["Email", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "flex items-center ml-4",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+            className: "text-blue",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("svg", {
+              xmlns: "http://www.w3.org/2000/svg",
+              className: "h-6 w-6",
+              fill: "none",
+              viewBox: "0 0 24 24",
+              stroke: "currentColor",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                strokeWidth: "1",
+                d: "M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              })
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "ml-2 text-darkGrey",
+            children: ["Email", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
               href: "mailto:info@mymup.org",
+              className: "text-mediumGrey",
               children: " info@mymup.org"
             })]
           })]
@@ -2781,6 +2801,165 @@ var SocialMedia = function SocialMedia() {
 
 /***/ }),
 
+/***/ "./resources/js/components/TestimonialSlider.js":
+/*!******************************************************!*\
+  !*** ./resources/js/components/TestimonialSlider.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+var TestimonialSlider = function TestimonialSlider() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+    className: "bg-lightGrey",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
+        className: "text-center text-5xl text-darkGrey mb-12",
+        children: "Testimonials"
+      })
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TestimonialSlider);
+
+/***/ }),
+
+/***/ "./resources/js/components/home/DynamicSystem.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/home/DynamicSystem.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _FunctionsCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FunctionsCard */ "./resources/js/components/home/FunctionsCard.js");
+/* harmony import */ var _public_assets_reporting_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../public/assets/reporting.jpg */ "./public/assets/reporting.jpg");
+/* harmony import */ var _public_assets_data_flow_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../public/assets/data-flow.jpg */ "./public/assets/data-flow.jpg");
+/* harmony import */ var _public_assets_dynamic_care_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../public/assets/dynamic-care.jpg */ "./public/assets/dynamic-care.jpg");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //COMPONENTS
+
+ //ASSETS
+
+
+
+
+
+
+var content = [{
+  img: _public_assets_reporting_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+  title: 'Recording and Reporting',
+  description: 'MYMUP digital provides an easy to use, mobile and secure recording platform for professionals using validated assessments. Our in built tools automatically create output and outcome reports for your audiences.',
+  href: '/',
+  buttonColour: 'pink'
+}, {
+  img: _public_assets_data_flow_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
+  title: 'Data Flow',
+  description: 'Uniquely, MYMUP digital flows your output and outcome data, on your behalf, to the Mental Health Services Dataset.',
+  href: '/',
+  buttonColour: 'purple'
+}, {
+  img: _public_assets_dynamic_care_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
+  title: 'Online Support',
+  description: 'An extensive co-created digital self-care & support module that complements face to face support for better outcomes and access to 24/7 care.',
+  href: '/',
+  buttonColour: 'orange'
+}];
+
+var DynamicSystem = function DynamicSystem() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+    className: "bg-lightGrey",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
+        className: "text-center text-5xl text-darkGrey mb-12",
+        children: "MYMUP's Three Functions"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+        className: "flex justify-between space-x-10",
+        children: content.map(function (item) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_FunctionsCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
+            img: item.img,
+            title: item.title,
+            description: item.description,
+            href: item.href,
+            buttonColour: item.buttonColour
+          }, item.title);
+        })
+      })]
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DynamicSystem);
+
+/***/ }),
+
+/***/ "./resources/js/components/home/FunctionsCard.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/home/FunctionsCard.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+var FunctionsCard = function FunctionsCard(_ref) {
+  var img = _ref.img,
+      title = _ref.title,
+      description = _ref.description,
+      href = _ref.href,
+      buttonColour = _ref.buttonColour;
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+    className: "flex-1",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "bg-white",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+        src: img,
+        className: "h-56 w-full"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "px-10 py-8",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
+          className: "text-2xl text-darkGrey pb-10",
+          children: title
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+          className: "pb-10 text-mediumGrey",
+          children: description
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+          href: href,
+          className: "bg-".concat(buttonColour, " px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm uppercase text-white"),
+          children: "Learn more"
+        })]
+      })]
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FunctionsCard);
+
+/***/ }),
+
 /***/ "./resources/js/components/home/HeroCarousel.js":
 /*!******************************************************!*\
   !*** ./resources/js/components/home/HeroCarousel.js ***!
@@ -2912,32 +3091,55 @@ var FirstHeroSection = function FirstHeroSection() {
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
           className: "absolute inset-0 bg-gray-200 opacity-50 mix-blend-multiply"
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "relative flex flex-col h-full justify-center max-w-lg mx-auto sm:max-w-3xl",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
-          className: "text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
-            className: "block text-darkGrey",
-            children: "Designed in collaboration."
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
-          className: "mt-6 text-xl text-grey ",
-          children: "MYMUP Digital is a simple, but powerful, recording, reporting and self help tool, designed in collaboration with service users and health care professionals. MYMUP Digital empowers mental health services and practitioners to easily record their work and effectively demonstrate impact to commissioners, as well as flowing to the Mental Health Services Dataset on your behalf."
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "mt-10 max-w-sm sm:max-w-none sm:flex",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "space-y-4 sm:space-y-0 sm:inline-grid sm:grid-cols-2 sm:gap-5",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
-              href: "#",
-              className: "flex justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
-              children: "Watch video"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
-              href: "#",
-              className: "flex justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
-              children: "Request demo"
-            })]
-          })
-        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "relative flex flex-col h-full justify-center max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          className: "w-1/2",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
+            className: "text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+              className: "block text-darkGrey",
+              children: "Designed in collaboration."
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+            className: "mt-6 text-xl text-grey ",
+            children: "MYMUP Digital is a simple, but powerful, recording, reporting and self help tool, designed in collaboration with service users and health care professionals. MYMUP Digital empowers mental health services and practitioners to easily record their work and effectively demonstrate impact to commissioners, as well as flowing to the Mental Health Services Dataset on your behalf."
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "mt-10 max-w-sm sm:max-w-none sm:flex",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+              className: "space-y-4 sm:space-y-0 sm:inline-grid sm:grid-cols-2 sm:gap-2",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("a", {
+                href: "#",
+                className: "flex justify-center items-center px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm text-black bg-yellow",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("svg", {
+                  xmlns: "http://www.w3.org/2000/svg",
+                  className: "h-4 w-4 mr-2",
+                  viewBox: "0 0 20 20",
+                  fill: "currentColor",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("path", {
+                    fillRule: "evenodd",
+                    d: "M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z",
+                    clipRule: "evenodd"
+                  })
+                }), "Watch video"]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("a", {
+                href: "#",
+                className: "flex justify-center items-center px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm text-black bg-yellow",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("svg", {
+                  xmlns: "http://www.w3.org/2000/svg",
+                  className: "h-4 w-4 mr-2",
+                  viewBox: "0 0 20 20",
+                  fill: "currentColor",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("path", {
+                    fillRule: "evenodd",
+                    d: "M6.672 1.911a1 1 0 10-1.932.518l.259.966a1 1 0 001.932-.518l-.26-.966zM2.429 4.74a1 1 0 10-.517 1.932l.966.259a1 1 0 00.517-1.932l-.966-.26zm8.814-.569a1 1 0 00-1.415-1.414l-.707.707a1 1 0 101.415 1.415l.707-.708zm-7.071 7.072l.707-.707A1 1 0 003.465 9.12l-.708.707a1 1 0 001.415 1.415zm3.2-5.171a1 1 0 00-1.3 1.3l4 10a1 1 0 001.823.075l1.38-2.759 3.018 3.02a1 1 0 001.414-1.415l-3.019-3.02 2.76-1.379a1 1 0 00-.076-1.822l-10-4z",
+                    clipRule: "evenodd"
+                  })
+                }), "Request demo"]
+              })]
+            })
+          })]
+        })
       })]
     })
   });
@@ -2956,36 +3158,105 @@ var SecondHeroSection = function SecondHeroSection() {
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
           className: "absolute inset-0 bg-gray-200 opacity-50 mix-blend-multiply"
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "relative flex flex-col h-full justify-center max-w-lg mx-auto sm:max-w-3xl",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
-          className: "text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
-            className: "block text-darkGrey",
-            children: "Transforming digital."
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
-          className: "mt-6 text-xl text-grey ",
-          children: "MYMUP Digital is a simple, but powerful, recording, reporting and self help tool, designed in collaboration with service users and health care professionals. MYMUP Digital empowers mental health services and practitioners to easily record their work and effectively demonstrate impact to commissioners, as well as flowing to the Mental Health Services Dataset on your behalf."
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "mt-10 max-w-sm sm:max-w-none sm:flex",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "space-y-4 sm:space-y-0 sm:inline-grid sm:grid-cols-2 sm:gap-5",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
-              href: "#",
-              className: "flex justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
-              children: "Watch video"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
-              href: "#",
-              className: "flex justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-yellow",
-              children: "Request demo"
-            })]
-          })
-        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "relative flex flex-col h-full justify-center max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          className: "w-1/2",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
+            className: "text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+              className: "block text-darkGrey",
+              children: "Transforming digital."
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+            className: "mt-6 text-xl text-grey",
+            children: "MYMUP Digital is a simple, but powerful, recording, reporting and self help tool, designed in collaboration with service users and health care professionals. MYMUP Digital empowers mental health services and practitioners to easily record their work and effectively demonstrate impact to commissioners, as well as flowing to the Mental Health Services Dataset on your behalf."
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "mt-10 max-w-sm sm:max-w-none sm:flex",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+              className: "space-y-4 sm:space-y-0 sm:inline-grid sm:grid-cols-2 sm:gap-2",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("a", {
+                href: "#",
+                className: "flex justify-center items-center px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm text-black bg-yellow",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("svg", {
+                  xmlns: "http://www.w3.org/2000/svg",
+                  className: "h-4 w-4 mr-2",
+                  viewBox: "0 0 20 20",
+                  fill: "currentColor",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("path", {
+                    fillRule: "evenodd",
+                    d: "M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z",
+                    clipRule: "evenodd"
+                  })
+                }), "Watch video"]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("a", {
+                href: "#",
+                className: "flex justify-center items-center px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm text-black bg-yellow",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("svg", {
+                  xmlns: "http://www.w3.org/2000/svg",
+                  className: "h-4 w-4 mr-2",
+                  viewBox: "0 0 20 20",
+                  fill: "currentColor",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("path", {
+                    fillRule: "evenodd",
+                    d: "M6.672 1.911a1 1 0 10-1.932.518l.259.966a1 1 0 001.932-.518l-.26-.966zM2.429 4.74a1 1 0 10-.517 1.932l.966.259a1 1 0 00.517-1.932l-.966-.26zm8.814-.569a1 1 0 00-1.415-1.414l-.707.707a1 1 0 101.415 1.415l.707-.708zm-7.071 7.072l.707-.707A1 1 0 003.465 9.12l-.708.707a1 1 0 001.415 1.415zm3.2-5.171a1 1 0 00-1.3 1.3l4 10a1 1 0 001.823.075l1.38-2.759 3.018 3.02a1 1 0 001.414-1.415l-3.019-3.02 2.76-1.379a1 1 0 00-.076-1.822l-10-4z",
+                    clipRule: "evenodd"
+                  })
+                }), "Request demo"]
+              })]
+            })
+          })]
+        })
       })]
     })
   });
 };
+
+/***/ }),
+
+/***/ "./resources/js/components/home/MainCustomers.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/home/MainCustomers.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+var MainCustomers = function MainCustomers() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
+      className: "text-center text-5xl text-darkGrey mb-12",
+      children: "Who are you?"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "flex justify-between space-x-10",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+        href: "/",
+        className: "flex-1 text-center py-8 px-8 bg-lightGrey",
+        children: "CCG/ ICS Commissioners"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+        href: "/",
+        className: "flex-1 text-center py-8 px-8 bg-lightGrey",
+        children: "MHST"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+        href: "/",
+        className: "flex-1 text-center py-8 px-8 bg-lightGrey",
+        children: "3rd Sector Provider"
+      })]
+    })]
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MainCustomers);
 
 /***/ }),
 
@@ -3176,18 +3447,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_home_HeroCarousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/home/HeroCarousel */ "./resources/js/components/home/HeroCarousel.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _components_home_DynamicSystem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/home/DynamicSystem */ "./resources/js/components/home/DynamicSystem.js");
+/* harmony import */ var _components_home_MainCustomers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/home/MainCustomers */ "./resources/js/components/home/MainCustomers.js");
+/* harmony import */ var _components_TestimonialSlider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/TestimonialSlider */ "./resources/js/components/TestimonialSlider.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
  //COMPONENTS
 
 
 
 
+
+
+
+
 var Homepage = function Homepage() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
       className: "w-screen h-screen flex justify-center relative top-0",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_components_home_HeroCarousel__WEBPACK_IMPORTED_MODULE_1__["default"], {})
-    })
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_home_HeroCarousel__WEBPACK_IMPORTED_MODULE_1__["default"], {})
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_home_DynamicSystem__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_home_MainCustomers__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_TestimonialSlider__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
   });
 };
 
@@ -3273,10 +3551,10 @@ var TermsConditions = function TermsConditions() {
 
 /***/ }),
 
-/***/ "./public/assets/email.svg":
-/*!*********************************!*\
-  !*** ./public/assets/email.svg ***!
-  \*********************************/
+/***/ "./public/assets/data-flow.jpg":
+/*!*************************************!*\
+  !*** ./public/assets/data-flow.jpg ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -3284,7 +3562,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/email.svg?218398eb2df5eb328b67c5e9a366da6a");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/data-flow.jpg?56f0f4bf193beb870d1bcd4beb7f4e31");
+
+/***/ }),
+
+/***/ "./public/assets/dynamic-care.jpg":
+/*!****************************************!*\
+  !*** ./public/assets/dynamic-care.jpg ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/dynamic-care.jpg?ea47641af4b54ff81e32570a4c9f16e6");
 
 /***/ }),
 
@@ -3318,6 +3611,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./public/assets/reporting.jpg":
+/*!*************************************!*\
+  !*** ./public/assets/reporting.jpg ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/reporting.jpg?65ff6e3b53aca9783760ce7382ba6662");
+
+/***/ }),
+
 /***/ "./public/assets/slide1.jpg":
 /*!**********************************!*\
   !*** ./public/assets/slide1.jpg ***!
@@ -3345,21 +3653,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/slide2.jpg?3d078eb61625a9b24e48e5c3aa36cece");
-
-/***/ }),
-
-/***/ "./public/assets/telephone.svg":
-/*!*************************************!*\
-  !*** ./public/assets/telephone.svg ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/telephone.svg?e24593b094ec020170e73c1295d0329f");
 
 /***/ }),
 
