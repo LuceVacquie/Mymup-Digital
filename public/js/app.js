@@ -2813,24 +2813,203 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _Testimonials__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Testimonials */ "./resources/js/components/Testimonials.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+ //COMPONENTS
 
 
+
+
+var content = [{
+  text: "I know we've a lot to do to improve our children\u2019s mental health services but today I heard excellent feedback about our work with @MYMUPUK! This service consistently receives good feedback \n        from parents, hospital, schools, services and young people.",
+  author: 'Sasha Bhat',
+  jobRole: 'Head of Commissioning for Mental Health, Bradford CCG'
+}, {
+  text: "I am supportive of the work MYMUP is involved with relating to digital transformation of services within mental health and community services in Bradford. MYMUP has a shared vision with \n        commissioners, partners and voluntary sector to develop services that are accessible virtually and support efforts for self-help and prevention which will help deliver system change and improvement \n        for the health sector in the District.",
+  author: 'Farhan Rafiq',
+  jobRole: 'Head of Business & Service Development, Bradford District Care Trust'
+}, {
+  text: "We have been working with the MYMUP team to design a new database for our organisation as our current system is not fit for purpose. This will involve transitioning data over as well as \n        making us compatible to submit data to the MHSDS. Our experience is that MYMUP have a good understanding of the differing needs we face as a smaller voluntary sector organisation trying to submit \n        data to a statutory body. We have had previous frustrations speaking directly with NHS Digital who have limited understanding of our service and processes and it has been really helpful and \n        supportive to have MYMUP as the advocate on our behalf. We find the team to be very approachable, quick to respond and highly supportive.",
+  author: 'Ruth Hirst',
+  jobRole: 'Operations Co-ordinator, The Market Place'
+}, {
+  text: "As a database which has been purpose-built with mental health services in mind, MYMUP gives us potential to really showcase and evidence the depth and quality of what we do. It can allow us \n        to collate information showing the detail of our trauma and attachment focussed therapy approach in a way that we have never previously had before.",
+  author: 'Catherine Tatman',
+  jobRole: "Clinical Lead and Child Psychotherapist, Children's Trauma Therapy Service, Family Action"
+}];
+var delay = 5000;
 
 var TestimonialSlider = function TestimonialSlider() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-    className: "bg-lightGrey",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
-        className: "text-center text-5xl text-darkGrey mb-12",
-        children: "Testimonials"
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),
+      _useState2 = _slicedToArray(_useState, 2),
+      index = _useState2[0],
+      setIndex = _useState2[1];
+
+  var timeoutRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+
+  var resetTimeout = function resetTimeout() {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    resetTimeout();
+    timeoutRef.current = setTimeout(function () {
+      return setIndex(function (prevIndex) {
+        return prevIndex === content.length - 1 ? 0 : prevIndex + 1;
+      });
+    }, delay);
+    return function () {
+      resetTimeout();
+    };
+  }, [index]);
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+    className: "bg-lightGrey overflow-hidden w-full relative top-0",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "whitespace-nowrap transition duration-1000 ease",
+      style: {
+        transform: "translate3d(0, ".concat(-index * 100, "%, 0)")
+      },
+      children: content.map(function (item) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_Testimonials__WEBPACK_IMPORTED_MODULE_1__["default"], {
+          className: "whitespace-normal inline-block w-full relative h-screen",
+          text: item.text,
+          author: item.author,
+          jobRole: item.jobRole
+        }, item.author);
       })
-    })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "absolute w-full text-center z-10 -mt-44",
+      children: content.map(function (_, idx) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          className: "inline-block h-4 w-4 rounded-full pointer m-6 bg-lightTeal active:bg-turquoise",
+          onClick: function onClick() {
+            setIndex(idx);
+          }
+        }, idx);
+      })
+    })]
   });
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TestimonialSlider);
+
+/***/ }),
+
+/***/ "./resources/js/components/Testimonials.js":
+/*!*************************************************!*\
+  !*** ./resources/js/components/Testimonials.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Testimonial1": () => (/* binding */ Testimonial1),
+/* harmony export */   "Testimonial2": () => (/* binding */ Testimonial2)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+var Testimonial1 = function Testimonial1() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("section", {
+    className: "h-full w-full mx-auto py-12 bg-lightGrey overflow-hidden md:py-20 lg:py-24",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "h-full relative sm:overflow-hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "relative",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("blockquote", {
+          className: "mt-10",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              children: "\u201CI know we've a lot to do to improve our children\u2019s mental health services but today I heard excellent feedback about our work with @MYMUPUK! This service consistently receives good feedback from parents, hospital, schools, services and young people.\u201D"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("footer", {
+            className: "mt-8",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "md:flex md:items-center md:justify-center",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                className: "mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: "text-base font-medium text-gray-900",
+                  children: "Sasha Bhat"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                  className: "hidden md:block mx-1 h-5 w-5 text-indigo-600",
+                  fill: "currentColor",
+                  viewBox: "0 0 20 20",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                    d: "M11 0h3L9 20H6l5-20z"
+                  })
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: "text-base font-medium text-gray-500",
+                  children: "Head of Commissioning for Mental Health, Bradford CCG"
+                })]
+              })
+            })
+          })]
+        })
+      })
+    })
+  });
+};
+var Testimonial2 = function Testimonial2() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("section", {
+    className: "h-full w-full mx-auto py-12 bg-lightGrey overflow-hidden md:py-20 lg:py-24",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "h-full relative sm:overflow-hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "relative",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("blockquote", {
+          className: "mt-10",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              children: "\u201CI know we've a lot to do to improve our children\u2019s mental health services but today I heard excellent feedback about our work with @MYMUPUK! This service consistently receives good feedback from parents, hospital, schools, services and young people.\u201D"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("footer", {
+            className: "mt-8",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "md:flex md:items-center md:justify-center",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                className: "mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: "text-base font-medium text-gray-900",
+                  children: "Sasha Bhat"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                  className: "hidden md:block mx-1 h-5 w-5 text-indigo-600",
+                  fill: "currentColor",
+                  viewBox: "0 0 20 20",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                    d: "M11 0h3L9 20H6l5-20z"
+                  })
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: "text-base font-medium text-gray-500",
+                  children: "Head of Commissioning for Mental Health, Bradford CCG"
+                })]
+              })
+            })
+          })]
+        })
+      })
+    })
+  });
+};
 
 /***/ }),
 
@@ -3465,7 +3644,10 @@ var Homepage = function Homepage() {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
       className: "w-screen h-screen flex justify-center relative top-0",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_home_HeroCarousel__WEBPACK_IMPORTED_MODULE_1__["default"], {})
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_home_DynamicSystem__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_home_MainCustomers__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_TestimonialSlider__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_home_DynamicSystem__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_home_MainCustomers__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+      className: "w-screen h-screen flex justify-center relative top-0",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_TestimonialSlider__WEBPACK_IMPORTED_MODULE_4__["default"], {})
+    })]
   });
 };
 

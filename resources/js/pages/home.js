@@ -17,7 +17,9 @@ const Homepage = () => {
 
             <MainCustomers/>
 
-            <TestimonialSlider/>
+            <div className="w-screen h-screen flex justify-center relative top-0">
+                <TestimonialSlider/>
+            </div>
         
         </div>
         
