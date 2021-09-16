@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Testimonial1 = () => {
+export const FirstTestimonial = () => {
     return (
-      <section className="h-full w-full mx-auto py-12 bg-lightGrey overflow-hidden md:py-20 lg:py-24">
-        <div className="h-full relative sm:overflow-hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="h-full w-full mx-auto py-12 overflow-hidden md:py-20 lg:py-24">
+        <div className="h-full relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
   
           <div className="relative">
             <blockquote className="mt-10">
@@ -29,14 +29,14 @@ export const Testimonial1 = () => {
             </blockquote>
           </div>
         </div>
-      </section>
+      </div>
     )
 }
 
-export const Testimonial2 = () => {
+export const SecondTestimonial = () => {
     return (
-      <section className="h-full w-full mx-auto py-12 bg-lightGrey overflow-hidden md:py-20 lg:py-24">
-        <div className="h-full relative sm:overflow-hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="h-full w-full mx-auto py-12 overflow-hidden md:py-20 lg:py-24">
+        <div className="h-full relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
   
           <div className="relative">
             <blockquote className="mt-10">
@@ -63,14 +63,14 @@ export const Testimonial2 = () => {
             </blockquote>
           </div>
         </div>
-      </section>
+      </div>
     )
 }
 
-export const Testimonial3 = () => {
+export const ThirdTestimonial = () => {
     return (
-      <section className="h-full w-full mx-auto py-12 bg-lightGrey overflow-hidden md:py-20 lg:py-24">
-        <div className="h-full relative sm:overflow-hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="h-full w-full mx-auto py-12 overflow-hidden md:py-20 lg:py-24">
+        <div className="h-full relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
   
           <div className="relative">
             <blockquote className="mt-10">
@@ -98,14 +98,14 @@ export const Testimonial3 = () => {
             </blockquote>
           </div>
         </div>
-      </section>
+      </div>
     )
 }
 
-export const Testimonial4 = () => {
+export const ForthTestimonial = () => {
     return (
-      <section className="h-full w-full mx-auto py-12 bg-lightGrey overflow-hidden md:py-20 lg:py-24">
-        <div className="h-full relative sm:overflow-hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="h-full w-full mx-auto py-12 overflow-hidden md:py-20 lg:py-24">
+        <div className="h-full relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
   
           <div className="relative">
             <blockquote className="mt-10">
@@ -131,7 +131,7 @@ export const Testimonial4 = () => {
             </blockquote>
           </div>
         </div>
-      </section>
+      </div>
     )
 }
 
