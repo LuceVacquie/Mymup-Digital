@@ -2832,22 +2832,18 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-var content = [{
-  text: "I know we've a lot to do to improve our children\u2019s mental health services but today I heard excellent feedback about our work with @MYMUPUK! This service consistently receives good feedback \n        from parents, hospital, schools, services and young people.",
-  author: 'Sasha Bhat',
-  jobRole: 'Head of Commissioning for Mental Health, Bradford CCG'
+var testimonials = [{
+  id: 1,
+  component: (0,_Testimonials__WEBPACK_IMPORTED_MODULE_1__.Testimonial1)()
 }, {
-  text: "I am supportive of the work MYMUP is involved with relating to digital transformation of services within mental health and community services in Bradford. MYMUP has a shared vision with \n        commissioners, partners and voluntary sector to develop services that are accessible virtually and support efforts for self-help and prevention which will help deliver system change and improvement \n        for the health sector in the District.",
-  author: 'Farhan Rafiq',
-  jobRole: 'Head of Business & Service Development, Bradford District Care Trust'
+  id: 2,
+  component: (0,_Testimonials__WEBPACK_IMPORTED_MODULE_1__.Testimonial2)()
 }, {
-  text: "We have been working with the MYMUP team to design a new database for our organisation as our current system is not fit for purpose. This will involve transitioning data over as well as \n        making us compatible to submit data to the MHSDS. Our experience is that MYMUP have a good understanding of the differing needs we face as a smaller voluntary sector organisation trying to submit \n        data to a statutory body. We have had previous frustrations speaking directly with NHS Digital who have limited understanding of our service and processes and it has been really helpful and \n        supportive to have MYMUP as the advocate on our behalf. We find the team to be very approachable, quick to respond and highly supportive.",
-  author: 'Ruth Hirst',
-  jobRole: 'Operations Co-ordinator, The Market Place'
+  id: 3,
+  component: (0,_Testimonials__WEBPACK_IMPORTED_MODULE_1__.Testimonial3)()
 }, {
-  text: "As a database which has been purpose-built with mental health services in mind, MYMUP gives us potential to really showcase and evidence the depth and quality of what we do. It can allow us \n        to collate information showing the detail of our trauma and attachment focussed therapy approach in a way that we have never previously had before.",
-  author: 'Catherine Tatman',
-  jobRole: "Clinical Lead and Child Psychotherapist, Children's Trauma Therapy Service, Family Action"
+  id: 4,
+  component: (0,_Testimonials__WEBPACK_IMPORTED_MODULE_1__.Testimonial4)()
 }];
 var delay = 5000;
 
@@ -2869,7 +2865,7 @@ var TestimonialSlider = function TestimonialSlider() {
     resetTimeout();
     timeoutRef.current = setTimeout(function () {
       return setIndex(function (prevIndex) {
-        return prevIndex === content.length - 1 ? 0 : prevIndex + 1;
+        return prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1;
       });
     }, delay);
     return function () {
@@ -2883,17 +2879,15 @@ var TestimonialSlider = function TestimonialSlider() {
       style: {
         transform: "translate3d(0, ".concat(-index * 100, "%, 0)")
       },
-      children: content.map(function (item) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_Testimonials__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      children: testimonials.map(function (item) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "whitespace-normal inline-block w-full relative h-screen",
-          text: item.text,
-          author: item.author,
-          jobRole: item.jobRole
-        }, item.author);
+          children: testimonials.component
+        }, item.id);
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "absolute w-full text-center z-10 -mt-44",
-      children: content.map(function (_, idx) {
+      children: testimonials.map(function (_, idx) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "inline-block h-4 w-4 rounded-full pointer m-6 bg-lightTeal active:bg-turquoise",
           onClick: function onClick() {
@@ -2919,7 +2913,9 @@ var TestimonialSlider = function TestimonialSlider() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Testimonial1": () => (/* binding */ Testimonial1),
-/* harmony export */   "Testimonial2": () => (/* binding */ Testimonial2)
+/* harmony export */   "Testimonial2": () => (/* binding */ Testimonial2),
+/* harmony export */   "Testimonial3": () => (/* binding */ Testimonial3),
+/* harmony export */   "Testimonial4": () => (/* binding */ Testimonial4)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
@@ -2980,7 +2976,7 @@ var Testimonial2 = function Testimonial2() {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
             className: "max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-              children: "\u201CI know we've a lot to do to improve our children\u2019s mental health services but today I heard excellent feedback about our work with @MYMUPUK! This service consistently receives good feedback from parents, hospital, schools, services and young people.\u201D"
+              children: "\u201CI am supportive of the work MYMUP is involved with relating to digital transformation of services within mental health and community services in Bradford. MYMUP has a shared vision with commissioners, partners and voluntary sector to develop services that are accessible virtually and support efforts for self-help and prevention which will help deliver system change and improvement for the health sector in the District.\u201D"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("footer", {
             className: "mt-8",
@@ -2990,7 +2986,7 @@ var Testimonial2 = function Testimonial2() {
                 className: "mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                   className: "text-base font-medium text-gray-900",
-                  children: "Sasha Bhat"
+                  children: "Farhan Rafiq"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
                   className: "hidden md:block mx-1 h-5 w-5 text-indigo-600",
                   fill: "currentColor",
@@ -3000,7 +2996,91 @@ var Testimonial2 = function Testimonial2() {
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                   className: "text-base font-medium text-gray-500",
-                  children: "Head of Commissioning for Mental Health, Bradford CCG"
+                  children: "Head of Business & Service Development, Bradford District Care Trust"
+                })]
+              })
+            })
+          })]
+        })
+      })
+    })
+  });
+};
+var Testimonial3 = function Testimonial3() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("section", {
+    className: "h-full w-full mx-auto py-12 bg-lightGrey overflow-hidden md:py-20 lg:py-24",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "h-full relative sm:overflow-hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "relative",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("blockquote", {
+          className: "mt-10",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              children: "\u201CWe have been working with the MYMUP team to design a new database for our organisation as our current system is not fit for purpose. This will involve transitioning data over as well as making us compatible to submit data to the MHSDS. Our experience is that MYMUP have a good understanding of the differing needs we face as a smaller voluntary sector organisation trying to submit data to a statutory body. We have had previous frustrations speaking directly with NHS Digital who have limited understanding of our service and processes and it has been really helpful and supportive to have MYMUP as the advocate on our behalf. We find the team to be very approachable, quick to respond and highly supportive.\u201D"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("footer", {
+            className: "mt-8",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "md:flex md:items-center md:justify-center",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                className: "mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: "text-base font-medium text-gray-900",
+                  children: "Ruth Hirst"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                  className: "hidden md:block mx-1 h-5 w-5 text-indigo-600",
+                  fill: "currentColor",
+                  viewBox: "0 0 20 20",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                    d: "M11 0h3L9 20H6l5-20z"
+                  })
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: "text-base font-medium text-gray-500",
+                  children: "Operations Co-ordinator, The Market Place"
+                })]
+              })
+            })
+          })]
+        })
+      })
+    })
+  });
+};
+var Testimonial4 = function Testimonial4() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("section", {
+    className: "h-full w-full mx-auto py-12 bg-lightGrey overflow-hidden md:py-20 lg:py-24",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "h-full relative sm:overflow-hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "relative",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("blockquote", {
+          className: "mt-10",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+            className: "max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+              children: "\u201CAs a database which has been purpose-built with mental health services in mind, MYMUP gives us potential to really showcase and evidence the depth and quality of what we do. It can allow us to collate information showing the detail of our trauma and attachment focussed therapy approach in a way that we have never previously had before.\u201D"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("footer", {
+            className: "mt-8",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "md:flex md:items-center md:justify-center",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                className: "mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: "text-base font-medium text-gray-900",
+                  children: "Catherine Tatman"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+                  className: "hidden md:block mx-1 h-5 w-5 text-indigo-600",
+                  fill: "currentColor",
+                  viewBox: "0 0 20 20",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                    d: "M11 0h3L9 20H6l5-20z"
+                  })
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+                  className: "text-base font-medium text-gray-500",
+                  children: "Clinical Lead and Child Psychotherapist, Children's Trauma Therapy Service, Family Action"
                 })]
               })
             })
