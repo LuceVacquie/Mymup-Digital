@@ -1,35 +1,33 @@
-import React from 'react'
+import React from "react";
 
 //COMPONENTS
-import HeroCarousel from '../components/home/HeroCarousel'
-import DynamicSystem from '../components/home/DynamicSystem'
-import MainCustomers from '../components/home/MainCustomers'
-import TestimonialSlider from '../components/TestimonialSlider'
-import CTA from '../components/Cta'
-import Contact from '../components/home/Contact'
+import HeroCarousel from "../components/home/HeroCarousel";
+import DynamicSystem from "../components/home/DynamicSystem";
+import MainCustomers from "../components/home/MainCustomers";
+import TestimonialSlider from "../components/TestimonialSlider";
+import CTA from "../components/Cta";
+import Contact from "../components/home/Contact";
 
 const Homepage = () => {
     return (
         <div>
             <div className="w-screen h-screen flex justify-center relative top-0">
-                <HeroCarousel/>
+                <HeroCarousel />
             </div>
 
-            <DynamicSystem/>
+            <DynamicSystem />
 
-            <MainCustomers/>
+            <MainCustomers />
 
-            <div className="w-screen flex justify-center">
+            {/* <div className="w-screen flex justify-center">
                 <TestimonialSlider/>
-            </div>
+            </div> */}
 
-            <CTA/>
+            <CTA />
 
-            <Contact/>
-        
+            <Contact />
         </div>
-        
-    )
-}
+    );
+};
 
-export default Homepage
+export default Homepage;
