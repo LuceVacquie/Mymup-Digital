@@ -28,14 +28,22 @@ const Footer = () => {
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:pt-28 lg:px-8">
+            <div className="max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-2 gap-8 xl:col-span-2">
                     <div className="md:grid md:grid-cols-2 md:gap-8">
                         <div>
                             <h3 className="text-base font-bold text-gray-300 tracking-wider uppercase">
                                 Find us
                             </h3>
-                            <p className="mt-4 space-y-4">{address}</p>
+                            <ul role="list" className="mt-4 space-y-4">
+                                <li>MYMUP Digital</li>
+                                <li>Regus 1st Floor East</li>
+                                <li>Suite</li>
+                                <li>The Waterfront</li>
+                                <li>Shipley</li>
+                                <li>West Yorkshire</li>
+                                <li>BD17 7TD</li>
+                            </ul>
                         </div>
                         <div className="mt-12 md:mt-0">
                             <h3 className="text-base font-bold text-gray-300 tracking-wider uppercase">

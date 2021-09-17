@@ -1,23 +1,27 @@
-import React from 'react'
+import React from "react";
 
-const HeroSection = ({ title, text }) => {
+const HeroSection = ({ img, title }) => {
     return (
-      <div className="bg-white">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-base font-semibold text-indigo-600 tracking-wide uppercase">
-              {title}
-            </h2>
-            <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-              {text}
-            </p>
-            <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-              Start building for free, then add a site plan to go live. Account plans unlock additional features.
-            </p>
-          </div>
-        </div>
-      </div>
-    )
-}
+        <div className="h-full w-full mx-auto">
+            <div className="h-full relative shadow-xl sm:overflow-hidden">
+                <div className="absolute inset-0">
+                    <img
+                        className="h-full w-full object-cover"
+                        src={img}
+                        alt=""
+                    />
+                </div>
+            </div>
 
-export default HeroSection
+            <div className="relative max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+                <div className="text-center">
+                    <h2 className="text-base font-semibold text-darkGrey tracking-wide uppercase">
+                        {title}
+                    </h2>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default HeroSection;
