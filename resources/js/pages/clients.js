@@ -4,15 +4,16 @@ import React from "react";
 import HeroImg from "../../../public/assets/about-us.jpg";
 
 //COMPONENTS
-import HeroSection from "../components/HeroSection";
-import QuestionSolution from "../components/QuestionSolution";
+import HeroSection from "./HeroSection";
 
 const Commissioners = () => {
     return (
         <div>
-            <HeroSection img={HeroImg} title={"About us"} />
+            <HeroSection img={HeroImg} title={"Clients"} />
 
-            <QuestionSolution />
+            <Commissioners />
+            <Mhsdt />
+            <ThirdSector />
         </div>
     );
 };
