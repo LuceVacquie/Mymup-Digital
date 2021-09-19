@@ -9392,6 +9392,297 @@ var ForthTestimonial = function ForthTestimonial() {
 
 /***/ }),
 
+/***/ "./resources/js/components/about/HighImpact.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/about/HighImpact.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _public_assets_about_1_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../public/assets/about-1.jpg */ "./public/assets/about-1.jpg");
+/* harmony import */ var _public_assets_about_2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../public/assets/about-2.jpg */ "./public/assets/about-2.jpg");
+/* harmony import */ var _public_assets_about_3_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../public/assets/about-3.jpg */ "./public/assets/about-3.jpg");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //ASSETS
+
+
+
+
+
+
+
+var DynamicSystem = function DynamicSystem() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+    className: "bg-white",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: "flex justify-between space-x-10",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+          src: _public_assets_about_1_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+          alt: "",
+          className: "w-1/3"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+          src: _public_assets_about_2_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+          alt: "",
+          className: "w-1/4"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+          src: _public_assets_about_3_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
+          alt: "",
+          className: "w-2/5"
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: "flex justify-between space-x-10 items-center mt-12",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+          className: "w-2/5 text-4xl text-darkGrey font-semibold",
+          children: ["Enabling you to deliver", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("span", {
+            className: "text-blue font-light",
+            children: ["high impact", " "]
+          }), "digital services."]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+          className: "text-mediumGrey",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+            className: "mb-4",
+            children: "Supported by research and evaluation tools we will transform, modernise and improve treatment pathways and service delivery."
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+            children: "Our digital redesign and development will create close integration between service users and service providers, placing service users at the heart of every development."
+          })]
+        })]
+      })]
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DynamicSystem);
+
+/***/ }),
+
+/***/ "./resources/js/components/about/MeetTeam.js":
+/*!***************************************************!*\
+  !*** ./resources/js/components/about/MeetTeam.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _TeamCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TeamCard */ "./resources/js/components/about/TeamCard.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //COMPONENTS
+
+
+
+
+var teamMembers = [{
+  name: "Suzanne Elster",
+  img: "",
+  jobRole: "Operations Director",
+  facebookLink: "",
+  twitterLink: "",
+  youtubeLink: "",
+  vimeoLink: ""
+}, {
+  name: "Andrew Claypole",
+  img: "",
+  jobRole: "IT Manager",
+  facebookLink: "",
+  twitterLink: "",
+  youtubeLink: "",
+  vimeoLink: ""
+}, {
+  name: "Daniel Carroll",
+  img: "",
+  jobRole: "Media/Communications & Content Development",
+  facebookLink: "",
+  twitterLink: "",
+  youtubeLink: "",
+  vimeoLink: ""
+}, {
+  name: "Ross Elliot",
+  img: "",
+  jobRole: "Account Manager & Content Development",
+  facebookLink: "",
+  twitterLink: "",
+  youtubeLink: "",
+  vimeoLink: ""
+}, {
+  name: "Kaela Shuttleworth",
+  img: "",
+  jobRole: "Account Manager & Administration",
+  facebookLink: "",
+  twitterLink: "",
+  youtubeLink: "",
+  vimeoLink: ""
+}, {
+  name: "Michael Davis",
+  img: "",
+  jobRole: "Content Development",
+  facebookLink: "",
+  twitterLink: "",
+  youtubeLink: "",
+  vimeoLink: ""
+}];
+
+var MeetTeam = function MeetTeam() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    className: "",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
+        className: "text-center text-5xl text-darkGrey mb-12",
+        children: "Meet the Team"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "flex flex-wrap justify-between",
+        children: teamMembers.map(function (item) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_TeamCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
+            img: item.img,
+            name: item.name,
+            jobRole: item.jobRole,
+            facebookLink: item.facebookLink,
+            twitterLink: item.twitterLink,
+            youtubeLink: item.youtubeLink,
+            vimeoLink: item.vimeoLink
+          }, item.name);
+        })
+      })]
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MeetTeam);
+
+/***/ }),
+
+/***/ "./resources/js/components/about/TeamCard.js":
+/*!***************************************************!*\
+  !*** ./resources/js/components/about/TeamCard.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _public_assets_facebook_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../public/assets/facebook.png */ "./public/assets/facebook.png");
+/* harmony import */ var _public_assets_twitter_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../public/assets/twitter.png */ "./public/assets/twitter.png");
+/* harmony import */ var _public_assets_youtube_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../public/assets/youtube.png */ "./public/assets/youtube.png");
+/* harmony import */ var _public_assets_vimeo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../public/assets/vimeo.png */ "./public/assets/vimeo.png");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+ //ASSETS
+
+
+
+
+
+
+
+
+var TeamCard = function TeamCard(_ref) {
+  var img = _ref.img,
+      name = _ref.name,
+      jobRole = _ref.jobRole,
+      facebookLink = _ref.facebookLink,
+      twitterLink = _ref.twitterLink,
+      youtubeLink = _ref.youtubeLink,
+      vimeoLink = _ref.vimeoLink;
+
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      isHovered = _useState2[0],
+      setIsHovered = _useState2[1];
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+    onMouseOver: function onMouseOver() {
+      return setIsHovered(true);
+    },
+    onMouseOut: function onMouseOut() {
+      return setIsHovered(false);
+    },
+    className: "w-1/3 p-2",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+      className: "bg-white border border-lightGrey",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+        src: img,
+        className: "w-full p-2"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+        className: "px-10 py-8 text-center",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+          className: "text-darkGrey text-lg font-bold",
+          children: name
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+          className: "text-darkGrey",
+          children: jobRole
+        }), isHovered && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+          className: "flex justify-center",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+            href: facebookLink,
+            target: "_blank",
+            className: "p-2",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              src: _public_assets_facebook_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+              alt: "",
+              className: "h-3"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+            href: twitterLink,
+            target: "_blank",
+            className: "p-2",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              src: _public_assets_twitter_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+              alt: "",
+              className: "h-3"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+            href: youtubeLink,
+            target: "_blank",
+            className: "p-2",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              src: _public_assets_youtube_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+              alt: "",
+              className: "h-3"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+            href: vimeoLink,
+            target: "_blank",
+            className: "p-2",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              src: _public_assets_vimeo_png__WEBPACK_IMPORTED_MODULE_4__["default"],
+              alt: "",
+              className: "h-3"
+            })
+          })]
+        })]
+      })]
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TeamCard);
+
+/***/ }),
+
 /***/ "./resources/js/components/about/VisionValues.js":
 /*!*******************************************************!*\
   !*** ./resources/js/components/about/VisionValues.js ***!
@@ -9435,7 +9726,7 @@ var VisionValues = function VisionValues() {
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-              "class": "w-6 h-1 bg-blue mb-6 rounded-lg"
+              className: "w-6 h-1 bg-blue mb-6 rounded-lg"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
               className: "text-3xl font-extrabold tracking-tight text-darkGrey",
               children: "Our Vision"
@@ -9456,7 +9747,7 @@ var VisionValues = function VisionValues() {
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-                "class": "w-6 h-1 bg-blue mb-6 rounded-lg"
+                className: "w-6 h-1 bg-blue mb-6 rounded-lg"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
                 className: "text-3xl font-extrabold tracking-tight text-darkGrey",
                 children: "Our Values"
@@ -10139,8 +10430,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../public/assets/about-us.jpg */ "./public/assets/about-us.jpg");
 /* harmony import */ var _components_HeroSection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/HeroSection */ "./resources/js/components/HeroSection.js");
-/* harmony import */ var _components_about_VisionValues__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/about/VisionValues */ "./resources/js/components/about/VisionValues.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _components_about_HighImpact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/about/HighImpact */ "./resources/js/components/about/HighImpact.js");
+/* harmony import */ var _components_about_VisionValues__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/about/VisionValues */ "./resources/js/components/about/VisionValues.js");
+/* harmony import */ var _components_about_MeetTeam__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/about/MeetTeam */ "./resources/js/components/about/MeetTeam.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
  //COMPONENTS
 
@@ -10149,12 +10442,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 var About = function About() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_HeroSection__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_HeroSection__WEBPACK_IMPORTED_MODULE_2__["default"], {
       img: _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
       title: "About us"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_about_VisionValues__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_about_HighImpact__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_about_MeetTeam__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_about_VisionValues__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
   });
 };
 
@@ -10332,6 +10627,51 @@ var TermsConditions = function TermsConditions() {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TermsConditions);
+
+/***/ }),
+
+/***/ "./public/assets/about-1.jpg":
+/*!***********************************!*\
+  !*** ./public/assets/about-1.jpg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/about-1.jpg?f0ab0f8674269b47b64cdec4585f20b8");
+
+/***/ }),
+
+/***/ "./public/assets/about-2.jpg":
+/*!***********************************!*\
+  !*** ./public/assets/about-2.jpg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/about-2.jpg?c672e6b19bdcb58611d15d80c3e6d003");
+
+/***/ }),
+
+/***/ "./public/assets/about-3.jpg":
+/*!***********************************!*\
+  !*** ./public/assets/about-3.jpg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/about-3.jpg?b25b80fc42508053f89ae867cec2633e");
 
 /***/ }),
 

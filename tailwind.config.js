@@ -12,9 +12,6 @@ module.exports = {
 
     theme: {
         extend: {
-            fontFamily: {
-                sans: ["Nunito", ...defaultTheme.fontFamily.sans],
-            },
             colors: {
                 yellow: "#FBC119",
                 pink: "#CA5096",
