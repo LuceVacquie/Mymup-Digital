@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { StickyContainer, Sticky } from "react-sticky";
+import { Sticky } from "react-sticky";
 
 //ICONS & IMAGES
 import { Popover, Transition } from "@headlessui/react";
@@ -16,6 +16,7 @@ const navigation = [
     { name: "Home", href: "/" },
     { name: "About us", href: "/about" },
     { name: "MYMUP Platform", href: "/mymup-platform" },
+    { name: "Clients", href: "/clients" },
     { name: "Contact us", href: "/contact" },
 ];
 

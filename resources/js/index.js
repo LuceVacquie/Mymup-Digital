@@ -8,7 +8,7 @@ import Homepage from "./pages/home";
 import About from "./pages/about";
 import Platform from "./pages/mymup-platform";
 import Contact from "./pages/contact";
-import Clients from "./components/clients";
+import Clients from "./pages/clients";
 import TermsConditions from "./pages/terms-conditions";
 import PrivacyPolicy from "./pages/privacy-policy";
 import Cookies from "./pages/cookies";

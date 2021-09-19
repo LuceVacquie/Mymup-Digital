@@ -9840,6 +9840,9 @@ var navigation = [{
   name: "MYMUP Platform",
   href: "/mymup-platform"
 }, {
+  name: "Clients",
+  href: "/clients"
+}, {
   name: "Contact us",
   href: "/contact"
 }];
@@ -9962,6 +9965,41 @@ var Navbar = function Navbar() {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navbar);
+
+/***/ }),
+
+/***/ "./resources/js/components/QuestionSolution.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/QuestionSolution.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+var QuestionSolution = function QuestionSolution(_ref) {
+  var problem = _ref.problem,
+      solution = _ref.solution;
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "bg-pink p-4 max-w-lg",
+      children: problem
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "bg-blue p-4 max-w-lg float-right",
+      children: solution
+    })]
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (QuestionSolution);
 
 /***/ }),
 
@@ -10571,6 +10609,78 @@ var VisionValues = function VisionValues() {
 
 /***/ }),
 
+/***/ "./resources/js/components/commissioners.js":
+/*!**************************************************!*\
+  !*** ./resources/js/components/commissioners.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _QuestionSolution__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./QuestionSolution */ "./resources/js/components/QuestionSolution.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //COMPONENTS
+
+
+
+
+var content = [{
+  id: 1,
+  problem: "Your MHSDS data doesn’t reflect all your commissioned or jointly commissioned services.  It has been mandatory since April 2020.",
+  solution: "MYMUP can be commissioned by you for your 3rd sector providers. We have a proven track record of 3rd sector use and data flow. We provide a simple to use tool that practitioners engage with. We flow data on their behalf to relieve them of the complex process  and frequent MHSDS rejections. This gives you access to CQUIN CCG7 https://www.england.nhs.uk/wp-content/uploads/2020/01/FINAL-CQUIN-20-21-Indicator-Specifications-190220.pdf"
+}, {
+  id: 2,
+  problem: "Need all your commissioned or part commissioned services including the 3rd sector to flow their data? Your 3rd sector providers don’t have a system that can flow data to the MHSD.",
+  solution: ""
+}, {
+  id: 3,
+  problem: "You need a digital self help offer that doesn’t costs £10k + in addition to your R&R tool?",
+  solution: "Our digital offer is embedded in our system. No need for additional purchase."
+}, {
+  id: 4,
+  problem: "Your SPA & MHST are being inundated with referrals. You need to cut waiting times to support",
+  solution: "Our self help tool means your SPA team can direct anyone on their waiting list to MYMUP self help"
+}, {
+  id: 5,
+  problem: "I don\u2019t understand the MHSDS. It's too complicated.",
+  solution: "It is complicated. That's why we do it for you. We sort SNOMED coding, MHSDS compliance, data flow and data rejection issues."
+}, {
+  id: 6,
+  problem: "I need to see my service data in simple charts showing me how much work they did and how well they did it.",
+  solution: "MYMUP automatically creates charts for providers. This includes outputs (how much) and outcomes (how well) using standardised and MHSDS compliant measures."
+}];
+
+var Commissioners = function Commissioners() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "bg-lightGrey",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
+          className: "text-center text-5xl text-darkGrey mb-12",
+          children: "Commissioners"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          className: "",
+          children: content.map(function (item) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_QuestionSolution__WEBPACK_IMPORTED_MODULE_1__["default"], {
+              problem: item.problem,
+              solution: item.solution
+            }, item.id);
+          })
+        })]
+      })
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Commissioners);
+
+/***/ }),
+
 /***/ "./resources/js/components/home/Contact.js":
 /*!*************************************************!*\
   !*** ./resources/js/components/home/Contact.js ***!
@@ -10979,6 +11089,74 @@ var MainCustomers = function MainCustomers() {
 
 /***/ }),
 
+/***/ "./resources/js/components/mhst.js":
+/*!*****************************************!*\
+  !*** ./resources/js/components/mhst.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _QuestionSolution__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./QuestionSolution */ "./resources/js/components/QuestionSolution.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //COMPONENTS
+
+
+
+
+var content = [{
+  id: 1,
+  problem: "We can't record and report all 3 functions of work in one place. We have to use 2 systems which is frustrating.",
+  solution: "MYMUP records all 3 functions in one place in a simple way with specific , SNOMED coded linked, activities for ease of recording and to enable MHSDS flow (when possible)\n            Function 1: direct support\n            Function 2: whole school work\n            Function 3: advice and liaison"
+}, {
+  id: 2,
+  problem: "The NHS England reporting keeps changing. It takes lots of time to then amend our reporting systems.",
+  solution: "We amend our reporting systems according to NHS England reporting requirements. Any new field requirements will be built in."
+}, {
+  id: 3,
+  problem: "Our reporting system is too complicated for our trainees and clinicians.",
+  solution: "MYMUP is simple, designed in partnership with practitioners/ clinicians"
+}, {
+  id: 4,
+  problem: "I don’t understand MHSDS flow and SNOMED codes properly.",
+  solution: "MHSDS and SNOMED codes are complicated. That's why we have consultants who understand it in detail and do this work for you (so you can get on and focus on helping children and young people)"
+}, {
+  id: 5,
+  problem: "We need a self help offer to support our children and young people in between sessions or while they wait for support.",
+  solution: "We have a wide and increasing range of self-help modules available to MYMUP users"
+}];
+
+var Mhst = function Mhst() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "bg-lightGrey",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
+          className: "text-center text-5xl text-darkGrey mb-12",
+          children: "MHST"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          className: "",
+          children: content.map(function (item) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_QuestionSolution__WEBPACK_IMPORTED_MODULE_1__["default"], {
+              problem: item.problem,
+              solution: item.solution
+            }, item.id);
+          })
+        })]
+      })
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Mhst);
+
+/***/ }),
+
 /***/ "./resources/js/components/mymup-platform/Contact.js":
 /*!***********************************************************!*\
   !*** ./resources/js/components/mymup-platform/Contact.js ***!
@@ -11021,6 +11199,70 @@ var ContactSection = function ContactSection() {
 
 /***/ }),
 
+/***/ "./resources/js/components/third-sector.js":
+/*!*************************************************!*\
+  !*** ./resources/js/components/third-sector.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _QuestionSolution__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./QuestionSolution */ "./resources/js/components/QuestionSolution.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //COMPONENTS
+
+
+
+
+var content = [{
+  id: 1,
+  problem: "I need to be able to flow data to the MHSDS for my CCG commissioners. It has been mandatory since April 2020.",
+  solution: "MYMUP will flow your data for you. Many systems that 3rd sector providers use can’t flow the data. All you have to do is enter your client info and we do the rest."
+}, {
+  id: 2,
+  problem: "I don’t understand the MHSDS. It's too complicated",
+  solution: "It is complicated. That's why we do it for you. We sort SNOMED coding, MHSDS compliance, data flow and data rejection issues."
+}, {
+  id: 3,
+  problem: "My staff do not have many IT skills. They find the recording of information on online systems daunting.",
+  solution: "MYMUP is designed with 3rd sector providers in mind, to be as simple as possible. We provide support and staff training including helping to complete your mandatory DSP toolkit."
+}, {
+  id: 4,
+  problem: "We're only a small 3rd sector provider. We don’t have a data lead to sort all of this.",
+  solution: "MYMUP sorts all of this. We have a support team and do the work for you."
+}];
+
+var Mhst = function Mhst() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "bg-lightGrey",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
+          className: "text-center text-5xl text-darkGrey mb-12",
+          children: "Third Sector"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          className: "",
+          children: content.map(function (item) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_QuestionSolution__WEBPACK_IMPORTED_MODULE_1__["default"], {
+              problem: item.problem,
+              solution: item.solution
+            }, item.id);
+          })
+        })]
+      })
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Mhst);
+
+/***/ }),
+
 /***/ "./resources/js/index.js":
 /*!*******************************!*\
   !*** ./resources/js/index.js ***!
@@ -11041,7 +11283,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_about__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/about */ "./resources/js/pages/about.js");
 /* harmony import */ var _pages_mymup_platform__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/mymup-platform */ "./resources/js/pages/mymup-platform.js");
 /* harmony import */ var _pages_contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/contact */ "./resources/js/pages/contact.js");
-Object(function webpackMissingModule() { var e = new Error("Cannot find module './components/clients'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* harmony import */ var _pages_clients__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/clients */ "./resources/js/pages/clients.js");
 /* harmony import */ var _pages_terms_conditions__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/terms-conditions */ "./resources/js/pages/terms-conditions.js");
 /* harmony import */ var _pages_privacy_policy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/privacy-policy */ "./resources/js/pages/privacy-policy.js");
 /* harmony import */ var _pages_cookies__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/cookies */ "./resources/js/pages/cookies.js");
@@ -11095,7 +11337,7 @@ function Router() {
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
               exact: true,
               path: "/clients",
-              component: Object(function webpackMissingModule() { var e = new Error("Cannot find module './components/clients'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())
+              component: _pages_clients__WEBPACK_IMPORTED_MODULE_7__["default"]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
               exact: true,
               path: "/terms-conditions",
@@ -11164,6 +11406,48 @@ var About = function About() {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
+
+/***/ }),
+
+/***/ "./resources/js/pages/clients.js":
+/*!***************************************!*\
+  !*** ./resources/js/pages/clients.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../public/assets/about-us.jpg */ "./public/assets/about-us.jpg");
+/* harmony import */ var _components_HeroSection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/HeroSection */ "./resources/js/components/HeroSection.js");
+/* harmony import */ var _components_commissioners__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/commissioners */ "./resources/js/components/commissioners.js");
+/* harmony import */ var _components_mhst__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/mhst */ "./resources/js/components/mhst.js");
+/* harmony import */ var _components_third_sector__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/third-sector */ "./resources/js/components/third-sector.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //ASSETS
+
+ //COMPONENTS
+
+
+
+
+
+
+
+
+var Clients = function Clients() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_HeroSection__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      img: _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+      title: "Clients"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_commissioners__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_mhst__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_third_sector__WEBPACK_IMPORTED_MODULE_5__["default"], {})]
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Clients);
 
 /***/ }),
 

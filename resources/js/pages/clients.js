@@ -4,18 +4,23 @@ import React from "react";
 import HeroImg from "../../../public/assets/about-us.jpg";
 
 //COMPONENTS
-import HeroSection from "./HeroSection";
+import HeroSection from "../components/HeroSection";
+import Commissioners from "../components/commissioners";
+import Mhst from "../components/mhst";
+import ThirdSector from "../components/third-sector";
 
-const Commissioners = () => {
+const Clients = () => {
     return (
         <div>
             <HeroSection img={HeroImg} title={"Clients"} />
 
             <Commissioners />
-            <Mhsdt />
+
+            <Mhst />
+
             <ThirdSector />
         </div>
     );
 };
 
-export default Commissioners;
+export default Clients;
