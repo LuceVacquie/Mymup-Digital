@@ -1,98 +1,127 @@
-import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
-import React, { useState, useRef, useEffect } from "react";
+import Carousel from "text-carousel-react";
+import React from "react";
 
 //COMPONENTS
-import {
-    FirstTestimonial,
-    SecondTestimonial,
-    ThirdTestimonial,
-    ForthTestimonial,
-} from "./Testimonials";
+import Testimonial from "./Testimonials";
 
 const testimonials = [
     {
-        id: "1",
-        component: FirstTestimonial(),
+        component: (
+            <Testimonial
+                text={
+                    <p>
+                        &ldquo;I know we've a lot to do to improve our
+                        children’s mental health services but today I heard
+                        excellent feedback about our work with @MYMUPUK! This
+                        service consistently receives good feedback from
+                        parents, hospital, schools, services and young
+                        people.&rdquo;
+                    </p>
+                }
+                author="Sasha Bhat"
+                role="Head of Commissioning for Mental Health,
+            Bradford CCG"
+            />
+        ),
     },
     {
-        id: "2",
-        component: SecondTestimonial(),
+        component: (
+            <Testimonial
+                text={
+                    <p>
+                        &ldquo;I am supportive of the work MYMUP is involved
+                        with relating to digital transformation of services
+                        within mental health and community services in Bradford.
+                        MYMUP has a shared vision with commissioners, partners
+                        and voluntary sector to develop services that are
+                        accessible virtually and support efforts for self-help
+                        and prevention which will help deliver system change and
+                        improvement for the health sector in the
+                        District.&rdquo;
+                    </p>
+                }
+                author="Farhan Rafiq"
+                role="Head of Business & Service Development,
+            Bradford District Care Trust"
+            />
+        ),
     },
     {
-        id: "3",
-        component: ThirdTestimonial(),
+        component: (
+            <Testimonial
+                text={
+                    <p>
+                        &ldquo;We have been working with the MYMUP team to
+                        design a new database for our organisation as our
+                        current system is not fit for purpose. This will involve
+                        transitioning data over as well as making us compatible
+                        to submit data to the MHSDS. Our experience is that
+                        MYMUP have a good understanding of the differing needs
+                        we face as a smaller voluntary sector organisation
+                        trying to submit data to a statutory body. We have had
+                        previous frustrations speaking directly with NHS Digital
+                        who have limited understanding of our service and
+                        processes and it has been really helpful and supportive
+                        to have MYMUP as the advocate on our behalf. We find the
+                        team to be very approachable, quick to respond and
+                        highly supportive.&rdquo;
+                    </p>
+                }
+                author="Ruth Hirst"
+                role="Operations Co-ordinator, The Market
+            Place"
+            />
+        ),
     },
     {
-        id: "4",
-        component: ForthTestimonial(),
+        component: (
+            <Testimonial
+                text={
+                    <p>
+                        &ldquo;As a database which has been purpose-built with
+                        mental health services in mind, MYMUP gives us potential
+                        to really showcase and evidence the depth and quality of
+                        what we do. It can allow us to collate information
+                        showing the detail of our trauma and attachment focussed
+                        therapy approach in a way that we have never previously
+                        had before.&rdquo;
+                    </p>
+                }
+                author="Catherine Tatman"
+                role="Head of Commissioning for Mental Health,
+            Bradford CCG"
+            />
+        ),
+    },
+    {
+        component: (
+            <Testimonial
+                text={
+                    <iframe
+                        src="https://player.vimeo.com/video/385658741?h=23eec9ee94"
+                        width="640"
+                        height="360"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowfullscreen
+                        className="mx-auto"
+                    ></iframe>
+                }
+                author="Claire Hopkins"
+                role="Director, Impaqt North"
+            />
+        ),
     },
 ];
 
-const delay = 5000;
-
 const TestimonialSlider = () => {
-    // const [index, setIndex] = useState(0);
-    // const timeoutRef = useRef(null);
-
-    // const resetTimeout = () => {
-    //     if (timeoutRef.current) {
-    //         clearTimeout(timeoutRef.current);
-    //     }
-    // };
-
-    // useEffect(() => {
-    //     resetTimeout();
-    //     timeoutRef.current = setTimeout(
-    //         () =>
-    //             setIndex((prevIndex) =>
-    //                 prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
-    //             ),
-    //         delay
-    //     );
-
-    //     return () => {
-    //         resetTimeout();
-    //     };
-    // }, [index]);
-
     return (
         <div className="bg-lightGrey w-full relative top-0 px-4 py-28 sm:px-6 lg:px-8">
             <h2 className="text-center text-5xl text-darkGrey mb-12">
                 Testimonials
             </h2>
 
-            <CarouselProvider
-                totalSlides={testimonials.length}
-                // orientation="vertical"
-                // naturalSlideHeight={250}
-            >
-                <Slider>
-                    {testimonials.map((item, index) => (
-                        <Slide index={index} key={item.id}>
-                            {item.component}
-                        </Slide>
-                    ))}
-                </Slider>
-            </CarouselProvider>
-
-            {/* <div className="overflow-hidden h-96">
-                <div
-                    className="whitespace-nowrap transition duration-1000 ease"
-                    style={{ transform: `translate3d(0, ${-index * 25}%, 0)` }}
-                ></div>
-
-                <div className="absolute w-full text-center z-10">
-                    {testimonials.map((_, idx) => (
-                        <div
-                            className="inline-block h-4 w-4 rounded-full pointer m-6 bg-mediumGrey active:bg-darkGrey"
-                            key={idx}
-                            onClick={() => {
-                                setIndex(idx);
-                            }}
-                        ></div>
-                    ))}
-                </div>
-            </div> */}
+            <Carousel items={testimonials} />
         </div>
     );
 };

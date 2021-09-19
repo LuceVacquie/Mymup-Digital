@@ -4,7 +4,7 @@ import React from "react";
 import HeroCarousel from "../components/home/HeroCarousel";
 import DynamicSystem from "../components/DynamicSystem";
 import MainCustomers from "../components/home/MainCustomers";
-// import TestimonialSlider from "../components/TestimonialSlider";
+import TestimonialSlider from "../components/TestimonialSlider";
 import CTA from "../components/Cta";
 import Contact from "../components/home/Contact";
 
@@ -19,9 +19,9 @@ const Homepage = () => {
 
             <MainCustomers />
 
-            {/* <div className="w-screen flex justify-center">
-                <TestimonialSlider/>
-            </div> */}
+            <div className="w-screen flex justify-center">
+                <TestimonialSlider />
+            </div>
 
             <CTA />
 

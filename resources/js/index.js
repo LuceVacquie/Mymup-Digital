@@ -8,6 +8,9 @@ import Homepage from "./pages/home";
 import About from "./pages/about";
 import Platform from "./pages/mymup-platform";
 import Contact from "./pages/contact";
+import Commissioners from "./pages/commissioners";
+import MHST from "./pages/mhst";
+import ThirdSector from "./pages/third-sector";
 import TermsConditions from "./pages/terms-conditions";
 import PrivacyPolicy from "./pages/privacy-policy";
 import Cookies from "./pages/cookies";
@@ -35,6 +38,9 @@ function Router() {
                                 path="/mymup-platform"
                                 component={Platform}
                             />
+                            <Route exact path="/contact" component={Contact} />
+                            <Route exact path="/contact" component={Contact} />
+                            <Route exact path="/contact" component={Contact} />
                             <Route exact path="/contact" component={Contact} />
                             <Route
                                 exact
