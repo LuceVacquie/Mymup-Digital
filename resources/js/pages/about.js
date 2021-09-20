@@ -13,7 +13,7 @@ import MeetTeam from "../components/about/MeetTeam";
 const About = () => {
     return (
         <div>
-            <HeroSection img={HeroImg} title={"About us"} />
+            <HeroSection img={HeroImg} title={"About Us"}/>
 
             <HighImpact />
 

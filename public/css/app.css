@@ -16444,6 +16444,10 @@ select {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-hero-about {
+  background-image: url('/assets/about-us.jpg');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -42999,6 +43003,10 @@ body {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-hero-about {
+    background-image: url('/assets/about-us.jpg');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -69536,6 +69544,10 @@ body {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-hero-about {
+    background-image: url('/assets/about-us.jpg');
   }
 
   .md\:from-transparent {
@@ -96077,6 +96089,10 @@ body {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-hero-about {
+    background-image: url('/assets/about-us.jpg');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -122616,6 +122632,10 @@ body {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-hero-about {
+    background-image: url('/assets/about-us.jpg');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -149153,6 +149173,10 @@ body {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-hero-about {
+    background-image: url('/assets/about-us.jpg');
   }
 
   .\32xl\:from-transparent {

@@ -7,34 +7,13 @@ import Slide from './HeroSlides.js'
 import Slide1 from '../../../../public/assets/slide1.jpg'
 import Slide2 from '../../../../public/assets/slide2.jpg'
 
-const slides = [
-    {
-        id: 1,
-        component: (
-            <Slide
-                title="Designed in collaboration."
-                text="MYMUP Digital is a simple, but powerful, recording, reporting and self help tool, designed in collaboration with service users and health care professionals. MYMUP Digital empowers mental health services and practitioners to easily record their work and effectively demonstrate impact to commissioners, as well as flowing to the Mental Health Services Dataset on your behalf."
-                img={Slide1}
-            />
-        ),
-    },
-    {
-        id: 2,
-        component: (
-            <Slide
-                title="Transforming digital."
-                text="MYMUP is a customisable web application designed in collaboration with service users and health care professionals. MYMUP encompasses three pillars enabling VCS organisations to transform their digital offer, compliment their existing delivery and effectively measure impact."
-                img={Slide2}
-            />
-        ),
-    },
-]
+
 
 const delay = 5000
 
 const HeroCarousel = () => {
 
-    const [isModalVisible, setIsModalVisible] = useState(true)
+    const [isModalVisible, setIsModalVisible] = useState(false)
     const [index, setIndex] = useState(0)
     const timeoutRef = useRef(null)
 
@@ -59,6 +38,33 @@ const HeroCarousel = () => {
         };
   }, [index]);
 
+  const slides = [
+    {
+        id: 1,
+        component: (
+            <Slide
+                title="Designed in collaboration."
+                text="MYMUP Digital is a simple, but powerful, recording, reporting and self help tool, designed in collaboration with service users and health care professionals. MYMUP Digital empowers mental health services and practitioners to easily record their work and effectively demonstrate impact to commissioners, as well as flowing to the Mental Health Services Dataset on your behalf."
+                img={Slide1}
+                isModalVisible={isModalVisible}
+                setIsModalVisible={setIsModalVisible}
+            />
+        ),
+    },
+    {
+        id: 2,
+        component: (
+            <Slide
+                title="Transforming digital."
+                text="MYMUP is a customisable web application designed in collaboration with service users and health care professionals. MYMUP encompasses three pillars enabling VCS organisations to transform their digital offer, compliment their existing delivery and effectively measure impact."
+                img={Slide2}
+                isModalVisible={isModalVisible}
+                setIsModalVisible={setIsModalVisible}
+            />
+        ),
+    },
+]
+
     return(
         
         <div className="overflow-hidden w-full relative top-0">
@@ -76,7 +82,7 @@ const HeroCarousel = () => {
                         height="360" 
                         frameborder="0" 
                         allow="autoplay; fullscreen; picture-in-picture" 
-                        allowfullscreen
+                        allowFullScreen
                         className="mx-auto my-4"
                         ></iframe>
                     </div>

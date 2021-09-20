@@ -6,7 +6,7 @@ import HeroImg from "../../../public/assets/mymup2.jpg";
 //COMPONENTS
 import HeroSection from "../components/HeroSection";
 import DynamicSystem from "../components/DynamicSystem";
-import ContactSection from "../components/mymup-platform/Contact";
+import ContactSection from "../components/ContactSection";
 
 const Platform = () => {
     return (

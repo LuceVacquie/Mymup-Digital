@@ -3,7 +3,7 @@ import React from 'react'
 const Slide = ( {title, text, img, isModalVisible, setIsModalVisible} ) => {
 
     return(
-        <div className="relative h-full w-full mx-auto ">
+        <div className="relative h-full w-full mx-auto">
             <div className="h-full relative shadow-xl sm:overflow-hidden" >
                 <div className="absolute inset-0">
                     <img

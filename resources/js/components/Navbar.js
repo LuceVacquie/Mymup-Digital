@@ -3,10 +3,10 @@ import { Sticky } from "react-sticky";
 
 //ICONS & IMAGES
 import { Popover, Transition } from "@headlessui/react";
-// import {
-//   MenuIcon,
-//   XIcon,
-// } from '@heroicons/react/outline'
+import {
+  MenuIcon,
+  XIcon,
+} from '@heroicons/react/outline'
 import Logo from "../../../public/assets/logo.png";
 
 //COMPONENTS
@@ -23,12 +23,12 @@ const navigation = [
 const Navbar = () => {
     return (
         <Sticky>
-            {({ style }) => (
+            {({ style, isSticky }) => (
                 <header
                     style={style}
-                    className="w-full z-20 overflow-hidden"
+                    className="absolute w-full z-30 overflow-hidden"
                 >
-                    <div style={{background: 'rgba(255, 255, 255, 0.7)'}}>
+                    <div style={{background: isSticky ? 'white' : 'rgba(255, 255, 255, 0.8)'}}>
                         <Popover>
                             {({ open }) => (
                                 <>
@@ -50,7 +50,7 @@ const Navbar = () => {
                                                 <span className="sr-only">
                                                     Open menu
                                                 </span>
-                                                {/* <MenuIcon className="h-6 w-6" aria-hidden="true" /> */}
+                                                <MenuIcon className="h-6 w-6" aria-hidden="true" />
                                             </Popover.Button>
                                         </div>
                                         <div className="hidden md:flex space-x-10">
@@ -65,7 +65,7 @@ const Navbar = () => {
                                         <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                                             <a
                                                 href="/contact"
-                                                className="whitespace-nowrap flex items-center justify-center px-10 py-6 border border-transparent rounded-sm text-xs font-medium text-darkGrey bg-yellow uppercase"
+                                                className="whitespace-nowrap flex items-center justify-center px-10 py-6 border border-transparent rounded-sm text-xs font-bold text-darkGrey bg-yellow uppercase"
                                             >
                                                 ENQUIRE NOW
                                             </a>
@@ -102,7 +102,7 @@ const Navbar = () => {
                                                                 <span className="sr-only">
                                                                     Close menu
                                                                 </span>
-                                                                {/* <XIcon className="h-6 w-6" aria-hidden="true" /> */}
+                                                                <XIcon className="h-6 w-6" aria-hidden="true" />
                                                             </Popover.Button>
                                                         </div>
                                                     </div>
@@ -120,7 +120,7 @@ const Navbar = () => {
                                                     <div className="mt-6">
                                                         <a
                                                             href="/contact"
-                                                            className="w-full flex items-center justify-center px-10 py-4 border border-transparent rounded-sm text-xs font-medium text-darkGrey bg-yellow uppercase"
+                                                            className="w-full flex items-center justify-center px-10 py-4 border border-transparent rounded-sm text-xs font-bold text-darkGrey bg-yellow uppercase"
                                                         >
                                                             ENQUIRE NOW
                                                         </a>
