@@ -23,10 +23,10 @@ const TeamCard = ({
             onMouseOut={() => setIsHovered(false)}
             className="w-1/3 p-2"
         >
-            <div className="bg-white border border-lightGrey">
+            <div className="bg-white border border-lightGrey" style={{boxShadow: isHovered ? '0 4px 8px 0 rgba(0, 0, 0, 0.2)' : 'none'}}>
                 <img src={img} className="w-full p-2" />
-                <div className="px-10 py-8 text-center">
-                    <p className="text-darkGrey text-lg font-bold">{name}</p>
+                <div className="px-4 py-8 text-center">
+                    <p className="text-darkGrey text-lg font-bold">{name}</p> 
                     <p className="text-darkGrey">{jobRole}</p>
                     {isHovered && (
                         <div className="flex justify-center">

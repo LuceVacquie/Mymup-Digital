@@ -9,8 +9,10 @@ import CTA from "../components/Cta";
 import Contact from "../components/home/Contact";
 
 const Homepage = () => {
+
     return (
         <div>
+
             <div className="w-screen h-screen flex justify-center relative top-0">
                 <HeroCarousel />
             </div>

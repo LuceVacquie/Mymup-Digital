@@ -1,12 +1,20 @@
 import React from "react";
 
+//ASSETS
+import SuzanneImg from "../../../../public/assets/suzanne-elster.jpg"
+import AndrewImg from "../../../../public/assets/andrew-claypole.jpg"
+import DanielImg from "../../../../public/assets/daniel-carroll.jpg"
+import RossImg from "../../../../public/assets/ross-elliot.jpg"
+import KaelaImg from "../../../../public/assets/kaela-shuttleworth.jpg"
+import MichaelImg from "../../../../public/assets/michael-davis.jpg"
+
 //COMPONENTS
 import TeamCard from "./TeamCard";
 
 const teamMembers = [
     {
         name: "Suzanne Elster",
-        img: "",
+        img: SuzanneImg,
         jobRole: "Operations Director",
         facebookLink: "",
         twitterLink: "",
@@ -15,7 +23,7 @@ const teamMembers = [
     },
     {
         name: "Andrew Claypole",
-        img: "",
+        img: AndrewImg,
         jobRole: "IT Manager",
         facebookLink: "",
         twitterLink: "",
@@ -24,7 +32,7 @@ const teamMembers = [
     },
     {
         name: "Daniel Carroll",
-        img: "",
+        img: DanielImg,
         jobRole: "Media/Communications & Content Development",
         facebookLink: "",
         twitterLink: "",
@@ -33,7 +41,7 @@ const teamMembers = [
     },
     {
         name: "Ross Elliot",
-        img: "",
+        img: RossImg,
         jobRole: "Account Manager & Content Development",
         facebookLink: "",
         twitterLink: "",
@@ -42,7 +50,7 @@ const teamMembers = [
     },
     {
         name: "Kaela Shuttleworth",
-        img: "",
+        img: KaelaImg,
         jobRole: "Account Manager & Administration",
         facebookLink: "",
         twitterLink: "",
@@ -51,7 +59,7 @@ const teamMembers = [
     },
     {
         name: "Michael Davis",
-        img: "",
+        img: MichaelImg,
         jobRole: "Content Development",
         facebookLink: "",
         twitterLink: "",

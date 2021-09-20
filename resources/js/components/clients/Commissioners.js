@@ -11,7 +11,7 @@ const content = [
         solution:(
             <p>MYMUP can be commissioned by you for your 3rd sector providers. We have a proven track record of 3rd sector use and data flow. We provide a simple to use tool that 
                 practitioners engage with. We flow data on their behalf to relieve them of the complex process  and frequent MHSDS rejections. This gives you access to  
-                <a href="https://www.england.nhs.uk/wp-content/uploads/2020/01/FINAL-CQUIN-20-21-Indicator-Specifications-190220.pdf" className="text-darkGrey"> CQUIN CCG7</a>.
+                <a href="https://www.england.nhs.uk/wp-content/uploads/2020/01/FINAL-CQUIN-20-21-Indicator-Specifications-190220.pdf" target="_blank" className="text-darkGrey"> CQUIN CCG7</a>.
             </p>
         ),
     },
