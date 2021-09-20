@@ -7,6 +7,7 @@ const navigation = {
     quickLinks: [
         { name: "About us", href: "/about" },
         { name: "MYMUP Platform", href: "/mymup-platform" },
+        { name: "Clients", href: "/clients" },
         { name: "Contact us", href: "/contact" },
     ],
     legal: [

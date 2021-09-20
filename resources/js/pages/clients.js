@@ -5,9 +5,9 @@ import HeroImg from "../../../public/assets/about-us.jpg";
 
 //COMPONENTS
 import HeroSection from "../components/HeroSection";
-import Commissioners from "../components/commissioners";
-import Mhst from "../components/mhst";
-import ThirdSector from "../components/third-sector";
+import Commissioners from "../components/clients/Commissioners";
+import Mhst from "../components/clients/Mhst";
+import ThirdSector from "../components/clients/Third-sector";
 
 const Clients = () => {
     return (
