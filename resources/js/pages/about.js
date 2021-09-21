@@ -9,6 +9,7 @@ import HighImpact from "../components/about/HighImpact";
 import TestimonialSlider from "../components/TestimonialSlider";
 import VisionValues from "../components/about/VisionValues";
 import MeetTeam from "../components/about/MeetTeam";
+import ContactSection from "../components/ContactSection";
 
 const About = () => {
     return (
@@ -24,6 +25,8 @@ const About = () => {
             <MeetTeam />
 
             <VisionValues />
+
+            <ContactSection/>
         </div>
     );
 };

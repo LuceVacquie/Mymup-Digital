@@ -3,7 +3,7 @@ import React from "react";
 //COMPONENTS
 import HeroCarousel from "../components/home/HeroCarousel";
 import DynamicSystem from "../components/DynamicSystem";
-import MainCustomers from "../components/home/MainCustomers";
+import MainCustomers from "../components/home/MainClients";
 import TestimonialSlider from "../components/TestimonialSlider";
 import CTA from "../components/Cta";
 import Contact from "../components/home/Contact";

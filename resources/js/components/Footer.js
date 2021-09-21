@@ -1,4 +1,5 @@
 import React from "react";
+import { email, phoneNumber, address } from "../shared";
 
 //COMPONENTS
 import SocialMedia from "./SocialMedia";
@@ -17,9 +18,6 @@ const navigation = {
     ],
 };
 
-const address =
-    "MYMUP Digital \n Regus 1st Floor East \n Suite \n The Waterfront \n Shipley \n West Yorkshire \n BD17 7TD";
-
 const Footer = () => {
     return (
         <footer
@@ -37,13 +35,7 @@ const Footer = () => {
                                 Find us
                             </h3>
                             <ul role="list" className="mt-4 space-y-4">
-                                <li>MYMUP Digital</li>
-                                <li>Regus 1st Floor East</li>
-                                <li>Suite</li>
-                                <li>The Waterfront</li>
-                                <li>Shipley</li>
-                                <li>West Yorkshire</li>
-                                <li>BD17 7TD</li>
+                                {address}
                             </ul>
                         </div>
                         <div className="mt-12 md:mt-0">
@@ -53,18 +45,18 @@ const Footer = () => {
                             <ul role="list" className="mt-4 space-y-4">
                                 <li>
                                     <a
-                                        href="tel:01274897714"
+                                        href={`tel:${phoneNumber}`}
                                         className="text-base hover:text-gray-300"
                                     >
-                                        01274897714
+                                        {phoneNumber}
                                     </a>
                                 </li>
                                 <li>
                                     <a
-                                        href="mailto:info@mymup.org"
+                                        href={`mailto:${email}`}
                                         className="text-base hover:text-gray-300"
                                     >
-                                        info@mymup.org
+                                        {email}
                                     </a>
                                 </li>
                             </ul>

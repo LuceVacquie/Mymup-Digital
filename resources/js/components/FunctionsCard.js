@@ -16,7 +16,7 @@ const FunctionsCard = ({
             onMouseOut={() => setIsHovered(false)}
             className="flex-1"
         >
-            <div className={`bg-white hover:bg-${bgColour}`}>
+            <div className={`bg-lightGrey hover:bg-${bgColour}`}>
                 <img src={img} className="h-56 w-full" />
                 <div className="px-10 py-8">
                     <h3

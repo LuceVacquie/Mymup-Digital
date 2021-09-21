@@ -116,7 +116,7 @@ const testimonials = [
 
 const TestimonialSlider = () => {
     return (
-        <div className="bg-lightGrey w-full relative top-0 px-4 py-28 sm:px-6 lg:px-8">
+        <div className="bg-white w-full relative top-0 px-4 py-28 sm:px-6 lg:px-8">
             <h2 className="text-center text-5xl text-darkGrey mb-12">
                 Testimonials
             </h2>

@@ -1,5 +1,7 @@
 import React from "react";
 
+import { phoneNumber, email } from "../shared";
+
 const ContactSection = () => {
     return (
         <div className="flex relative text-white">
@@ -12,7 +14,7 @@ const ContactSection = () => {
                 </div>
                 <div className="ml-12">
                     <p className="text-3xl mb-8">Want to know more? Then give us a call.</p>
-                    <p className="text-5xl font-bold">01274 897714</p>
+                    <p className="text-5xl font-bold">{phoneNumber}</p>
                 </div>
             </div>
             <div className="flex items-center bg-darkBlue w-1/2 p-28">
@@ -23,7 +25,7 @@ const ContactSection = () => {
                 </div>
                 <div className="ml-12">
                     <p className="text-3xl mb-8">Alternatively, you can email us.</p>
-                    <p className="text-5xl font-bold">info@mymup.org</p>
+                    <p className="text-5xl font-bold">{email}</p>
                 </div>
             </div>
         </div>
