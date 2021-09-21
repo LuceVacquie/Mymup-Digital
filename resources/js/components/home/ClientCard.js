@@ -1,16 +1,17 @@
 import React, { useState } from "react";
+import { useHistory } from 'react-router-dom';
 
-const ClientCard = ({ name, href, img }) => {
+const ClientCard = ({ name, id, img }) => {
     const [isHovered, setIsHovered] = useState(false);
-
+    const history = useHistory();
     return (
         <div
             onMouseOver={() => setIsHovered(true)}
             onMouseOut={() => setIsHovered(false)}
-            className="flex-1"
+            className=""
         >
             <div className="relative">
-                <a href={href}>
+                <button onClick = {() => history.push(id)}>
                     <img src={img} className="h-full w-full" />
                     <div 
                     className="absolute inset-0" 
@@ -25,7 +26,7 @@ const ClientCard = ({ name, href, img }) => {
                             {name}
                         </h3>
                     </div>
-                </a>
+                </button>
                 
             </div>
         </div>

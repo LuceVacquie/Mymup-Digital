@@ -32,7 +32,7 @@ const Navbar = () => {
                         <Popover>
                             {({ open }) => (
                                 <>
-                                    <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+                                    <div className="flex justify-between items-center max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:justify-start lg:space-x-10 lg:px-8">
                                         <div className="flex justify-start lg:w-0 lg:flex-1">
                                             <a href="/">
                                                 <span className="sr-only">
@@ -45,7 +45,7 @@ const Navbar = () => {
                                                 />
                                             </a>
                                         </div>
-                                        <div className="-mr-2 -my-2 md:hidden">
+                                        <div className="-mr-2 -my-2 lg:hidden">
                                             <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-grey hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lightTeal">
                                                 <span className="sr-only">
                                                     Open menu
@@ -53,7 +53,7 @@ const Navbar = () => {
                                                 <MenuIcon className="h-6 w-6" aria-hidden="true" />
                                             </Popover.Button>
                                         </div>
-                                        <div className="hidden md:flex space-x-10">
+                                        <div className="hidden lg:flex space-x-10">
                                             {navigation.map((link) => (
                                                 <NavLink
                                                     key={link.name}
@@ -62,10 +62,10 @@ const Navbar = () => {
                                                 />
                                             ))}
                                         </div>
-                                        <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+                                        <div className="hidden lg:flex items-center justify-end lg:flex-1 lg:w-0">
                                             <a
                                                 href="/contact"
-                                                className="whitespace-nowrap flex items-center justify-center px-10 py-6 border border-transparent rounded-sm text-xs font-bold text-darkGrey bg-yellow uppercase"
+                                                className="whitespace-nowrap flex items-center justify-center px-10 py-4 lg:py-6 border border-transparent rounded-sm text-xs font-bold text-darkGrey bg-yellow uppercase"
                                             >
                                                 ENQUIRE NOW
                                             </a>
@@ -85,7 +85,7 @@ const Navbar = () => {
                                         <Popover.Panel
                                             focus
                                             static
-                                            className="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                                            className="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
                                         >
                                             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                                                 <div className="pt-5 pb-6 px-5">
@@ -98,7 +98,7 @@ const Navbar = () => {
                                                             />
                                                         </div>
                                                         <div className="-mr-2">
-                                                            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-grey hover:bg-lightGrey focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lightTeal">
+                                                            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-grey hover:bg-lightGrey focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lightGrey">
                                                                 <span className="sr-only">
                                                                     Close menu
                                                                 </span>

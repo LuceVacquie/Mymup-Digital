@@ -99,8 +99,8 @@ const testimonials = [
                 text={
                     <iframe
                         src="https://player.vimeo.com/video/385658741?h=23eec9ee94"
-                        width="640"
-                        height="360"
+                        // width="640"
+                        // height="360"
                         frameBorder="0"
                         allow="autoplay; fullscreen; picture-in-picture"
                         allowFullScreen
@@ -116,8 +116,8 @@ const testimonials = [
 
 const TestimonialSlider = () => {
     return (
-        <div className="bg-white w-full relative top-0 px-4 py-28 sm:px-6 lg:px-8">
-            <h2 className="text-center text-5xl text-darkGrey mb-12">
+        <div className="bg-white w-full relative top-0 px-4 py-24 sm:py-28 sm:px-6 lg:px-8">
+            <h2 className="text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12">
                 Testimonials
             </h2>
 

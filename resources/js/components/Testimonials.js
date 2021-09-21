@@ -6,16 +6,16 @@ const Testimonial = ({ text, author, role }) => {
             <div className="h-full relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="relative">
                     <blockquote className="mt-10">
-                        <div className="max-w-3xl mx-auto text-center text-md leading-9 font-bold text-darkGrey">
+                        <div className="max-w-3xl mx-auto text-center text-sm leading-7 sm:text-base sm:leading-9 font-bold text-darkGrey">
                             {text}
                         </div>
                         <footer className="mt-8">
                             <div className="">
                                 <div className="mt-3 text-center md:mt-0 md:ml-4 ">
-                                    <div className="text-base font-bold text-blue">
+                                    <div className="text-sm font-bold text-blue sm:text-base">
                                         {author}
                                     </div>
-                                    <div className="text-base font-medium text-mediumGrey">
+                                    <div className="text-sm font-medium text-mediumGrey sm:text-base">
                                         {role}
                                     </div>
                                 </div>

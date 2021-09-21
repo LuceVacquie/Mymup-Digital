@@ -17396,11 +17396,11 @@ var ContactSection = function ContactSection() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
     className: "flex relative text-white",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "flex items-center bg-blue w-1/2 p-28",
+      className: "flex flex-col items-center bg-blue w-1/2 p-12 md:p-16 lg:flex-row 2xl:p-28",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("svg", {
           xmlns: "http://www.w3.org/2000/svg",
-          "class": "h-24 w-24",
+          "class": "h-16 w-16 2xl:h-24 2xl:w-24",
           fill: "none",
           viewBox: "0 0 24 24",
           stroke: "currentColor",
@@ -17417,21 +17417,21 @@ var ContactSection = function ContactSection() {
           })]
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "ml-12",
+        className: "ml-0 mt-4 lg:mt-0 lg:ml-8 2xl:ml-12",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-          className: "text-3xl mb-8",
+          className: "text-xl mb-8 md:text-2xl lg:text-3xl",
           children: "Want to know more? Then give us a call."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-          className: "text-5xl font-bold",
+          className: "text-2xl md:text-4xl 2xl:text-5xl font-bold",
           children: _shared__WEBPACK_IMPORTED_MODULE_1__.phoneNumber
         })]
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "flex items-center bg-darkBlue w-1/2 p-28",
+      className: "flex flex-col items-center bg-darkBlue w-1/2 p-12 md:p-16 lg:flex-row 2xl:p-28",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("svg", {
           xmlns: "http://www.w3.org/2000/svg",
-          "class": "h-24 w-24",
+          "class": "h-16 w-16 2xl:h-24 2xl:w-24",
           fill: "none",
           viewBox: "0 0 24 24",
           stroke: "currentColor",
@@ -17443,12 +17443,12 @@ var ContactSection = function ContactSection() {
           })
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "ml-12",
+        className: "ml-0 mt-4 lg:mt-0 lg:ml-8 2xl:ml-12",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-          className: "text-3xl mb-8",
+          className: "text-xl mb-8 md:text-2xl lg:text-3xl",
           children: "Alternatively, you can email us."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-          className: "text-5xl font-bold",
+          className: "text-2xl md:text-4xl 2xl:text-5xl font-bold",
           children: _shared__WEBPACK_IMPORTED_MODULE_1__.email
         })]
       })]
@@ -17481,7 +17481,7 @@ var CTA = function CTA() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     className: "bg-blue",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8 lg:flex lg:items-center lg:justify-between",
+      className: "max-w-5xl xl:max-w-7xl mx-auto px-4 py-12 sm:py-28 sm:px-6 lg:px-8 lg:flex lg:items-center lg:justify-between",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
         className: "text-3xl font-extrabold tracking-tight text-white md:text-4xl",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
@@ -17560,12 +17560,12 @@ var DynamicSystem = function DynamicSystem() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
     className: "bg-white",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
-        className: "text-center text-5xl text-darkGrey mb-12",
+        className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "MYMUP's Three Functions"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "flex justify-between space-x-10",
+        className: "justify-between space-x-0 space-y-10 md:flex md:space-x-10 md:space-y-0",
         children: content.map(function (item) {
           return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_FunctionsCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
             img: item.img,
@@ -17641,7 +17641,7 @@ var Footer = function Footer() {
       className: "sr-only",
       children: "Footer"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-      className: "flex flex-col max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      className: "flex flex-col max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "grid grid-cols-2 gap-8 xl:col-span-2",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
@@ -17793,24 +17793,24 @@ var FunctionsCard = function FunctionsCard(_ref) {
       className: "bg-lightGrey hover:bg-".concat(bgColour),
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
         src: img,
-        className: "h-56 w-full"
+        className: "hidden md:h-56 md:w-full md:block"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "px-10 py-8",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
-          className: "text-2xl pb-10",
+          className: "text-2xl pb-4 sm:pb-10",
           style: {
             color: isHovered ? "white" : "#38373C"
           },
           children: title
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-          className: "pb-10",
+          className: "pb-4 sm:pb-10",
           style: {
             color: isHovered ? "white" : "#87868a"
           },
           children: description
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
           href: href,
-          className: "bg-".concat(buttonColour, " px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm uppercase text-white"),
+          className: "bg-".concat(buttonColour, " px-4 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm uppercase text-white lg:px-10"),
           children: "Learn more"
         })]
       })]
@@ -17848,12 +17848,13 @@ var Header = function Header() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
     className: "block top-0 w-full border-b-2 border-lightGrey",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-      className: "flex w-full justify-between items-center max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8",
+      className: "flex w-full justify-between items-center max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_SocialMedia__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "flex",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "flex items-center",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+            href: "tel:".concat(_shared__WEBPACK_IMPORTED_MODULE_1__.phoneNumber),
             className: "text-blue",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("svg", {
               xmlns: "http://www.w3.org/2000/svg",
@@ -17869,7 +17870,7 @@ var Header = function Header() {
               })
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "ml-2 text-darkGrey",
+            className: "hidden ml-2 text-darkGrey sm:block",
             children: ["Call on", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("a", {
               href: "tel:".concat(_shared__WEBPACK_IMPORTED_MODULE_1__.phoneNumber),
               className: "text-mediumGrey",
@@ -17878,7 +17879,8 @@ var Header = function Header() {
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "flex items-center ml-4",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+            href: "mailto:".concat(_shared__WEBPACK_IMPORTED_MODULE_1__.email),
             className: "text-blue",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("svg", {
               xmlns: "http://www.w3.org/2000/svg",
@@ -17894,7 +17896,7 @@ var Header = function Header() {
               })
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "ml-2 text-darkGrey",
+            className: "hidden ml-2 text-darkGrey sm:block",
             children: ["Email", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("a", {
               href: "mailto:".concat(_shared__WEBPACK_IMPORTED_MODULE_1__.email),
               className: "text-mediumGrey",
@@ -18058,7 +18060,7 @@ var Navbar = function Navbar() {
               var open = _ref2.open;
               return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.Fragment, {
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-                  className: "flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8",
+                  className: "flex justify-between items-center max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:justify-start lg:space-x-10 lg:px-8",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
                     className: "flex justify-start lg:w-0 lg:flex-1",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("a", {
@@ -18073,7 +18075,7 @@ var Navbar = function Navbar() {
                       })]
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-                    className: "-mr-2 -my-2 md:hidden",
+                    className: "-mr-2 -my-2 lg:hidden",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(_headlessui_react__WEBPACK_IMPORTED_MODULE_6__.Popover.Button, {
                       className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-grey hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lightTeal",
                       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("span", {
@@ -18085,7 +18087,7 @@ var Navbar = function Navbar() {
                       })]
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-                    className: "hidden md:flex space-x-10",
+                    className: "hidden lg:flex space-x-10",
                     children: navigation.map(function (link) {
                       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_NavLink__WEBPACK_IMPORTED_MODULE_4__["default"], {
                         href: link.href,
@@ -18093,10 +18095,10 @@ var Navbar = function Navbar() {
                       }, link.name);
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-                    className: "hidden md:flex items-center justify-end md:flex-1 lg:w-0",
+                    className: "hidden lg:flex items-center justify-end lg:flex-1 lg:w-0",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
                       href: "/contact",
-                      className: "whitespace-nowrap flex items-center justify-center px-10 py-6 border border-transparent rounded-sm text-xs font-bold text-darkGrey bg-yellow uppercase",
+                      className: "whitespace-nowrap flex items-center justify-center px-10 py-4 lg:py-6 border border-transparent rounded-sm text-xs font-bold text-darkGrey bg-yellow uppercase",
                       children: "ENQUIRE NOW"
                     })
                   })]
@@ -18112,7 +18114,7 @@ var Navbar = function Navbar() {
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_6__.Popover.Panel, {
                     focus: true,
                     "static": true,
-                    className: "absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden",
+                    className: "absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
                       className: "rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50",
                       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
@@ -18128,7 +18130,7 @@ var Navbar = function Navbar() {
                           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
                             className: "-mr-2",
                             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(_headlessui_react__WEBPACK_IMPORTED_MODULE_6__.Popover.Button, {
-                              className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-grey hover:bg-lightGrey focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lightTeal",
+                              className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-grey hover:bg-lightGrey focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lightGrey",
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("span", {
                                 className: "sr-only",
                                 children: "Close menu"
@@ -18296,9 +18298,9 @@ var testimonials = [{
 }, {
   component: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Testimonials__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("iframe", {
-      src: "https://player.vimeo.com/video/385658741?h=23eec9ee94",
-      width: "640",
-      height: "360",
+      src: "https://player.vimeo.com/video/385658741?h=23eec9ee94" // width="640"
+      // height="360"
+      ,
       frameBorder: "0",
       allow: "autoplay; fullscreen; picture-in-picture",
       allowFullScreen: true,
@@ -18311,9 +18313,9 @@ var testimonials = [{
 
 var TestimonialSlider = function TestimonialSlider() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-    className: "bg-white w-full relative top-0 px-4 py-28 sm:px-6 lg:px-8",
+    className: "bg-white w-full relative top-0 px-4 py-24 sm:py-28 sm:px-6 lg:px-8",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
-      className: "text-center text-5xl text-darkGrey mb-12",
+      className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
       children: "Testimonials"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(text_carousel_react__WEBPACK_IMPORTED_MODULE_0__["default"], {
       items: testimonials
@@ -18355,7 +18357,7 @@ var Testimonial = function Testimonial(_ref) {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("blockquote", {
           className: "mt-10",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "max-w-3xl mx-auto text-center text-md leading-9 font-bold text-darkGrey",
+            className: "max-w-3xl mx-auto text-center text-sm leading-7 sm:text-base sm:leading-9 font-bold text-darkGrey",
             children: text
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("footer", {
             className: "mt-8",
@@ -18364,10 +18366,10 @@ var Testimonial = function Testimonial(_ref) {
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
                 className: "mt-3 text-center md:mt-0 md:ml-4 ",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                  className: "text-base font-bold text-blue",
+                  className: "text-sm font-bold text-blue sm:text-base",
                   children: author
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                  className: "text-base font-medium text-mediumGrey",
+                  className: "text-sm font-medium text-mediumGrey sm:text-base",
                   children: role
                 })]
               })
@@ -18407,36 +18409,42 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var DynamicSystem = function DynamicSystem() {
+var HighImpact = function HighImpact() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
     className: "bg-white",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-        className: "flex justify-between space-x-10",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-          src: _public_assets_about_1_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
-          alt: "",
-          className: "w-1/3"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-          src: _public_assets_about_2_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
-          alt: "",
-          className: "w-1/4"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-          src: _public_assets_about_3_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
-          alt: "",
-          className: "w-2/5"
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-        className: "flex justify-between space-x-10 items-center mt-12",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
-          className: "w-2/5 text-4xl text-darkGrey font-semibold",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+      className: "max-w-2xl md:max-w-3xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-7xl",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        className: "flex flex-wrap justify-between xl:space-x-10",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+          className: "w-1/2 lg:w-1/3",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            src: _public_assets_about_1_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+            alt: "",
+            className: "w-full"
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+          className: "w-1/2 lg:w-1/4",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            src: _public_assets_about_2_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+            alt: "",
+            className: "w-full"
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+          className: "w-1/2 lg:w-2/5",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            src: _public_assets_about_3_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
+            alt: "",
+            className: "w-full"
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+          className: "text-darkGrey font-semibold w-1/2 mt-12 lg:w-2/5 text-3xl xl:text-4xl ",
           children: ["Enabling you to deliver", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("span", {
             className: "text-blue font-light",
             children: ["high impact", " "]
           }), "digital services."]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-          className: "text-mediumGrey",
+          className: "w-full mt-12 lg:w-3/5 text-mediumGrey",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
             className: "mb-4",
             children: "Supported by research and evaluation tools we will transform, modernise and improve treatment pathways and service delivery."
@@ -18444,12 +18452,12 @@ var DynamicSystem = function DynamicSystem() {
             children: "Our digital redesign and development will create close integration between service users and service providers, placing service users at the heart of every development."
           })]
         })]
-      })]
+      })
     })
   });
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DynamicSystem);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HighImpact);
 
 /***/ }),
 
@@ -18539,9 +18547,9 @@ var MeetTeam = function MeetTeam() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
     className: "",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h2", {
-        className: "text-center text-5xl text-darkGrey mb-12",
+        className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "Meet the Team"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
         className: "flex flex-wrap justify-between",
@@ -18624,7 +18632,7 @@ var TeamCard = function TeamCard(_ref) {
     onMouseOut: function onMouseOut() {
       return setIsHovered(false);
     },
-    className: "w-1/3 p-2",
+    className: "p-2 w-1/2 md:w-1/3 ",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
       className: "bg-white border border-lightGrey",
       style: {
@@ -18634,12 +18642,12 @@ var TeamCard = function TeamCard(_ref) {
         src: img,
         className: "w-full p-2"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-        className: "px-4 py-8 text-center",
+        className: "px-4 py-4 lg:py-8 text-center",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
           className: "text-darkGrey text-lg font-bold",
           children: name
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-          className: "text-darkGrey",
+          className: "text-darkGrey text-sm lg:text-base",
           children: jobRole
         }), isHovered && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
           className: "flex justify-center",
@@ -18714,13 +18722,13 @@ __webpack_require__.r(__webpack_exports__);
 
 var VisionValues = function VisionValues() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-    className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+    className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-      className: "flex justify-between space-x-20",
+      className: "flex flex-col md:flex-row justify-between md:space-x-10 lg:space-x-20",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         className: "flex-1 mt-12 sm:mt-16 lg:mt-0",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "w-full -ml-48 md:-ml-16 lg:px-0 lg:m-0",
+          className: "w-full lg:px-0 lg:m-0",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
             className: "",
             src: _public_assets_our_vision_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
@@ -18728,7 +18736,7 @@ var VisionValues = function VisionValues() {
           })
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-        className: "flex-1 px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0",
+        className: "flex-1 max-w-xl mt-8 md:mx-auto lg:max-w-none lg:mx-0 lg:px-0",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "",
@@ -18738,18 +18746,18 @@ var VisionValues = function VisionValues() {
               className: "text-3xl font-extrabold tracking-tight text-darkGrey",
               children: "Our Vision"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
-              className: "mt-4 pr-11 text-lg text-mediumGrey",
+              className: "mt-4 lg:pr-11 text-base lg:text-lg text-mediumGrey",
               children: "We enable health care professionals and service providers to record and report key information in a simple, modern manner in line with reporting requirements. We enhance provision with impactful digital self-care tools. This empowers commissioners and providers to demonstrate impact across all their services and increase access to effective support."
             })]
           })
         })
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-      className: "mt-20",
+      className: "mt-12 md:mt-20",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "flex justify-between space-x-20",
+        className: "flex flex-col md:flex-row justify-between md:space-x-10 lg:space-x-20",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "flex-1 px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0",
+          className: "flex-1 max-w-xl md:mx-auto lg:max-w-none lg:mx-0 lg:px-0",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "",
@@ -18759,7 +18767,7 @@ var VisionValues = function VisionValues() {
                 className: "text-3xl font-extrabold tracking-tight text-darkGrey",
                 children: "Our Values"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("ul", {
-                className: "mt-4 pr-11 text-lg text-mediumGrey",
+                className: "mt-4 lg:pr-11 text-base lg:text-lg text-mediumGrey",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
                   children: "- We do the hard work for you to make your life easier"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
@@ -18777,9 +18785,9 @@ var VisionValues = function VisionValues() {
             })
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-          className: "flex-1 mt-12 sm:mt-16 lg:mt-0",
+          className: "flex-1 mt-12 mt-8 md:mt-16 lg:mt-0",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-            className: "w-full pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0",
+            className: "w-full lg:px-0 lg:m-0",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
               className: "",
               src: _public_assets_our_values_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -18850,9 +18858,9 @@ var Commissioners = function Commissioners() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "bg-white",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+        className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
-          className: "text-center text-5xl text-darkGrey mb-12",
+          className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
           children: "Commissioners"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "",
@@ -18919,9 +18927,9 @@ var Mhst = function Mhst() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "bg-lightGrey",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+        className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
-          className: "text-center text-5xl text-darkGrey mb-12",
+          className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
           children: "MHST"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "",
@@ -18962,14 +18970,14 @@ var QuestionSolution = function QuestionSolution(_ref) {
   var problem = _ref.problem,
       solution = _ref.solution;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-    className: "flex flex-col mb-16",
+    className: "flex flex-col mb-12 md:mb-16",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "p-4 relative max-w-xl break-words shadow-md rounded-sm self-start bg-lightGrey ",
+      className: "p-4 relative max-w-lg text-sm lg:max-w-xl lg:text-base break-words shadow-md rounded-sm self-start bg-lightGrey ",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
         children: problem
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "p-4 relative max-w-xl break-words shadow-md rounded-sm self-end bg-blue text-white",
+      className: "mt-4 p-4 relative max-w-lg text-sm lg:max-w-xl lg:text-base xl:mt-0 break-words shadow-md rounded-sm self-end bg-blue text-white",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
         children: solution
       })
@@ -19022,9 +19030,9 @@ var Mhst = function Mhst() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
     id: "client-thirdSector",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
-        className: "text-center text-5xl text-darkGrey mb-12",
+        className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "Third Sector"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
         className: "",
@@ -19055,6 +19063,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
@@ -19072,9 +19081,10 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+
 var ClientCard = function ClientCard(_ref) {
   var name = _ref.name,
-      href = _ref.href,
+      id = _ref.id,
       img = _ref.img;
 
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
@@ -19082,6 +19092,7 @@ var ClientCard = function ClientCard(_ref) {
       isHovered = _useState2[0],
       setIsHovered = _useState2[1];
 
+  var history = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_2__.useHistory)();
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     onMouseOver: function onMouseOver() {
       return setIsHovered(true);
@@ -19089,11 +19100,13 @@ var ClientCard = function ClientCard(_ref) {
     onMouseOut: function onMouseOut() {
       return setIsHovered(false);
     },
-    className: "flex-1",
+    className: "",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "relative",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
-        href: href,
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
+        onClick: function onClick() {
+          return history.push(id);
+        },
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
           src: img,
           className: "h-full w-full"
@@ -19150,11 +19163,11 @@ var Contact = function Contact() {
     lng: -1.7827000014917709
   };
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-    className: "flex bg-lightGrey",
+    className: "flex flex-col bg-lightGrey md:flex-row",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "flex-1",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "h-full",
+        className: "h-full md:h-1/2",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_react_google_maps_api__WEBPACK_IMPORTED_MODULE_2__.LoadScript, {
           googleMapsApiKey: "AIzaSyC1tpFlbEhKzoF-GbaBrzjyeLlLbE6XVQk",
           className: "h-full w-full object-cover",
@@ -19416,7 +19429,7 @@ var Slide = function Slide(_ref) {
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "relative flex flex-col h-full justify-center max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-          className: "w-1/2",
+          className: "w-full sm:w-2/3 md:w-1/2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
             className: "text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
@@ -19427,9 +19440,9 @@ var Slide = function Slide(_ref) {
             className: "mt-6 text-xl text-grey ",
             children: text
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            className: "mt-10 max-w-sm sm:max-w-none sm:flex",
+            className: "mt-10 flex",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-              className: "space-y-4 sm:space-y-0 sm:inline-grid sm:grid-cols-2 sm:gap-2",
+              className: "flex",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
                 onClick: function onClick() {
                   setIsModalVisible(!isModalVisible);
@@ -19448,7 +19461,7 @@ var Slide = function Slide(_ref) {
                 }), "Watch video"]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
                 href: "/contact",
-                className: "flex justify-center items-center px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm text-black bg-yellow",
+                className: "ml-4 flex justify-center items-center px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm text-black bg-yellow",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
                   xmlns: "http://www.w3.org/2000/svg",
                   className: "h-4 w-4 mr-2",
@@ -19501,15 +19514,15 @@ __webpack_require__.r(__webpack_exports__);
 
 var content = [{
   name: "Commissioners",
-  href: "/clients#commissioners",
+  id: "/clients#commissioners",
   img: _public_assets_reporting_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]
 }, {
   name: "MHST",
-  href: "/clients#mhst",
+  id: "#mhst",
   img: _public_assets_dynamic_care_jpg__WEBPACK_IMPORTED_MODULE_4__["default"]
 }, {
   name: "3rd Sector",
-  href: "/clients#thirdSector",
+  id: "#thirdSector",
   img: _public_assets_data_flow_jpg__WEBPACK_IMPORTED_MODULE_3__["default"]
 }];
 
@@ -19517,16 +19530,16 @@ var MainCustomers = function MainCustomers() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
     className: "bg-lightGrey",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      className: "max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
-        className: "text-center text-5xl text-darkGrey mb-12",
+        className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "Who are you?"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "flex justify-between space-x-10",
+        className: "flex flex-col justify-between space-y-5 w-1/2 mx-auto sm:w-full sm:flex-row sm:space-y-0 sm:space-x-5 md:space-x-10",
         children: content.map(function (item) {
           return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_ClientCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
             name: item.name,
-            href: item.href,
+            id: item.id,
             img: item.img
           }, item.name);
         })
@@ -20170,9 +20183,9 @@ var Platform = function Platform() {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
       className: "bg-white",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "max-w-4xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+        className: "max-w-2xl md:max-w-3xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-7xl",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
-          className: "text-center text-2xl text-mediumGrey mb",
+          className: "text-center text-lg md:text-2xl text-mediumGrey mb",
           children: "MYMUP Digital is a customisable web application designed in collaboration with service users and health care professionals. MYMUP Digital encompasses three pillars enabling services to transform their digital offer, compliment their existing delivery and effectively measure impact."
         })
       })

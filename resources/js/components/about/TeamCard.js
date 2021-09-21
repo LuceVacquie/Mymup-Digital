@@ -21,13 +21,13 @@ const TeamCard = ({
         <div
             onMouseOver={() => setIsHovered(true)}
             onMouseOut={() => setIsHovered(false)}
-            className="w-1/3 p-2"
+            className="p-2 w-1/2 md:w-1/3 "
         >
             <div className="bg-white border border-lightGrey" style={{boxShadow: isHovered ? '0 4px 8px 0 rgba(0, 0, 0, 0.2)' : 'none'}}>
                 <img src={img} className="w-full p-2" />
-                <div className="px-4 py-8 text-center">
+                <div className="px-4 py-4 lg:py-8 text-center">
                     <p className="text-darkGrey text-lg font-bold">{name}</p> 
-                    <p className="text-darkGrey">{jobRole}</p>
+                    <p className="text-darkGrey text-sm lg:text-base">{jobRole}</p>
                     {isHovered && (
                         <div className="flex justify-center">
                             <a

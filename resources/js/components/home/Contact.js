@@ -13,10 +13,10 @@ const Contact = () => {
     }
     
     return (
-      <div className="flex bg-lightGrey">
+      <div className="flex flex-col bg-lightGrey md:flex-row">
 
         <div className="flex-1">
-          <div className="h-full">
+          <div className="h-full md:h-1/2">
             <LoadScript googleMapsApiKey='AIzaSyC1tpFlbEhKzoF-GbaBrzjyeLlLbE6XVQk' className="h-full w-full object-cover">
                 <GoogleMap
                 mapContainerStyle={mapStyles}

@@ -41,11 +41,11 @@ const content = [
 const DynamicSystem = () => {
     return (
         <div className="bg-white">
-            <div className="max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8">
-                <h2 className="text-center text-5xl text-darkGrey mb-12">
+            <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8">
+                <h2 className="text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12">
                     MYMUP's Three Functions
                 </h2>
-                <div className="flex justify-between space-x-10">
+                <div className="justify-between space-x-0 space-y-10 md:flex md:space-x-10 md:space-y-0">
                     {content.map((item) => (
                         <FunctionsCard
                             key={item.title}

@@ -17,16 +17,16 @@ const FunctionsCard = ({
             className="flex-1"
         >
             <div className={`bg-lightGrey hover:bg-${bgColour}`}>
-                <img src={img} className="h-56 w-full" />
+                <img src={img} className="hidden md:h-56 md:w-full md:block" />
                 <div className="px-10 py-8">
                     <h3
-                        className="text-2xl pb-10"
+                        className="text-2xl pb-4 sm:pb-10"
                         style={{ color: isHovered ? "white" : "#38373C" }}
                     >
                         {title}
                     </h3>
                     <p
-                        className="pb-10"
+                        className="pb-4 sm:pb-10"
                         style={{
                             color: isHovered ? "white" : "#87868a",
                         }}
@@ -35,7 +35,7 @@ const FunctionsCard = ({
                     </p>
                     <a
                         href={href}
-                        className={`bg-${buttonColour} px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm uppercase text-white`}
+                        className={`bg-${buttonColour} px-4 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm uppercase text-white lg:px-10`}
                     >
                         Learn more
                     </a>

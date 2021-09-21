@@ -11,33 +11,33 @@ import OnlineSupportImg from "../../../../public/assets/dynamic-care.jpg";
 const content = [
     {
         name:"Commissioners",
-        href:"/clients#commissioners",
+        id:"/clients#commissioners",
         img:ReportingImg
     },
     {
         name:"MHST",
-        href:"/clients#mhst",
+        id:"#mhst",
         img:OnlineSupportImg
     },
     {
         name:"3rd Sector",
-        href:"/clients#thirdSector",
+        id:"#thirdSector",
         img:DataFlowImg
     },
 ]
 const MainCustomers = () => {
     return(
         <div className="bg-lightGrey">
-            <div className="max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8">
-                <h2 className="text-center text-5xl text-darkGrey mb-12">
+            <div className="max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8">
+                <h2 className="text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12">
                     Who are you?
                 </h2>
-                <div className="flex justify-between space-x-10">
+                <div className="flex flex-col justify-between space-y-5 w-1/2 mx-auto sm:w-full sm:flex-row sm:space-y-0 sm:space-x-5 md:space-x-10">
                     {content.map((item) => (
                         <ClientCard
                             key={item.name}
                             name={item.name}
-                            href={item.href}
+                            id={item.id}
                             img={item.img}
                         />
                     ))}
