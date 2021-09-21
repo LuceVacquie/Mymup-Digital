@@ -26,7 +26,7 @@ const Navbar = () => {
             {({ style, isSticky }) => (
                 <header
                     style={style}
-                    className="absolute w-full z-30 overflow-hidden"
+                    className="absolute w-full z-50"
                 >
                     <div style={{background: isSticky ? 'white' : 'rgba(255, 255, 255, 0.8)'}}>
                         <Popover>
@@ -85,7 +85,7 @@ const Navbar = () => {
                                         <Popover.Panel
                                             focus
                                             static
-                                            className="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
+                                            className="absolute z-50 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
                                         >
                                             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                                                 <div className="pt-5 pb-6 px-5">
@@ -108,7 +108,7 @@ const Navbar = () => {
                                                     </div>
                                                 </div>
                                                 <div className="py-6 px-5">
-                                                    <div className="grid grid-cols-2 gap-4">
+                                                    <div className="grid gap-4 sm:grid-cols-2">
                                                         {navigation.map((link) => (
                                                             <NavLink
                                                                 key={link.name}

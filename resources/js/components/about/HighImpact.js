@@ -8,17 +8,11 @@ import About3 from "../../../../public/assets/about-3.jpg";
 const HighImpact = () => {
     return (
         <div className="bg-white">
-            <div className="max-w-2xl md:max-w-3xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-7xl">
+            <div className="max-w-2xl md:max-w-3xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-7xl">
                 <div className="flex flex-wrap justify-between xl:space-x-10">
-                    <div className="w-1/2 lg:w-1/3">
-                        <img src={About1} alt="" className="w-full" />
-                    </div>
-                    <div className="w-1/2 lg:w-1/4">
-                        <img src={About2} alt="" className="w-full" />
-                    </div>
-                    <div className="w-1/2 lg:w-2/5">
-                        <img src={About3} alt="" className="w-full" />
-                    </div>
+                    <div className="w-full h-64 md:h-80 md:w-1/2 lg:w-1/3 bg-cover bg-no-repeat bg-center" style={{backgroundImage: `url(${About1})`}}></div>
+                    <div className="w-full h-64 md:h-80 md:w-1/2 lg:w-1/4 bg-cover bg-no-repeat bg-center" style={{backgroundImage: `url(${About2})`}}></div>
+                    <div className="w-full h-64 md:h-80 md:w-1/2 lg:w-2/5 bg-cover bg-no-repeat bg-center" style={{backgroundImage: `url(${About3})`}}></div>
                     
                 
                 {/* <div className="flex justify-between space-x-10 items-center mt-12"> */}

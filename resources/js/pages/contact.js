@@ -22,8 +22,8 @@ const Contact = () => {
         <div>
             <HeroSection img={HeroImg} title={"Contact Us"}/>
 
-            <div className="max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-2 gap-24">
+            <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8">
+                <div className="lg:grid lg:grid-cols-2 lg:gap-24">
                     <div>
                         <div className="mb-14">
                             <div class="w-6 h-1 bg-blue mb-6 rounded-lg"></div>

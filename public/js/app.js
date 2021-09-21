@@ -17560,7 +17560,7 @@ var DynamicSystem = function DynamicSystem() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
     className: "bg-white",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
         className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "MYMUP's Three Functions"
@@ -17933,30 +17933,33 @@ __webpack_require__.r(__webpack_exports__);
 var HeroSection = function HeroSection(_ref) {
   var img = _ref.img,
       title = _ref.title;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-    className: "w-full relative",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-      src: img,
-      className: "h-full w-full"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "absolute inset-0",
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+    className: "w-full h-96 relative",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "w-full h-full bg-cover bg-no-repeat bg-center",
       style: {
-        background: 'rgba(255, 255, 255, 0.5)'
-      }
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-      className: "text-center absolute w-full top-1/2",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-        className: "text-xl font-medium text-darkGrey mb-4",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-          href: "/",
-          className: "hover:text-blue",
-          children: "Home"
-        }), " - ", title]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
-        className: "text-5xl font-medium text-darkGrey",
-        children: title
+        backgroundImage: "url(".concat(img, ")")
+      },
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "absolute inset-0",
+        style: {
+          background: 'rgba(255, 255, 255, 0.5)'
+        }
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "text-center absolute w-full top-1/2",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "text-xl font-medium text-darkGrey mb-4",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+            href: "/",
+            className: "hover:text-blue",
+            children: "Home"
+          }), " - ", title]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
+          className: "text-5xl font-medium text-darkGrey",
+          children: title
+        })]
       })]
-    })]
+    })
   });
 };
 
@@ -18050,7 +18053,7 @@ var Navbar = function Navbar() {
           isSticky = _ref.isSticky;
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("header", {
         style: style,
-        className: "absolute w-full z-30 overflow-hidden",
+        className: "absolute w-full z-50",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
           style: {
             background: isSticky ? 'white' : 'rgba(255, 255, 255, 0.8)'
@@ -18114,7 +18117,7 @@ var Navbar = function Navbar() {
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_6__.Popover.Panel, {
                     focus: true,
                     "static": true,
-                    className: "absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden",
+                    className: "absolute z-50 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
                       className: "rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50",
                       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
@@ -18144,7 +18147,7 @@ var Navbar = function Navbar() {
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
                         className: "py-6 px-5",
                         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-                          className: "grid grid-cols-2 gap-4",
+                          className: "grid gap-4 sm:grid-cols-2",
                           children: navigation.map(function (link) {
                             return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_NavLink__WEBPACK_IMPORTED_MODULE_4__["default"], {
                               href: link.href,
@@ -18413,30 +18416,24 @@ var HighImpact = function HighImpact() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
     className: "bg-white",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-      className: "max-w-2xl md:max-w-3xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-7xl",
+      className: "max-w-2xl md:max-w-3xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-7xl",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "flex flex-wrap justify-between xl:space-x-10",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "w-1/2 lg:w-1/3",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            src: _public_assets_about_1_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
-            alt: "",
-            className: "w-full"
-          })
+          className: "w-full h-64 md:h-80 md:w-1/2 lg:w-1/3 bg-cover bg-no-repeat bg-center",
+          style: {
+            backgroundImage: "url(".concat(_public_assets_about_1_jpg__WEBPACK_IMPORTED_MODULE_1__["default"], ")")
+          }
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "w-1/2 lg:w-1/4",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            src: _public_assets_about_2_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
-            alt: "",
-            className: "w-full"
-          })
+          className: "w-full h-64 md:h-80 md:w-1/2 lg:w-1/4 bg-cover bg-no-repeat bg-center",
+          style: {
+            backgroundImage: "url(".concat(_public_assets_about_2_jpg__WEBPACK_IMPORTED_MODULE_2__["default"], ")")
+          }
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "w-1/2 lg:w-2/5",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-            src: _public_assets_about_3_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
-            alt: "",
-            className: "w-full"
-          })
+          className: "w-full h-64 md:h-80 md:w-1/2 lg:w-2/5 bg-cover bg-no-repeat bg-center",
+          style: {
+            backgroundImage: "url(".concat(_public_assets_about_3_jpg__WEBPACK_IMPORTED_MODULE_3__["default"], ")")
+          }
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
           className: "text-darkGrey font-semibold w-1/2 mt-12 lg:w-2/5 text-3xl xl:text-4xl ",
           children: ["Enabling you to deliver", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("span", {
@@ -18547,7 +18544,7 @@ var MeetTeam = function MeetTeam() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
     className: "",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h2", {
         className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "Meet the Team"
@@ -18722,7 +18719,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var VisionValues = function VisionValues() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-    className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
+    className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       className: "flex flex-col md:flex-row justify-between md:space-x-10 lg:space-x-20",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
@@ -18858,7 +18855,7 @@ var Commissioners = function Commissioners() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "bg-white",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
+        className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
           className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
           children: "Commissioners"
@@ -18927,7 +18924,7 @@ var Mhst = function Mhst() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "bg-lightGrey",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
+        className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
           className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
           children: "MHST"
@@ -19030,7 +19027,7 @@ var Mhst = function Mhst() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
     id: "client-thirdSector",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
         className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "Third Sector"
@@ -19094,38 +19091,32 @@ var ClientCard = function ClientCard(_ref) {
 
   var history = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_2__.useHistory)();
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+    className: "relative",
     onMouseOver: function onMouseOver() {
       return setIsHovered(true);
     },
     onMouseOut: function onMouseOut() {
       return setIsHovered(false);
     },
-    className: "",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "relative",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
-        onClick: function onClick() {
-          return history.push(id);
-        },
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-          src: img,
-          className: "h-full w-full"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "absolute inset-0",
-          style: {
-            background: isHovered ? 'rgba(255,255,255,0.25)' : 'rgba(255,255,255,0.75)'
-          }
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "text-center absolute w-full top-3/4",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
-            className: "text-center text-2xl",
-            style: {
-              color: isHovered ? "#38373C" : "#87868a"
-            },
-            children: name
-          })
-        })]
-      })
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
+      onClick: function onClick() {
+        return history.push(id);
+      },
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+        src: img,
+        className: "h-full w-full"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "absolute inset-0",
+        style: {
+          background: isHovered ? 'rgba(255,255,255,0.25)' : 'rgba(255,255,255,0.5)'
+        }
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "text-center absolute w-full top-3/4",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
+          className: "text-center text-2xl text-darkGrey",
+          children: name
+        })
+      })]
     })
   });
 };
@@ -19179,11 +19170,11 @@ var Contact = function Contact() {
         })
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "flex-1 relative py-16 px-4 sm:py-24 sm:px-6 lg:px-28 lg:max-w-7xl lg:mx-auto lg:py-32",
+      className: "flex-1 relative py-16 px-4 sm:py-24 sm:px-6 lg:px-28 lg:max-w-7xl lg:mx-auto",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "mx-auto lg:mx-0",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          "class": "w-6 h-1 bg-blue mb-6 rounded-lg"
+          className: "w-6 h-1 bg-blue mb-6 rounded-lg"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
           className: "text-3xl font-extrabold text-darkGrey tracking-tight sm:text-4xl",
           children: "Get in touch"
@@ -19530,7 +19521,7 @@ var MainCustomers = function MainCustomers() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
     className: "bg-lightGrey",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
+      className: "max-w-7xl mx-auto px-4 py-8 md:py-24 md:py-16 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
         className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "Who are you?"
@@ -19783,9 +19774,9 @@ var Contact = function Contact() {
       img: _public_assets_contact_us_jpeg__WEBPACK_IMPORTED_MODULE_1__["default"],
       title: "Contact Us"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "grid grid-cols-2 gap-24",
+        className: "lg:grid lg:grid-cols-2 lg:gap-24",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "mb-14",

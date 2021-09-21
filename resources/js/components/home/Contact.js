@@ -27,10 +27,10 @@ const Contact = () => {
           </div>
         </div>
         
-        <div className="flex-1 relative py-16 px-4 sm:py-24 sm:px-6 lg:px-28 lg:max-w-7xl lg:mx-auto lg:py-32">
+        <div className="flex-1 relative py-16 px-4 sm:py-24 sm:px-6 lg:px-28 lg:max-w-7xl lg:mx-auto">
         
             <div className="mx-auto lg:mx-0">
-                <div class="w-6 h-1 bg-blue mb-6 rounded-lg"></div>
+                <div className="w-6 h-1 bg-blue mb-6 rounded-lg"></div>
                 <h2 className="text-3xl font-extrabold text-darkGrey tracking-tight sm:text-4xl">Get in touch</h2>
                 <h3 className="mt-4 text-lg text-darkGrey sm:mt-3">
                     Want to know more?
