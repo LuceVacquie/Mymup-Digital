@@ -1,7 +1,7 @@
 import React from "react";
 
 //ASSETS
-import HeroImg from "../../../public/assets/about-us.jpg";
+import HeroImg from "../../../public/assets/data-flow.jpg";
 import DigitiseImg from "../../../public/assets/data-flow-digitise.png";
 import AccessibleImg from "../../../public/assets/data-flow-accessible.png";
 import DemonstrateImg from "../../../public/assets/data-flow-demonstrate.png";

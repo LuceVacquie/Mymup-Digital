@@ -1,7 +1,7 @@
 import React from "react";
 
 //ASSETS
-import HeroImg from "../../../public/assets/about-us.jpg";
+import HeroImg from "../../../public/assets/dynamic-care.jpg";
 import ActivitiesImg from "../../../public/assets/online-support-activities.png";
 import VirtualWorldImg from "../../../public/assets/online-support-virtual-world.png";
 import WebinarImg from "../../../public/assets/online-support-webinar.png";

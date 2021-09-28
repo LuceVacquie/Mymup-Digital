@@ -30,7 +30,7 @@ const Navbar = () => {
                         }}
                     >
                         <Popover>
-                            {({ open }) => (
+                            {({ open, close }) => (
                                 <>
                                     <div className="flex justify-between items-center max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:justify-start lg:space-x-10 lg:px-8">
                                         <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -62,6 +62,7 @@ const Navbar = () => {
                                                     key={link.name}
                                                     href={link.href}
                                                     name={link.name}
+                                                    closePopover={close}
                                                 />
                                             ))}
                                         </div>
@@ -126,6 +127,9 @@ const Navbar = () => {
                                                                     }
                                                                     name={
                                                                         link.name
+                                                                    }
+                                                                    closePopover={
+                                                                        close
                                                                     }
                                                                 />
                                                             )

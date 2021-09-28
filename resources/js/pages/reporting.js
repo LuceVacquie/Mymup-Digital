@@ -1,7 +1,7 @@
 import React from "react";
 
 //ASSETS
-import HeroImg from "../../../public/assets/about-us.jpg";
+import HeroImg from "../../../public/assets/reporting.jpg";
 import EvidenceImg from "../../../public/assets/reporting-evidence.png";
 import ImpactReportImg from "../../../public/assets/reporting-impact-reports.png";
 import MonitoringImg from "../../../public/assets/reporting-monitoring-reports.png";

@@ -20,6 +20,7 @@ import OnlineSupport from "./pages/online-support";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollTop from "./scrollTop";
 
 function Router() {
     return (
@@ -28,9 +29,9 @@ function Router() {
                 <div className="min-h-screen">
                     <Header />
 
+                    <ScrollTop />
                     <StickyContainer>
                         <Navbar />
-
                         <Switch>
                             <Route exact path="/" component={Homepage} />
                             <Route exact path="/about" component={About} />

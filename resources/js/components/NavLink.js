@@ -1,15 +1,17 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link, useHistory } from "react-router-dom";
 
-const NavLink = ({ href, name }) => {
+const NavLink = ({ href, name, closePopover = () => {} }) => {
+    const history = useHistory();
     return (
         <Link
             to={href}
             className={"text-base font-bold text-mediumGrey hover:text-blue"}
+            onClick={closePopover}
         >
             {name}
         </Link>
     );
-}
+};
 
-export default NavLink
+export default NavLink;
