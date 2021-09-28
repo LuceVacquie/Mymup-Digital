@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 //COMPONENTS
-import ClientCard from './ClientCard';
+import ClientCard from "./ClientCard";
 
 //ASSETS
 import ReportingImg from "../../../../public/assets/reporting.jpg";
@@ -10,25 +10,25 @@ import OnlineSupportImg from "../../../../public/assets/dynamic-care.jpg";
 
 const content = [
     {
-        name:"Commissioners",
-        id:"/clients#commissioners",
-        img:ReportingImg
+        name: "Commissioners",
+        id: "/clients#commissioners",
+        img: ReportingImg,
     },
     {
-        name:"MHST",
-        id:"#mhst",
-        img:OnlineSupportImg
+        name: "MHST",
+        id: "#mhst",
+        img: OnlineSupportImg,
     },
     {
-        name:"3rd Sector",
-        id:"#thirdSector",
-        img:DataFlowImg
+        name: "3rd Sector",
+        id: "#thirdSector",
+        img: DataFlowImg,
     },
-]
+];
 const MainCustomers = () => {
-    return(
+    return (
         <div className="bg-lightGrey">
-            <div className="max-w-7xl mx-auto px-4 py-8 md:py-24 md:py-16 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8">
                 <h2 className="text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12">
                     Who are you?
                 </h2>
@@ -44,7 +44,7 @@ const MainCustomers = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default MainCustomers
+export default MainCustomers;

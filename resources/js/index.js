@@ -12,6 +12,9 @@ import Clients from "./pages/clients";
 import TermsConditions from "./pages/terms-conditions";
 import PrivacyPolicy from "./pages/privacy-policy";
 import Cookies from "./pages/cookies";
+import Reporting from "./pages/reporting";
+import DataFlow from "./pages/data-flow";
+import OnlineSupport from "./pages/online-support";
 
 //COMPONENTS
 import Header from "./components/Header";
@@ -35,6 +38,21 @@ function Router() {
                                 exact
                                 path="/mymup-platform"
                                 component={Platform}
+                            />
+                            <Route
+                                exact
+                                path="/reporting"
+                                component={Reporting}
+                            />
+                            <Route
+                                exact
+                                path="/data-flow"
+                                component={DataFlow}
+                            />
+                            <Route
+                                exact
+                                path="/online-support"
+                                component={OnlineSupport}
                             />
                             <Route exact path="/contact" component={Contact} />
                             <Route exact path="/clients" component={Clients} />

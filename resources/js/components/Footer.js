@@ -27,7 +27,7 @@ const Footer = () => {
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
-            <div className="flex flex-col max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8">
+            <div className="flex flex-col max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-28 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-2 gap-8 xl:col-span-2">
                     <div className="md:grid md:grid-cols-2 md:gap-8">
                         <div>

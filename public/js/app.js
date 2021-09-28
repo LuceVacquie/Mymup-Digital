@@ -17481,7 +17481,7 @@ var CTA = function CTA() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     className: "bg-blue",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-      className: "max-w-5xl xl:max-w-7xl mx-auto px-4 py-12 sm:py-28 sm:px-6 lg:px-8 lg:flex lg:items-center lg:justify-between",
+      className: "max-w-5xl xl:max-w-6xl mx-auto px-4 py-12 sm:py-28 sm:px-6 lg:px-8 lg:flex lg:items-center lg:justify-between",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h2", {
         className: "text-3xl font-extrabold tracking-tight text-white md:text-4xl",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
@@ -17537,21 +17537,21 @@ var content = [{
   img: _public_assets_reporting_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
   title: "Recording and Reporting",
   description: "MYMUP digital provides an easy to use, mobile and secure recording platform for professionals using validated assessments. Our in built tools automatically create output and outcome reports for your audiences.",
-  href: "/",
+  href: "/reporting",
   buttonColour: "darkPink",
   bgColour: "pink"
 }, {
   img: _public_assets_data_flow_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
   title: "Data Flow",
   description: "Uniquely, MYMUP digital flows your output and outcome data, on your behalf, to the Mental Health Services Dataset.",
-  href: "/",
+  href: "/data-flow",
   buttonColour: "darkPurple",
   bgColour: "purple"
 }, {
   img: _public_assets_dynamic_care_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
   title: "Online Support",
   description: "An extensive co-created digital self-care & support module that complements face to face support for better outcomes and access to 24/7 care.",
-  href: "/",
+  href: "/online-support",
   buttonColour: "darkOrange",
   bgColour: "orange"
 }];
@@ -17560,7 +17560,7 @@ var DynamicSystem = function DynamicSystem() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
     className: "bg-white",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
         className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "MYMUP's Three Functions"
@@ -17582,6 +17582,75 @@ var DynamicSystem = function DynamicSystem() {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DynamicSystem);
+
+/***/ }),
+
+/***/ "./resources/js/components/FeatureParagraph.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/FeatureParagraph.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+var FeatureParagraph = function FeatureParagraph(_ref) {
+  var title = _ref.title,
+      text = _ref.text,
+      img = _ref.img,
+      alt = _ref.alt,
+      isLeftAlign = _ref.isLeftAlign;
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+    className: "mt-8 sm:mt-12",
+    children: isLeftAlign ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "flex flex-col xl:flex-row",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "flex-1 mt-8 xl:mt-0",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+          src: img,
+          alt: alt
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "flex-initial max-w-3xl pl-8",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
+          className: "text-2xl text-darkGrey mb-4 sm:mb-8",
+          children: title
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+          className: "text-mediumGrey",
+          children: text
+        })]
+      })]
+    }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "flex flex-col xl:flex-row",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        className: "flex-initial max-w-3xl pr-8",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
+          className: "text-2xl text-darkGrey mb-4 sm:mb-8",
+          children: title
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+          className: "text-mediumGrey",
+          children: text
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "flex-1 mt-8 xl:mt-0",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+          src: img,
+          alt: alt
+        })
+      })]
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FeatureParagraph);
 
 /***/ }),
 
@@ -17641,7 +17710,7 @@ var Footer = function Footer() {
       className: "sr-only",
       children: "Footer"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-      className: "flex flex-col max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      className: "flex flex-col max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "grid grid-cols-2 gap-8 xl:col-span-2",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
@@ -17848,7 +17917,7 @@ var Header = function Header() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
     className: "block top-0 w-full border-b-2 border-lightGrey",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-      className: "flex w-full justify-between items-center max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8",
+      className: "flex w-full justify-between items-center max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-4 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_SocialMedia__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "flex",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
@@ -18056,14 +18125,14 @@ var Navbar = function Navbar() {
         className: "absolute w-full z-50",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
           style: {
-            background: isSticky ? 'white' : 'rgba(255, 255, 255, 0.8)'
+            background: isSticky ? "white" : "rgba(255, 255, 255, 0.8)"
           },
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_headlessui_react__WEBPACK_IMPORTED_MODULE_6__.Popover, {
             children: function children(_ref2) {
               var open = _ref2.open;
               return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.Fragment, {
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-                  className: "flex justify-between items-center max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:justify-start lg:space-x-10 lg:px-8",
+                  className: "flex justify-between items-center max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:justify-start lg:space-x-10 lg:px-8",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
                     className: "flex justify-start lg:w-0 lg:flex-1",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("a", {
@@ -18301,9 +18370,9 @@ var testimonials = [{
 }, {
   component: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Testimonials__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("iframe", {
-      src: "https://player.vimeo.com/video/385658741?h=23eec9ee94" // width="640"
-      // height="360"
-      ,
+      src: "https://player.vimeo.com/video/385658741?h=23eec9ee94",
+      width: "640",
+      height: "360",
       frameBorder: "0",
       allow: "autoplay; fullscreen; picture-in-picture",
       allowFullScreen: true,
@@ -18316,12 +18385,14 @@ var testimonials = [{
 
 var TestimonialSlider = function TestimonialSlider() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-    className: "bg-white w-full relative top-0 px-4 py-24 sm:py-28 sm:px-6 lg:px-8",
+    className: "bg-white w-full relative top-0 px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
       className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
       children: "Testimonials"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(text_carousel_react__WEBPACK_IMPORTED_MODULE_0__["default"], {
-      items: testimonials
+      items: testimonials,
+      buttonHoverColor: "#088DCD",
+      autoSlideInterval: 5000
     })]
   });
 };
@@ -18354,7 +18425,7 @@ var Testimonial = function Testimonial(_ref) {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     className: "h-full w-full mx-auto overflow-hidden",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "h-full relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      className: "h-full relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "relative",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("blockquote", {
@@ -18416,7 +18487,7 @@ var HighImpact = function HighImpact() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
     className: "bg-white",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-      className: "max-w-2xl md:max-w-3xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-7xl",
+      className: "max-w-2xl md:max-w-3xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-6xl",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "flex flex-wrap justify-between xl:space-x-10",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
@@ -18544,7 +18615,7 @@ var MeetTeam = function MeetTeam() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
     className: "",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h2", {
         className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "Meet the Team"
@@ -18719,7 +18790,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var VisionValues = function VisionValues() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-    className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
+    className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       className: "flex flex-col md:flex-row justify-between md:space-x-10 lg:space-x-20",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
@@ -18824,11 +18895,11 @@ var content = [{
   id: 1,
   problem: "Your MHSDS data doesn’t reflect all your commissioned or jointly commissioned services.  It has been mandatory since April 2020. Need all your commissioned or part commissioned services including the 3rd sector to flow their data? Your 3rd sector providers don’t have a system that can flow data to the MHSD.",
   solution: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
-    children: ["MYMUP can be commissioned by you for your 3rd sector providers. We have a proven track record of 3rd sector use and data flow. We provide a simple to use tool that practitioners engage with. We flow data on their behalf to relieve them of the complex process  and frequent MHSDS rejections. This gives you access to", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+    children: ["MYMUP can be commissioned by you for your 3rd sector providers. We have a proven track record of 3rd sector use and data flow. We provide a simple to use tool that practitioners engage with. We flow data on their behalf to relieve them of the complex process and frequent MHSDS rejections. This gives you access to", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {
       href: "https://www.england.nhs.uk/wp-content/uploads/2020/01/FINAL-CQUIN-20-21-Indicator-Specifications-190220.pdf",
       target: "_blank",
       className: "text-darkGrey",
-      children: " CQUIN CCG7"
+      children: [" ", "CQUIN CCG7"]
     }), "."]
   })
 }, {
@@ -18855,7 +18926,7 @@ var Commissioners = function Commissioners() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "bg-white",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
+        className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
           className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
           children: "Commissioners"
@@ -18924,7 +18995,7 @@ var Mhst = function Mhst() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "bg-lightGrey",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
+        className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
           className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
           children: "MHST"
@@ -19027,7 +19098,7 @@ var Mhst = function Mhst() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
     id: "client-thirdSector",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
         className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "Third Sector"
@@ -19170,7 +19241,7 @@ var Contact = function Contact() {
         })
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "flex-1 relative py-16 px-4 sm:py-24 sm:px-6 lg:px-28 lg:max-w-7xl lg:mx-auto",
+      className: "flex-1 relative py-16 px-4 sm:py-24 sm:px-6 lg:px-28 lg:max-w-6xl lg:mx-auto",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "mx-auto lg:mx-0",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
@@ -19217,7 +19288,7 @@ var Contact = function Contact() {
             rows: 4,
             placeholder: "Your message",
             className: "block w-full border-none sm:text-sm mb-5 px-5 py-4",
-            defaultValue: ''
+            defaultValue: ""
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
             type: "submit",
             className: "px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm uppercase text-darkGrey bg-yellow",
@@ -19414,11 +19485,11 @@ var Slide = function Slide(_ref) {
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
           className: "absolute inset-0",
           style: {
-            background: 'rgba(255, 255, 255, 0.5)'
+            background: "rgba(255, 255, 255, 0.5)"
           }
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "relative flex flex-col h-full justify-center max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8",
+        className: "relative flex flex-col h-full justify-center max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
           className: "w-full sm:w-2/3 md:w-1/2",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
@@ -19521,7 +19592,7 @@ var MainCustomers = function MainCustomers() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
     className: "bg-lightGrey",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "max-w-7xl mx-auto px-4 py-8 md:py-24 md:py-16 sm:px-6 lg:px-8",
+      className: "max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
         className: "text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12",
         children: "Who are you?"
@@ -19555,8 +19626,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var react_sticky__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-sticky */ "./node_modules/react-sticky/lib/index.js");
 /* harmony import */ var _css_app_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/app.css */ "./resources/css/app.css");
 /* harmony import */ var _pages_home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/home */ "./resources/js/pages/home.js");
@@ -19567,14 +19638,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_terms_conditions__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/terms-conditions */ "./resources/js/pages/terms-conditions.js");
 /* harmony import */ var _pages_privacy_policy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/privacy-policy */ "./resources/js/pages/privacy-policy.js");
 /* harmony import */ var _pages_cookies__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/cookies */ "./resources/js/pages/cookies.js");
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Header */ "./resources/js/components/Header.js");
-/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/Navbar */ "./resources/js/components/Navbar.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/Footer */ "./resources/js/components/Footer.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _pages_reporting__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/reporting */ "./resources/js/pages/reporting.js");
+/* harmony import */ var _pages_data_flow__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/data-flow */ "./resources/js/pages/data-flow.js");
+/* harmony import */ var _pages_online_support__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/online-support */ "./resources/js/pages/online-support.js");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/Header */ "./resources/js/components/Header.js");
+/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/Navbar */ "./resources/js/components/Navbar.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/Footer */ "./resources/js/components/Footer.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
  //PAGES
+
+
+
 
 
 
@@ -19592,46 +19669,58 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Router() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_15__.BrowserRouter, {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_18__.BrowserRouter, {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsxs)("div", {
         className: "min-h-screen",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_11__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(react_sticky__WEBPACK_IMPORTED_MODULE_1__.StickyContainer, {
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_Navbar__WEBPACK_IMPORTED_MODULE_12__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Switch, {
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_14__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsxs)(react_sticky__WEBPACK_IMPORTED_MODULE_1__.StickyContainer, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(_components_Navbar__WEBPACK_IMPORTED_MODULE_15__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Switch, {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Route, {
               exact: true,
               path: "/",
               component: _pages_home__WEBPACK_IMPORTED_MODULE_3__["default"]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Route, {
               exact: true,
               path: "/about",
               component: _pages_about__WEBPACK_IMPORTED_MODULE_4__["default"]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Route, {
               exact: true,
               path: "/mymup-platform",
               component: _pages_mymup_platform__WEBPACK_IMPORTED_MODULE_5__["default"]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Route, {
+              exact: true,
+              path: "/reporting",
+              component: _pages_reporting__WEBPACK_IMPORTED_MODULE_11__["default"]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Route, {
+              exact: true,
+              path: "/data-flow",
+              component: _pages_data_flow__WEBPACK_IMPORTED_MODULE_12__["default"]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Route, {
+              exact: true,
+              path: "/online-support",
+              component: _pages_online_support__WEBPACK_IMPORTED_MODULE_13__["default"]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Route, {
               exact: true,
               path: "/contact",
               component: _pages_contact__WEBPACK_IMPORTED_MODULE_6__["default"]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Route, {
               exact: true,
               path: "/clients",
               component: _pages_clients__WEBPACK_IMPORTED_MODULE_7__["default"]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Route, {
               exact: true,
               path: "/terms-conditions",
               component: _pages_terms_conditions__WEBPACK_IMPORTED_MODULE_8__["default"]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Route, {
               exact: true,
               path: "/privacy-policy",
               component: _pages_privacy_policy__WEBPACK_IMPORTED_MODULE_9__["default"]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Route, {
               exact: true,
               path: "/cookies",
               component: _pages_cookies__WEBPACK_IMPORTED_MODULE_10__["default"]
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_Footer__WEBPACK_IMPORTED_MODULE_13__["default"], {})]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_17__.jsx)(_components_Footer__WEBPACK_IMPORTED_MODULE_16__["default"], {})]
         })]
       })
     })
@@ -19774,7 +19863,7 @@ var Contact = function Contact() {
       img: _public_assets_contact_us_jpeg__WEBPACK_IMPORTED_MODULE_1__["default"],
       title: "Contact Us"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "lg:grid lg:grid-cols-2 lg:gap-24",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
@@ -19795,7 +19884,7 @@ var Contact = function Contact() {
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "flex border border-lightGrey p-12 mb-7 text-lg",
             style: {
-              height: 'fit-content'
+              height: "fit-content"
             },
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
               className: "text-blue",
@@ -19839,7 +19928,7 @@ var Contact = function Contact() {
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "flex items-center border border-lightGrey p-12 text-lg",
             style: {
-              height: 'fit-content'
+              height: "fit-content"
             },
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
               className: "text-blue",
@@ -19904,7 +19993,7 @@ var Contact = function Contact() {
             rows: 4,
             placeholder: "Your message",
             className: "bg-lightGrey block w-full border-none sm:text-sm mb-5 px-5 py-4",
-            defaultValue: ''
+            defaultValue: ""
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
             type: "submit",
             className: "px-10 py-4 border border-transparent text-xs font-bold rounded-sm shadow-sm uppercase text-darkGrey bg-yellow",
@@ -19962,7 +20051,7 @@ var Cookies = function Cookies() {
       img: _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
       title: "Cookies"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      className: "max-w-6xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
         className: "text-4xl text-darkGrey font-extrabold my-8",
         children: "Our Cookie Policy"
@@ -19993,17 +20082,17 @@ var Cookies = function Cookies() {
         children: "Consent"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
         className: "text-mediumGrey mb-4",
-        children: ["There is a notice on our ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+        children: ["There is a notice on our", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
           href: "/",
           target: "_blank",
           className: "text-blue hover:text-darkGrey",
           children: "home page"
-        }), " which describes how we use cookies and which also provides a link to our website ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+        }), " ", "which describes how we use cookies and which also provides a link to our website", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
           href: "/privacy-policy",
           target: "_blank",
           className: "text-blue hover:text-darkGrey",
           children: "privacy policy"
-        }), ". If you use this website after this notification has been displayed to you, we will assume that you consent to our use of cookies for the purposes described in this website cookie policy and our website ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+        }), ". If you use this website after this notification has been displayed to you, we will assume that you consent to our use of cookies for the purposes described in this website cookie policy and our website", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
           href: "/privacy-policy",
           target: "_blank",
           className: "text-blue hover:text-darkGrey",
@@ -20077,7 +20166,7 @@ var Cookies = function Cookies() {
         children: "How to turn off Cookies"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
         className: "text-mediumGrey mb-4",
-        children: ["If you do not want to accept cookies, you can change your browser settings so that cookies are not accepted. If you do this, please be aware that you may lose some of the functionality of this website. For further information about cookies and how to disable them please go to the Information Commissioner's web page on cookies: ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+        children: ["If you do not want to accept cookies, you can change your browser settings so that cookies are not accepted. If you do this, please be aware that you may lose some of the functionality of this website. For further information about cookies and how to disable them please go to the Information Commissioner's web page on cookies:", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
           href: "https://ico.org.uk/for-the-public/online/cookies/",
           target: "_blank",
           className: "text-blue hover:text-darkGrey",
@@ -20089,6 +20178,108 @@ var Cookies = function Cookies() {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Cookies);
+
+/***/ }),
+
+/***/ "./resources/js/pages/data-flow.js":
+/*!*****************************************!*\
+  !*** ./resources/js/pages/data-flow.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../public/assets/about-us.jpg */ "./public/assets/about-us.jpg");
+/* harmony import */ var _public_assets_data_flow_digitise_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../public/assets/data-flow-digitise.png */ "./public/assets/data-flow-digitise.png");
+/* harmony import */ var _public_assets_data_flow_accessible_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../public/assets/data-flow-accessible.png */ "./public/assets/data-flow-accessible.png");
+/* harmony import */ var _public_assets_data_flow_demonstrate_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../public/assets/data-flow-demonstrate.png */ "./public/assets/data-flow-demonstrate.png");
+/* harmony import */ var _public_assets_data_flow_ig_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../public/assets/data-flow-ig.png */ "./public/assets/data-flow-ig.png");
+/* harmony import */ var _components_HeroSection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/HeroSection */ "./resources/js/components/HeroSection.js");
+/* harmony import */ var _components_FeatureParagraph__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/FeatureParagraph */ "./resources/js/components/FeatureParagraph.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //ASSETS
+
+
+
+
+
+ //COMPONENTS
+
+
+
+
+
+var content = [{
+  title: "Digitise Workflow",
+  text: "Go paperless and digitise your service with MYMUP Digital. With a range of modules including safeguarding, \n        needs and risks, audits and supervisions you can meet all of your service needs. Clients can be assigned to \n        multiple staff, projects and pathways to ensure the most accurate and flexible recording for your service.",
+  img: _public_assets_data_flow_digitise_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+  alt: "Digitise Workflow"
+}, {
+  title: "Accessible on-the-go",
+  text: "MYMUP Digital is a web application which works on all devices with an internet connection. Client records \n        can be updated wherever you are, reducing the need to wait until staff are back in the office.",
+  img: _public_assets_data_flow_accessible_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+  alt: "Accessible on-the-go"
+}, {
+  title: "Demonstrate Impact",
+  text: "MYMUP Digital enables social model activity such as peer support and guided self-help to be captured \n        and delivered to the NHS Mental Health Services Data Set. Using standardised SNOMED codes, the data you input \n        is securely submitted to MHSDS on a monthly basis.",
+  img: _public_assets_data_flow_demonstrate_png__WEBPACK_IMPORTED_MODULE_4__["default"],
+  alt: "Demonstrate Impact"
+}, {
+  title: "IG",
+  text: "We put data security at the heart of our products. MYMUP Digital is fully GDPR compliant. Data rights and \n        privacy policies are easily accessible to workers and clients. Client data can be extracted at the touch of a \n        button should they request it. Data is sent encrypted with two-factor authentication.",
+  img: _public_assets_data_flow_ig_png__WEBPACK_IMPORTED_MODULE_5__["default"],
+  alt: "Secure and GDPR compliant"
+}];
+
+var DataFlow = function DataFlow() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_HeroSection__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      img: _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+      title: "Data Flow"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("iframe", {
+        title: "vimeo-player",
+        src: "https://player.vimeo.com/video/356176247?h=8f86f25614",
+        width: "640",
+        height: "360",
+        frameborder: "0",
+        allowfullscreen: true,
+        className: "mx-auto"
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h3", {
+        className: "text-2xl font-bold text-darkGrey mb-4 sm:mb-8",
+        children: "Features"
+      }), content.map(function (item, index) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_FeatureParagraph__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          title: item.title,
+          text: item.text,
+          img: item.img,
+          isLeftAlign: index % 2
+        });
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("iframe", {
+        title: "vimeo-player",
+        src: "https://player.vimeo.com/video/356140968?h=be81fdcf87",
+        width: "640",
+        height: "360",
+        frameborder: "0",
+        allowfullscreen: true,
+        className: "mx-auto"
+      })
+    })]
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DataFlow);
 
 /***/ }),
 
@@ -20174,7 +20365,7 @@ var Platform = function Platform() {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
       className: "bg-white",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
-        className: "max-w-2xl md:max-w-3xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-7xl",
+        className: "max-w-2xl md:max-w-3xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-6xl",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
           className: "text-center text-lg md:text-2xl text-mediumGrey mb",
           children: "MYMUP Digital is a customisable web application designed in collaboration with service users and health care professionals. MYMUP Digital encompasses three pillars enabling services to transform their digital offer, compliment their existing delivery and effectively measure impact."
@@ -20185,6 +20376,109 @@ var Platform = function Platform() {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Platform);
+
+/***/ }),
+
+/***/ "./resources/js/pages/online-support.js":
+/*!**********************************************!*\
+  !*** ./resources/js/pages/online-support.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../public/assets/about-us.jpg */ "./public/assets/about-us.jpg");
+/* harmony import */ var _public_assets_online_support_activities_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../public/assets/online-support-activities.png */ "./public/assets/online-support-activities.png");
+/* harmony import */ var _public_assets_online_support_virtual_world_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../public/assets/online-support-virtual-world.png */ "./public/assets/online-support-virtual-world.png");
+/* harmony import */ var _public_assets_online_support_webinar_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../public/assets/online-support-webinar.png */ "./public/assets/online-support-webinar.png");
+/* harmony import */ var _public_assets_online_support_scrapbook_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../public/assets/online-support-scrapbook.png */ "./public/assets/online-support-scrapbook.png");
+/* harmony import */ var _components_HeroSection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/HeroSection */ "./resources/js/components/HeroSection.js");
+/* harmony import */ var _components_FeatureParagraph__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/FeatureParagraph */ "./resources/js/components/FeatureParagraph.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //ASSETS
+
+
+
+
+
+ //COMPONENTS
+
+
+
+
+
+var content = [{
+  title: "Online Activities",
+  text: "Your activities are digitised for users to complete in their own time. Interactive quizzes, videos \n        and specialist advice can be utilised to promote self-care.",
+  img: _public_assets_online_support_activities_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+  alt: "Online Activities"
+}, {
+  title: "Virtual World",
+  text: "Gamification motivates users to undertake activities, maximising engagement and enjoyment. Our \n        virtual world includes a shop where users can exchange points for meaningful items to add to their world.",
+  img: _public_assets_online_support_virtual_world_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+  alt: "MYMUP Virtual World"
+}, {
+  title: "LIVE Webinar",
+  text: "LIVE Webinar allows staff to hold video 1-1 and seminars with users. It can be used in seminar mode \n        to promote health messages to a wider audience increasing reach. Alternatively, 1-1 mode can be used to increase \n        accessibility, capacity and guided self-care. LIVE sessions can be recorded and used to create online \n        interventions too.",
+  img: _public_assets_online_support_webinar_png__WEBPACK_IMPORTED_MODULE_4__["default"],
+  alt: "LIVE Webinar"
+}, {
+  title: "Digital Scrapbook",
+  text: "A personal wellness hub for users to upload images, documents, videos and audio. This area can be \n        accessible to staff, helping to encourage conversations and increase engagement with users.",
+  img: _public_assets_online_support_scrapbook_png__WEBPACK_IMPORTED_MODULE_5__["default"],
+  alt: "Digital Scrapbook"
+}];
+
+var OnlineSupport = function OnlineSupport() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_HeroSection__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      img: _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+      title: "Online Support"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+      className: "bg-white",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+        className: "max-w-2xl md:max-w-3xl mx-auto px-4 py-8 md:py-24 sm:py-28 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-6xl",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
+          className: "max-w-4xl mx-auto text-center text-lg md:text-2xl text-mediumGrey mb-8",
+          children: "We believe that you are the expert in your service!"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
+          className: "max-w-4xl mx-auto text-center text-lg md:text-2xl text-mediumGrey",
+          children: "We work with you to create specialist, digital interventions available exclusively to your service users. Providing a digital first offer to your service users can reduce waiting lists, promote self-care and enable service users to feel empowered and involved in their own health and wellbeing."
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("iframe", {
+        title: "vimeo-player",
+        src: "https://player.vimeo.com/video/356175413?h=81a94cb989",
+        width: "640",
+        height: "360",
+        frameborder: "0",
+        allowfullscreen: true,
+        className: "mx-auto"
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h3", {
+        className: "text-2xl font-bold text-darkGrey mb-4 sm:mb-8",
+        children: "Features"
+      }), content.map(function (item, index) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_FeatureParagraph__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          title: item.title,
+          text: item.text,
+          img: item.img,
+          isLeftAlign: index % 2
+        });
+      })]
+    })]
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (OnlineSupport);
 
 /***/ }),
 
@@ -20221,7 +20515,7 @@ var PrivacyPolicy = function PrivacyPolicy() {
       img: _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
       title: "Privacy Policy"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
-      className: "max-w-7xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
+      className: "max-w-6xl mx-auto px-4 py-28 sm:px-6 lg:px-8",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h2", {
         className: "text-4xl text-darkGrey font-extrabold my-8",
         children: "Our Privacy Policy"
@@ -20267,11 +20561,11 @@ var PrivacyPolicy = function PrivacyPolicy() {
         children: "What can I do to keep my information safe?"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("p", {
         className: "text-mediumGrey mb-4",
-        children: ["If you want detailed information from Get Safe Online on how to protect your information and your computers and devices against fraud, identity theft, viruses and many other online problems, please visit", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+        children: ["If you want detailed information from Get Safe Online on how to protect your information and your computers and devices against fraud, identity theft, viruses and many other online problems, please visit", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("a", {
           href: "https://www.getsafeonline.org",
           target: "_blank",
           className: "text-blue hover:text-darkGrey",
-          children: " www.getsafeonline.org"
+          children: [" ", "www.getsafeonline.org"]
         }), ". Get Safe Online is supported by HM Government and leading businesses."]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h3", {
         className: "text-2xl text-darkGrey font-extrabold my-8",
@@ -20302,7 +20596,7 @@ var PrivacyPolicy = function PrivacyPolicy() {
         children: "4. Cookies"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("p", {
         className: "text-mediumGrey mb-4",
-        children: ["We use cookies as set out in Our ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+        children: ["We use cookies as set out in Our", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
           href: "/cookies",
           className: "text-blue hover:text-darkGrey",
           children: "cookies policy"
@@ -20476,6 +20770,90 @@ var PrivacyPolicy = function PrivacyPolicy() {
 
 /***/ }),
 
+/***/ "./resources/js/pages/reporting.js":
+/*!*****************************************!*\
+  !*** ./resources/js/pages/reporting.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../public/assets/about-us.jpg */ "./public/assets/about-us.jpg");
+/* harmony import */ var _public_assets_reporting_evidence_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../public/assets/reporting-evidence.png */ "./public/assets/reporting-evidence.png");
+/* harmony import */ var _public_assets_reporting_impact_reports_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../public/assets/reporting-impact-reports.png */ "./public/assets/reporting-impact-reports.png");
+/* harmony import */ var _public_assets_reporting_monitoring_reports_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../public/assets/reporting-monitoring-reports.png */ "./public/assets/reporting-monitoring-reports.png");
+/* harmony import */ var _components_HeroSection__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/HeroSection */ "./resources/js/components/HeroSection.js");
+/* harmony import */ var _components_FeatureParagraph__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/FeatureParagraph */ "./resources/js/components/FeatureParagraph.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+ //ASSETS
+
+
+
+
+ //COMPONENTS
+
+
+
+
+
+var content = [{
+  title: "Evidence-based Assessments",
+  text: "MYMUP Digital provides a range of evidence-based assessment\n        tools. These enable you to improve the quality of the data\n        you collect, measuring distance travelled and ensuring\n        effectiveness of service.",
+  img: _public_assets_reporting_evidence_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+  alt: ""
+}, {
+  title: "Impact Reports",
+  text: "Simple to use, real time reporting enables you to measure\n        impact and provides insights to inform commissioning.",
+  img: _public_assets_reporting_impact_reports_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+  alt: ""
+}, {
+  title: "Monitoring Reports",
+  text: "A range of reports are available including demographic,\n        staff caseload and organisation activity reports to inform\n        your service. Quick and accurate reporting reduces\n        administrative burden, improving your ability to manage\n        workload and demonstrate effectiveness.",
+  img: _public_assets_reporting_monitoring_reports_png__WEBPACK_IMPORTED_MODULE_4__["default"],
+  alt: ""
+}];
+
+var Reporting = function Reporting() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_HeroSection__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      img: _public_assets_about_us_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+      title: "Reporting"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("iframe", {
+        title: "vimeo-player",
+        src: "https://player.vimeo.com/video/356175819?h=1070cd579a",
+        width: "640",
+        height: "360",
+        frameborder: "0",
+        allowfullscreen: true,
+        className: "mx-auto"
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+      className: "max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h3", {
+        className: "text-2xl font-bold text-darkGrey mb-4 sm:mb-8",
+        children: "Features"
+      }), content.map(function (item, index) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_FeatureParagraph__WEBPACK_IMPORTED_MODULE_6__["default"], {
+          title: item.title,
+          text: item.text,
+          img: item.img,
+          isLeftAlign: index % 2
+        });
+      })]
+    })]
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Reporting);
+
+/***/ }),
+
 /***/ "./resources/js/pages/terms-conditions.js":
 /*!************************************************!*\
   !*** ./resources/js/pages/terms-conditions.js ***!
@@ -20646,6 +21024,66 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./public/assets/data-flow-accessible.png":
+/*!************************************************!*\
+  !*** ./public/assets/data-flow-accessible.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/data-flow-accessible.png?56bc464fc90d1483cdd63b42c31f615d");
+
+/***/ }),
+
+/***/ "./public/assets/data-flow-demonstrate.png":
+/*!*************************************************!*\
+  !*** ./public/assets/data-flow-demonstrate.png ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/data-flow-demonstrate.png?29ac970565baaed51a99ed8fd65895b3");
+
+/***/ }),
+
+/***/ "./public/assets/data-flow-digitise.png":
+/*!**********************************************!*\
+  !*** ./public/assets/data-flow-digitise.png ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/data-flow-digitise.png?2c206b091cd66028004571d5c4456621");
+
+/***/ }),
+
+/***/ "./public/assets/data-flow-ig.png":
+/*!****************************************!*\
+  !*** ./public/assets/data-flow-ig.png ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/data-flow-ig.png?6493263d5da1ed024214a55dcfb361e2");
+
+/***/ }),
+
 /***/ "./public/assets/data-flow.jpg":
 /*!*************************************!*\
   !*** ./public/assets/data-flow.jpg ***!
@@ -20751,6 +21189,66 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./public/assets/online-support-activities.png":
+/*!*****************************************************!*\
+  !*** ./public/assets/online-support-activities.png ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/online-support-activities.png?8b2ba2e1f76c813f3369aba3bbcc7853");
+
+/***/ }),
+
+/***/ "./public/assets/online-support-scrapbook.png":
+/*!****************************************************!*\
+  !*** ./public/assets/online-support-scrapbook.png ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/online-support-scrapbook.png?bb5550ed42414c063c149ecc3913aa25");
+
+/***/ }),
+
+/***/ "./public/assets/online-support-virtual-world.png":
+/*!********************************************************!*\
+  !*** ./public/assets/online-support-virtual-world.png ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/online-support-virtual-world.png?d57edf353be792ff4735d96d98fd433a");
+
+/***/ }),
+
+/***/ "./public/assets/online-support-webinar.png":
+/*!**************************************************!*\
+  !*** ./public/assets/online-support-webinar.png ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/online-support-webinar.png?6e61a909b55a5b2fc496d28b77a7d342");
+
+/***/ }),
+
 /***/ "./public/assets/our-values.jpg":
 /*!**************************************!*\
   !*** ./public/assets/our-values.jpg ***!
@@ -20778,6 +21276,51 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/our-vision.jpg?16830f5503f529e62d658b0c070fb7a1");
+
+/***/ }),
+
+/***/ "./public/assets/reporting-evidence.png":
+/*!**********************************************!*\
+  !*** ./public/assets/reporting-evidence.png ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/reporting-evidence.png?adb24350a011af50f99ef7b6c7dfb4ea");
+
+/***/ }),
+
+/***/ "./public/assets/reporting-impact-reports.png":
+/*!****************************************************!*\
+  !*** ./public/assets/reporting-impact-reports.png ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/reporting-impact-reports.png?ea9001b1a9b0902a4caf3409038ee825");
+
+/***/ }),
+
+/***/ "./public/assets/reporting-monitoring-reports.png":
+/*!********************************************************!*\
+  !*** ./public/assets/reporting-monitoring-reports.png ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/reporting-monitoring-reports.png?242424c1c95c3dd8b69e95229bc22c20");
 
 /***/ }),
 
@@ -56791,49 +57334,34 @@ function __makeTemplateObject(cooked, raw) {
     return cooked;
 }
 
-var CarouselWrapper = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  width: 100%;\n  height: 100%;\n"], ["\n  width: 100%;\n  height: 100%;\n"])));
-var Overflow = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  overflow: hidden;\n  height: ", ";\n"], ["\n  overflow: hidden;\n  height: ", ";\n"])), function (_a) {
+var CarouselWrapper = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  width: 100%;\n  height: 100%;\n  position: relative;\n"], ["\n  width: 100%;\n  height: 100%;\n  position: relative;\n"])));
+var ButtonContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: space-between;\n  padding: 0 2%;\n  box-sizing: border-box;\n  align-items: center;\n  z-index: 999;\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: space-between;\n  padding: 0 2%;\n  box-sizing: border-box;\n  align-items: center;\n  z-index: 999;\n"])));
+var Button = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  background-color: white;\n  border-radius: 50%;\n  width: 40px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  color: #8e8e8e;\n  transition: .3s;\n  user-select: none;\n\n  :hover {\n    color: white;\n    background-color: ", ";\n  }\n"], ["\n  background-color: white;\n  border-radius: 50%;\n  width: 40px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  color: #8e8e8e;\n  transition: .3s;\n  user-select: none;\n\n  :hover {\n    color: white;\n    background-color: ", ";\n  }\n"])), function (props) { return props.$buttonHoverColor; });
+var Overflow = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n  overflow: hidden;\n  height: ", ";\n"], ["\n  overflow: hidden;\n  height: ", ";\n"])), function (_a) {
     var $height = _a.$height;
     return $height + "px";
 });
-var SlideContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  min-height: ", ";\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: auto;\n"], ["\n  min-height: ", ";\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: auto;\n"])), function (_a) {
+var SlideContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_5 || (templateObject_5 = __makeTemplateObject(["\n  min-height: ", ";\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: auto;\n  padding: 0 20%;\n"], ["\n  min-height: ", ";\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: auto;\n  padding: 0 20%;\n"])), function (_a) {
     var $minHeight = _a.$minHeight;
     return $minHeight + "px";
 });
-var Slider = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_4 || (templateObject_4 = __makeTemplateObject([""], [""])));
+var Slider = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_6 || (templateObject_6 = __makeTemplateObject([""], [""])));
 var Carousel = function (_a) {
-    var _b = _a.items, items = _b === void 0 ? [] : _b, _c = _a.animationSeconds, animationSeconds = _c === void 0 ? 1 : _c;
-    var _d = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0), minHeight = _d[0], setMinHeight = _d[1];
-    var _e = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(items), filteredItems = _e[0], setFilteredItems = _e[1];
+    var _b = _a.items, items = _b === void 0 ? [] : _b, _c = _a.animationSeconds, animationSeconds = _c === void 0 ? 1 : _c, _d = _a.buttonHoverColor, buttonHoverColor = _d === void 0 ? 'white' : _d, _e = _a.autoSlideInterval, autoSlideInterval = _e === void 0 ? 10000 : _e;
+    var _f = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0), minHeight = _f[0], setMinHeight = _f[1];
+    var _g = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(items), filteredItems = _g[0], setFilteredItems = _g[1];
     var isAnimating = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(false);
     var slideIndex = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(0);
+    var isHovered = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(false);
+    var buttonRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
     var slideRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
     var transition = animationSeconds + "s cubic-bezier(0.07, 0.13, 0.35, 0.94)";
-    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(function () {
-        var _a;
-        var largestHeight = 0;
-        if (slideRef.current) {
-            var domItems = [].slice.call((_a = slideRef === null || slideRef === void 0 ? void 0 : slideRef.current) === null || _a === void 0 ? void 0 : _a.getElementsByClassName("container"));
-            domItems.forEach(function (item) {
-                if (item.clientHeight > largestHeight) {
-                    largestHeight = item.clientHeight;
-                }
-            });
-            setMinHeight(largestHeight);
-            slideRef.current.style.transition = transition;
-        }
-        setFilteredItems([items[0]]);
-    }, [transition, items]);
-    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(function () {
-        if (slideRef.current) {
-            slideRef.current.style.transform = "translate3d(0, " + -(minHeight *
-                (filteredItems.length - 1)) + "px, 0)";
-        }
-    }, [filteredItems, minHeight, transition]);
+    var ticker;
     var progressSlide = function (inc) {
         if (isAnimating.current)
             return;
         isAnimating.current = true;
+        clearTimeout(ticker);
         slideIndex.current =
             slideIndex.current + inc < 0
                 ? items.length - 1
@@ -56862,12 +57390,46 @@ var Carousel = function (_a) {
             }, 100);
         }, animationSeconds * 1000);
     };
-    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(CarouselWrapper, __assign({ onClick: function () { return progressSlide(1); }, onContextMenu: function () { return progressSlide(-1); } }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Overflow, __assign({ "$height": minHeight }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Slider, __assign({ ref: slideRef }, { children: filteredItems.map(function (_a, index) {
-                    var component = _a.component;
-                    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(SlideContainer, __assign({ "$minHeight": minHeight, className: "container" }, { children: component }), index));
-                }) }), void 0) }), void 0) }), void 0));
+    var beginTicker = function () {
+        ticker = setTimeout(function () {
+            if (buttonRef.current && !isHovered.current) {
+                buttonRef.current.click();
+            }
+            clearTimeout(ticker);
+            beginTicker();
+        }, autoSlideInterval);
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(function () {
+        var _a;
+        var largestHeight = 0;
+        if (slideRef.current) {
+            var domItems = [].slice.call((_a = slideRef === null || slideRef === void 0 ? void 0 : slideRef.current) === null || _a === void 0 ? void 0 : _a.getElementsByClassName("container"));
+            domItems.forEach(function (item) {
+                if (item.clientHeight > largestHeight) {
+                    largestHeight = item.clientHeight;
+                }
+            });
+            setMinHeight(largestHeight);
+            slideRef.current.style.transition = transition;
+        }
+        setFilteredItems([items[0]]);
+        beginTicker();
+    }, [transition, items]);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(function () {
+        if (slideRef.current) {
+            slideRef.current.style.transform = "translate3d(0, " + -(minHeight *
+                (filteredItems.length - 1)) + "px, 0)";
+        }
+    }, [filteredItems, minHeight, transition]);
+    var onHover = function (isOver) {
+        isHovered.current = isOver;
+    };
+    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(CarouselWrapper, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(ButtonContainer, __assign({ onMouseOver: function () { return onHover(true); }, onMouseLeave: function () { return onHover(false); } }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Button, __assign({ "$buttonHoverColor": buttonHoverColor, onClick: function () { return progressSlide(-1); } }, { children: "<" }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Button, __assign({ ref: buttonRef, "$buttonHoverColor": buttonHoverColor, onClick: function () { return progressSlide(1); } }, { children: ">" }), void 0)] }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Overflow, __assign({ "$height": minHeight }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Slider, __assign({ ref: slideRef }, { children: filteredItems.map(function (_a, index) {
+                        var component = _a.component;
+                        return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(SlideContainer, __assign({ "$minHeight": minHeight, className: "container" }, { children: component }), index));
+                    }) }), void 0) }), void 0)] }, void 0));
 };
-var templateObject_1, templateObject_2, templateObject_3, templateObject_4;
+var templateObject_1, templateObject_2, templateObject_3, templateObject_4, templateObject_5, templateObject_6;
 
 
 //# sourceMappingURL=index.es.js.map

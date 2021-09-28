@@ -8,10 +8,22 @@ const content = [
         id: 1,
         problem:
             "Your MHSDS data doesn’t reflect all your commissioned or jointly commissioned services.  It has been mandatory since April 2020. Need all your commissioned or part commissioned services including the 3rd sector to flow their data? Your 3rd sector providers don’t have a system that can flow data to the MHSD.",
-        solution:(
-            <p>MYMUP can be commissioned by you for your 3rd sector providers. We have a proven track record of 3rd sector use and data flow. We provide a simple to use tool that 
-                practitioners engage with. We flow data on their behalf to relieve them of the complex process  and frequent MHSDS rejections. This gives you access to  
-                <a href="https://www.england.nhs.uk/wp-content/uploads/2020/01/FINAL-CQUIN-20-21-Indicator-Specifications-190220.pdf" target="_blank" className="text-darkGrey"> CQUIN CCG7</a>.
+        solution: (
+            <p>
+                MYMUP can be commissioned by you for your 3rd sector providers.
+                We have a proven track record of 3rd sector use and data flow.
+                We provide a simple to use tool that practitioners engage with.
+                We flow data on their behalf to relieve them of the complex
+                process and frequent MHSDS rejections. This gives you access to
+                <a
+                    href="https://www.england.nhs.uk/wp-content/uploads/2020/01/FINAL-CQUIN-20-21-Indicator-Specifications-190220.pdf"
+                    target="_blank"
+                    className="text-darkGrey"
+                >
+                    {" "}
+                    CQUIN CCG7
+                </a>
+                .
             </p>
         ),
     },
@@ -47,7 +59,7 @@ const Commissioners = () => {
     return (
         <div id="client-commissioners">
             <div className="bg-white">
-                <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8">
+                <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8">
                     <h2 className="text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12">
                         Commissioners
                     </h2>

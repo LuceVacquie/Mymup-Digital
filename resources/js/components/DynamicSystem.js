@@ -14,7 +14,7 @@ const content = [
         title: "Recording and Reporting",
         description:
             "MYMUP digital provides an easy to use, mobile and secure recording platform for professionals using validated assessments. Our in built tools automatically create output and outcome reports for your audiences.",
-        href: "/",
+        href: "/reporting",
         buttonColour: "darkPink",
         bgColour: "pink",
     },
@@ -23,7 +23,7 @@ const content = [
         title: "Data Flow",
         description:
             "Uniquely, MYMUP digital flows your output and outcome data, on your behalf, to the Mental Health Services Dataset.",
-        href: "/",
+        href: "/data-flow",
         buttonColour: "darkPurple",
         bgColour: "purple",
     },
@@ -32,7 +32,7 @@ const content = [
         title: "Online Support",
         description:
             "An extensive co-created digital self-care & support module that complements face to face support for better outcomes and access to 24/7 care.",
-        href: "/",
+        href: "/online-support",
         buttonColour: "darkOrange",
         bgColour: "orange",
     },
@@ -41,7 +41,7 @@ const content = [
 const DynamicSystem = () => {
     return (
         <div className="bg-white">
-            <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-8 md:py-16 sm:py-28 sm:px-6 lg:px-8">
+            <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8">
                 <h2 className="text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12">
                     MYMUP's Three Functions
                 </h2>

@@ -3,10 +3,7 @@ import { Sticky } from "react-sticky";
 
 //ICONS & IMAGES
 import { Popover, Transition } from "@headlessui/react";
-import {
-  MenuIcon,
-  XIcon,
-} from '@heroicons/react/outline'
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Logo from "../../../public/assets/logo.png";
 
 //COMPONENTS
@@ -24,15 +21,18 @@ const Navbar = () => {
     return (
         <Sticky>
             {({ style, isSticky }) => (
-                <header
-                    style={style}
-                    className="absolute w-full z-50"
-                >
-                    <div style={{background: isSticky ? 'white' : 'rgba(255, 255, 255, 0.8)'}}>
+                <header style={style} className="absolute w-full z-50">
+                    <div
+                        style={{
+                            background: isSticky
+                                ? "white"
+                                : "rgba(255, 255, 255, 0.8)",
+                        }}
+                    >
                         <Popover>
                             {({ open }) => (
                                 <>
-                                    <div className="flex justify-between items-center max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:justify-start lg:space-x-10 lg:px-8">
+                                    <div className="flex justify-between items-center max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:justify-start lg:space-x-10 lg:px-8">
                                         <div className="flex justify-start lg:w-0 lg:flex-1">
                                             <a href="/">
                                                 <span className="sr-only">
@@ -50,7 +50,10 @@ const Navbar = () => {
                                                 <span className="sr-only">
                                                     Open menu
                                                 </span>
-                                                <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                                                <MenuIcon
+                                                    className="h-6 w-6"
+                                                    aria-hidden="true"
+                                                />
                                             </Popover.Button>
                                         </div>
                                         <div className="hidden lg:flex space-x-10">
@@ -102,20 +105,31 @@ const Navbar = () => {
                                                                 <span className="sr-only">
                                                                     Close menu
                                                                 </span>
-                                                                <XIcon className="h-6 w-6" aria-hidden="true" />
+                                                                <XIcon
+                                                                    className="h-6 w-6"
+                                                                    aria-hidden="true"
+                                                                />
                                                             </Popover.Button>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="py-6 px-5">
                                                     <div className="grid gap-4 sm:grid-cols-2">
-                                                        {navigation.map((link) => (
-                                                            <NavLink
-                                                                key={link.name}
-                                                                href={link.href}
-                                                                name={link.name}
-                                                            />
-                                                        ))}
+                                                        {navigation.map(
+                                                            (link) => (
+                                                                <NavLink
+                                                                    key={
+                                                                        link.name
+                                                                    }
+                                                                    href={
+                                                                        link.href
+                                                                    }
+                                                                    name={
+                                                                        link.name
+                                                                    }
+                                                                />
+                                                            )
+                                                        )}
                                                     </div>
                                                     <div className="mt-6">
                                                         <a
@@ -131,9 +145,8 @@ const Navbar = () => {
                                     </Transition>
                                 </>
                             )}
-                        </Popover> 
+                        </Popover>
                     </div>
-                    
                 </header>
             )}
         </Sticky>

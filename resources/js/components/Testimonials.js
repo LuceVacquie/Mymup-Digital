@@ -3,7 +3,7 @@ import React from "react";
 const Testimonial = ({ text, author, role }) => {
     return (
         <div className="h-full w-full mx-auto overflow-hidden">
-            <div className="h-full relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="h-full relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="relative">
                     <blockquote className="mt-10">
                         <div className="max-w-3xl mx-auto text-center text-sm leading-7 sm:text-base sm:leading-9 font-bold text-darkGrey">
