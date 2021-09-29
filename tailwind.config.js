@@ -13,7 +13,7 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                'hero-about': "url('/assets/about-us.jpg')",
+                "hero-about": "url('/assets/about-us.jpg')",
             },
             colors: {
                 yellow: "#FBC119",
