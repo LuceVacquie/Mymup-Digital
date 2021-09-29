@@ -159,7 +159,7 @@ const Contact = () => {
             </div>
 
             <div className="w-full">
-                <LoadScript
+                {/* <LoadScript
                     googleMapsApiKey="AIzaSyC1tpFlbEhKzoF-GbaBrzjyeLlLbE6XVQk"
                     className="h-full w-full object-cover"
                 >
@@ -168,7 +168,7 @@ const Contact = () => {
                         zoom={13}
                         center={defaultCenter}
                     />
-                </LoadScript>
+                </LoadScript> */}
             </div>
         </div>
     );

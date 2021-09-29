@@ -1,8 +1,5 @@
 import React from "react";
 
-//COMPONENTS
-import ClientCard from "./ClientCard";
-
 //ASSETS
 import ReportingImg from "../../../../public/assets/reporting.jpg";
 import DataFlowImg from "../../../../public/assets/data-flow.jpg";

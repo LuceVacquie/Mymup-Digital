@@ -15,56 +15,38 @@ const teamMembers = [
     {
         name: "Suzanne Elster",
         img: SuzanneImg,
+        alt: "Suzanne Elster",
         jobRole: "Operations Director",
-        facebookLink: "",
-        twitterLink: "",
-        youtubeLink: "",
-        vimeoLink: "",
     },
     {
         name: "Andrew Claypole",
         img: AndrewImg,
+        alt: "Andrew Claypole",
         jobRole: "IT Manager",
-        facebookLink: "",
-        twitterLink: "",
-        youtubeLink: "",
-        vimeoLink: "",
     },
     {
         name: "Daniel Carroll",
         img: DanielImg,
+        alt: "Daniel Carroll",
         jobRole: "Media/Communications & Content Development",
-        facebookLink: "",
-        twitterLink: "",
-        youtubeLink: "",
-        vimeoLink: "",
     },
     {
         name: "Ross Elliot",
         img: RossImg,
+        alt: "Ross Elliot",
         jobRole: "Account Manager & Content Development",
-        facebookLink: "",
-        twitterLink: "",
-        youtubeLink: "",
-        vimeoLink: "",
     },
     {
         name: "Kaela Shuttleworth",
         img: KaelaImg,
+        alt: "Kaela Shuttleworth",
         jobRole: "Account Manager & Administration",
-        facebookLink: "",
-        twitterLink: "",
-        youtubeLink: "",
-        vimeoLink: "",
     },
     {
         name: "Michael Davis",
         img: MichaelImg,
+        alt: "Michael Davis",
         jobRole: "Content Development",
-        facebookLink: "",
-        twitterLink: "",
-        youtubeLink: "",
-        vimeoLink: "",
     },
 ];
 
@@ -80,12 +62,9 @@ const MeetTeam = () => {
                         <TeamCard
                             key={item.name}
                             img={item.img}
+                            alt={item.alt}
                             name={item.name}
                             jobRole={item.jobRole}
-                            facebookLink={item.facebookLink}
-                            twitterLink={item.twitterLink}
-                            youtubeLink={item.youtubeLink}
-                            vimeoLink={item.vimeoLink}
                         />
                     ))}
                 </div>

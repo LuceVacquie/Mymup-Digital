@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 //COMPONENTS
 import HeroCarousel from "../components/home/HeroCarousel";
@@ -7,13 +7,26 @@ import MainCustomers from "../components/home/MainClients";
 import TestimonialSlider from "../components/TestimonialSlider";
 import CTA from "../components/Cta";
 import Contact from "../components/home/Contact";
+import Modal from "../components/home/Modal";
 
 const Homepage = () => {
+    const [isModalVisible, setIsModalVisible] = useState(false);
+
     return (
         <div className="relative">
             <div className="w-screen h-screen flex justify-center relative top-0">
-                <HeroCarousel />
+                <HeroCarousel
+                    isModalVisible={isModalVisible}
+                    setIsModalVisible={setIsModalVisible}
+                />
             </div>
+
+            {isModalVisible && (
+                <Modal
+                    isModalVisible={isModalVisible}
+                    setIsModalVisible={setIsModalVisible}
+                />
+            )}
 
             <DynamicSystem />
 

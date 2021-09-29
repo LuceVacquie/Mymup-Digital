@@ -1,14 +1,6 @@
 import React, { useState } from "react";
 
-const TeamCard = ({
-    img,
-    name,
-    jobRole,
-    facebookLink,
-    twitterLink,
-    youtubeLink,
-    vimeoLink,
-}) => {
+const TeamCard = ({ img, alt, name, jobRole }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
@@ -25,7 +17,7 @@ const TeamCard = ({
                         : "none",
                 }}
             >
-                <img src={img} className="w-full p-2" />
+                <img src={img} alt={alt} className="w-full p-2" />
                 <div className="px-4 py-4 lg:py-8 text-center">
                     <p className="text-darkGrey text-lg font-bold">{name}</p>
                     <p className="text-darkGrey text-sm lg:text-base">
@@ -34,9 +26,9 @@ const TeamCard = ({
                     {isHovered && (
                         <div className="flex justify-center">
                             <a
-                                href={facebookLink}
+                                href="https://www.facebook.com/MYMUPUK/"
                                 target="_blank"
-                                className="p-2"
+                                className="p-2 text-mediumGrey hover:text-blue"
                             >
                                 <svg
                                     className="svg-icon h-4"
@@ -49,9 +41,9 @@ const TeamCard = ({
                                 </svg>
                             </a>
                             <a
-                                href={twitterLink}
+                                href="https://www.twitter.com/MYMUPUK/"
                                 target="_blank"
-                                className="p-2"
+                                className="p-2 text-mediumGrey hover:text-blue"
                             >
                                 <svg
                                     className="svg-icon h-4"
@@ -64,9 +56,9 @@ const TeamCard = ({
                                 </svg>
                             </a>
                             <a
-                                href={youtubeLink}
+                                href="https://www.youtube.com/channel/UCs6DxxruDlWOOdc2sp5NMHw/videos"
                                 target="_blank"
-                                className="p-2"
+                                className="p-2 text-mediumGrey hover:text-blue"
                             >
                                 <svg
                                     className="svg-icon h-4"
@@ -78,7 +70,11 @@ const TeamCard = ({
                                     ></path>
                                 </svg>
                             </a>
-                            <a href={vimeoLink} target="_blank" className="p-2">
+                            <a
+                                href="https://vimeo.com/user99313127"
+                                target="_blank"
+                                className="p-2 text-mediumGrey hover:text-blue"
+                            >
                                 <svg
                                     className="svg-icon h-4"
                                     viewBox="0 0 20 20"

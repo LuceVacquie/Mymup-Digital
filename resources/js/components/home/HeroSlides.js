@@ -1,6 +1,13 @@
 import React from "react";
 
-const Slide = ({ title, text, img, isModalVisible, setIsModalVisible }) => {
+const Slide = ({
+    title,
+    text,
+    img,
+    alt,
+    isModalVisible,
+    setIsModalVisible,
+}) => {
     return (
         <div className="relative h-full w-full mx-auto">
             <div className="h-full relative shadow-xl sm:overflow-hidden">
@@ -8,7 +15,7 @@ const Slide = ({ title, text, img, isModalVisible, setIsModalVisible }) => {
                     <img
                         className="h-full w-full object-cover"
                         src={img}
-                        alt=""
+                        alt={alt}
                     />
                     <div
                         className="absolute inset-0"

@@ -10,12 +10,12 @@ const VisionValues = () => {
             <div className="flex flex-col md:flex-row justify-between md:space-x-10 lg:space-x-20">
                 <div className="flex-1 mt-12 sm:mt-16 lg:mt-0">
                     <div className="w-full lg:px-0 lg:m-0">
-                        <img className="" src={Vision} alt="" />
+                        <img src={Vision} alt="Our Vision" />
                     </div>
                 </div>
                 <div className="flex-1 max-w-xl mt-8 md:mx-auto lg:max-w-none lg:mx-0 lg:px-0">
                     <div>
-                        <div className="">
+                        <div>
                             <div className="w-6 h-1 bg-blue mb-6 rounded-lg"></div>
                             <h2 className="text-3xl font-extrabold tracking-tight text-darkGrey">
                                 Our Vision
@@ -39,44 +39,42 @@ const VisionValues = () => {
                 <div className="flex flex-col md:flex-row justify-between md:space-x-10 lg:space-x-20">
                     <div className="flex-1 max-w-xl md:mx-auto lg:max-w-none lg:mx-0 lg:px-0">
                         <div>
-                            <div className="">
-                                <div className="w-6 h-1 bg-blue mb-6 rounded-lg"></div>
-                                <h2 className="text-3xl font-extrabold tracking-tight text-darkGrey">
-                                    Our Values
-                                </h2>
-                                <ul className="mt-4 lg:pr-11 text-base lg:text-lg text-mediumGrey">
-                                    <li>
-                                        - We do the hard work for you to make
-                                        your life easier
-                                    </li>
-                                    <li>
-                                        - Solutions are co-created with the
-                                        communities they serve
-                                    </li>
-                                    <li>
-                                        - Simple to use tools to engage
-                                        clinicians and improve data quality
-                                    </li>
-                                    <li>
-                                        - Ongoing and accessible support and
-                                        training
-                                    </li>
-                                    <li>
-                                        - Enhancing your work and connections to
-                                        clients
-                                    </li>
-                                    <li>
-                                        -High quality data can improve services
-                                        and outcomes for health care
-                                        professionals and those who you support
-                                    </li>
-                                </ul>
-                            </div>
+                            <div className="w-6 h-1 bg-blue mb-6 rounded-lg"></div>
+                            <h2 className="text-3xl font-extrabold tracking-tight text-darkGrey">
+                                Our Values
+                            </h2>
+                            <ul className="mt-4 lg:pr-11 text-base lg:text-lg text-mediumGrey">
+                                <li>
+                                    - We do the hard work for you to make your
+                                    life easier
+                                </li>
+                                <li>
+                                    - Solutions are co-created with the
+                                    communities they serve
+                                </li>
+                                <li>
+                                    - Simple to use tools to engage clinicians
+                                    and improve data quality
+                                </li>
+                                <li>
+                                    - Ongoing and accessible support and
+                                    training
+                                </li>
+                                <li>
+                                    - Enhancing your work and connections to
+                                    clients
+                                </li>
+                                <li>
+                                    - High quality data can improve services and
+                                    outcomes for health care professionals and
+                                    those who you support
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div className="flex-1 mt-12 mt-8 md:mt-16 lg:mt-0">
                         <div className="w-full lg:px-0 lg:m-0">
-                            <img className="" src={Values} alt="" />
+                            <img src={Values} alt="Our Values" />
                         </div>
                     </div>
                 </div>

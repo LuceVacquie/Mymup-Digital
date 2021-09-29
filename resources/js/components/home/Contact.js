@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="flex flex-col bg-lightGrey md:flex-row">
             <div className="flex-1">
                 <div className="h-full md:h-1/2">
-                    <LoadScript
+                    {/* <LoadScript
                         googleMapsApiKey="AIzaSyC1tpFlbEhKzoF-GbaBrzjyeLlLbE6XVQk"
                         className="h-full w-full object-cover"
                     >
@@ -25,7 +25,7 @@ const Contact = () => {
                             zoom={13}
                             center={defaultCenter}
                         />
-                    </LoadScript>
+                    </LoadScript> */}
                 </div>
             </div>
 

@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
         <Sticky>
             {({ style, isSticky }) => (
-                <header style={style} className="absolute w-full z-50">
+                <header style={style} className="absolute w-full z-30">
                     <div
                         style={{
                             background: isSticky

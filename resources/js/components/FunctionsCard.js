@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const FunctionsCard = ({
     img,
+    alt,
     title,
     description,
     href,
@@ -17,7 +18,11 @@ const FunctionsCard = ({
             className="flex-1"
         >
             <div className={`bg-lightGrey hover:bg-${bgColour}`}>
-                <img src={img} className="hidden md:h-56 md:w-full md:block" />
+                <img
+                    src={img}
+                    alt={alt}
+                    className="hidden md:h-56 md:w-full md:block"
+                />
                 <div className="px-10 py-8">
                     <h3
                         className="text-2xl pb-4 sm:pb-10"

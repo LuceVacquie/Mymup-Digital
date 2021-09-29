@@ -3,7 +3,7 @@ import React from "react";
 const social = [
     {
         name: "Facebook",
-        href: "#",
+        href: "https://www.facebook.com/MYMUPUK/",
         icon: (
             <svg className="svg-icon h-4" viewBox="0 0 20 20">
                 <path
@@ -15,7 +15,7 @@ const social = [
     },
     {
         name: "Twitter",
-        href: "#",
+        href: "https://www.twitter.com/MYMUPUK/",
         icon: (
             <svg className="svg-icon h-4" viewBox="0 0 20 20">
                 <path
@@ -27,7 +27,7 @@ const social = [
     },
     {
         name: "YouTube",
-        href: "#",
+        href: "https://www.youtube.com/channel/UCs6DxxruDlWOOdc2sp5NMHw/videos",
         icon: (
             <svg className="svg-icon h-4" viewBox="0 0 20 20">
                 <path
@@ -39,7 +39,7 @@ const social = [
     },
     {
         name: "Vimeo",
-        href: "#",
+        href: "https://vimeo.com/user99313127",
         icon: (
             <svg className="svg-icon h-4" viewBox="0 0 20 20">
                 <path
@@ -58,6 +58,7 @@ const SocialMedia = () => {
                 <a
                     key={item.name}
                     href={item.href}
+                    target="_blank"
                     className="flex justify-center items-center h-10 w-10 rounded-full bg-lightGrey text-darkGrey hover:text-white bg-gradient-to-tl hover:from-blue hover:via-purple hover:via-pink hover:to-yellow hover:text-white"
                 >
                     <span className="sr-only">{item.name}</span>
