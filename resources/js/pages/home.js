@@ -12,6 +12,8 @@ import Modal from "../components/home/Modal";
 const Homepage = () => {
     const [isModalVisible, setIsModalVisible] = useState(false);
 
+    console.log("ere");
+
     return (
         <div className="relative">
             <div className="w-screen h-screen flex justify-center relative top-0">

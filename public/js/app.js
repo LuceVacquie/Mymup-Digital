@@ -13335,6 +13335,7 @@ __webpack_require__.r(__webpack_exports__);
 var Modal = function Modal(_ref) {
   var setIsModalVisible = _ref.setIsModalVisible,
       isModalVisible = _ref.isModalVisible;
+  console.log("update");
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     className: "fixed top-0 bottom-0 right-0 left-0 z-30 overflow-x-hidden overflow-y-auto",
     style: {
@@ -14079,6 +14080,7 @@ var Homepage = function Homepage() {
       isModalVisible = _useState2[0],
       setIsModalVisible = _useState2[1];
 
+  console.log("ere");
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
     className: "relative",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
@@ -51019,8 +51021,8 @@ function __makeTemplateObject(cooked, raw) {
 }
 
 var CarouselWrapper = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  width: 100%;\n  height: 100%;\n  position: relative;\n"], ["\n  width: 100%;\n  height: 100%;\n  position: relative;\n"])));
-var ButtonContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: space-between;\n  padding: 0 2%;\n  box-sizing: border-box;\n  align-items: center;\n  z-index: 999;\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: space-between;\n  padding: 0 2%;\n  box-sizing: border-box;\n  align-items: center;\n  z-index: 999;\n"])));
-var Button = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  background-color: white;\n  border-radius: 50%;\n  width: 40px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  color: #8e8e8e;\n  transition: .3s;\n  user-select: none;\n\n  :hover {\n    color: white;\n    background-color: ", ";\n  }\n"], ["\n  background-color: white;\n  border-radius: 50%;\n  width: 40px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  color: #8e8e8e;\n  transition: .3s;\n  user-select: none;\n\n  :hover {\n    color: white;\n    background-color: ", ";\n  }\n"])), function (props) { return props.$buttonHoverColor; });
+var ButtonContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: space-between;\n  padding: 0 2%;\n  box-sizing: border-box;\n  align-items: center;\n  z-index: 999;\n  pointer-events: none;\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: space-between;\n  padding: 0 2%;\n  box-sizing: border-box;\n  align-items: center;\n  z-index: 999;\n  pointer-events: none;\n"])));
+var Button = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  background-color: white;\n  border-radius: 50%;\n  width: 40px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  color: #8e8e8e;\n  transition: .3s;\n  user-select: none;\n  pointer-events: all;\n\n  :hover {\n    color: white;\n    background-color: ", ";\n  }\n"], ["\n  background-color: white;\n  border-radius: 50%;\n  width: 40px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  color: #8e8e8e;\n  transition: .3s;\n  user-select: none;\n  pointer-events: all;\n\n  :hover {\n    color: white;\n    background-color: ", ";\n  }\n"])), function (props) { return props.$buttonHoverColor; });
 var Overflow = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n  overflow: hidden;\n  height: ", ";\n"], ["\n  overflow: hidden;\n  height: ", ";\n"])), function (_a) {
     var $height = _a.$height;
     return $height + "px";
@@ -51039,13 +51041,13 @@ var Carousel = function (_a) {
     var isHovered = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(false);
     var buttonRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
     var slideRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
+    var ticker = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
     var transition = animationSeconds + "s cubic-bezier(0.07, 0.13, 0.35, 0.94)";
-    var ticker;
     var progressSlide = function (inc) {
         if (isAnimating.current)
             return;
         isAnimating.current = true;
-        clearTimeout(ticker);
+        clearTimeout(ticker.current);
         slideIndex.current =
             slideIndex.current + inc < 0
                 ? items.length - 1
@@ -51053,6 +51055,7 @@ var Carousel = function (_a) {
         var nextItem = items[slideIndex.current % items.length];
         setFilteredItems(__spreadArray(__spreadArray([], filteredItems, true), [nextItem], false));
         setTimeout(function () {
+            var _a;
             if (slideRef.current) {
                 slideRef.current.style.transition = "0s";
             }
@@ -51061,7 +51064,7 @@ var Carousel = function (_a) {
             }
             // force cancel all iframes
             [].slice
-                .call(document.getElementsByTagName("iframe"))
+                .call((_a = slideRef === null || slideRef === void 0 ? void 0 : slideRef.current) === null || _a === void 0 ? void 0 : _a.getElementsByTagName("iframe"))
                 .forEach(function (iframe) {
                 /* eslint-disable-next-line no-self-assign */
                 iframe.src = iframe.src;
@@ -51075,11 +51078,11 @@ var Carousel = function (_a) {
         }, animationSeconds * 1000);
     };
     var beginTicker = function () {
-        ticker = setTimeout(function () {
+        ticker.current = setTimeout(function () {
             if (buttonRef.current && !isHovered.current) {
                 buttonRef.current.click();
             }
-            clearTimeout(ticker);
+            clearTimeout(ticker.current);
             beginTicker();
         }, autoSlideInterval);
     };
@@ -51106,9 +51109,11 @@ var Carousel = function (_a) {
         }
     }, [filteredItems, minHeight, transition]);
     var onHover = function (isOver) {
+        clearTimeout(ticker.current);
+        beginTicker();
         isHovered.current = isOver;
     };
-    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(CarouselWrapper, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(ButtonContainer, __assign({ onMouseOver: function () { return onHover(true); }, onMouseLeave: function () { return onHover(false); } }, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Button, __assign({ "$buttonHoverColor": buttonHoverColor, onClick: function () { return progressSlide(-1); } }, { children: "<" }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Button, __assign({ ref: buttonRef, "$buttonHoverColor": buttonHoverColor, onClick: function () { return progressSlide(1); } }, { children: ">" }), void 0)] }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Overflow, __assign({ "$height": minHeight }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Slider, __assign({ ref: slideRef }, { children: filteredItems.map(function (_a, index) {
+    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(CarouselWrapper, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(ButtonContainer, { children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Button, __assign({ "$buttonHoverColor": buttonHoverColor, onClick: function () { return progressSlide(-1); } }, { children: "<" }), void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Button, __assign({ ref: buttonRef, "$buttonHoverColor": buttonHoverColor, onClick: function () { return progressSlide(1); } }, { children: ">" }), void 0)] }, void 0), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Overflow, __assign({ "$height": minHeight, onMouseOver: function () { return onHover(true); }, onMouseLeave: function () { return onHover(false); } }, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Slider, __assign({ ref: slideRef }, { children: filteredItems.map(function (_a, index) {
                         var component = _a.component;
                         return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(SlideContainer, __assign({ "$minHeight": minHeight, className: "container" }, { children: component }), index));
                     }) }), void 0) }), void 0)] }, void 0));
