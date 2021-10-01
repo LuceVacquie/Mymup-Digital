@@ -34,7 +34,7 @@ const Slide = ({
                                     onClick={() => {
                                         setIsModalVisible(!isModalVisible);
                                     }}
-                                    className="flex justify-center items-center px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm text-black bg-yellow"
+                                    className="flex justify-center items-center px-10 py-4 border border-transparent text-sm font-bold rounded-sm shadow-sm text-black bg-yellow uppercase"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const Slide = ({
                                 </button>
                                 <a
                                     href="/contact"
-                                    className="ml-4 flex justify-center items-center px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm text-black bg-yellow"
+                                    className="ml-4 flex justify-center items-center px-10 py-4 border border-transparent text-sm font-bold rounded-sm shadow-sm text-black bg-yellow uppercase"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"

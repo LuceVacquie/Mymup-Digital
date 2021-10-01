@@ -59,7 +59,7 @@ const SocialMedia = () => {
                     key={item.name}
                     href={item.href}
                     target="_blank"
-                    className="flex justify-center items-center h-10 w-10 rounded-full bg-lightGrey text-darkGrey hover:text-white bg-gradient-to-tl hover:from-blue hover:via-purple hover:via-pink hover:to-yellow hover:text-white"
+                    className="flex justify-center items-center h-10 w-10 rounded-full bg-lightGrey text-darkGrey transition duration-500 hover:text-white bg-gradient-to-tl hover:from-blue hover:via-purple hover:via-pink hover:to-yellow hover:text-white"
                 >
                     <span className="sr-only">{item.name}</span>
                     <div>{item.icon}</div>

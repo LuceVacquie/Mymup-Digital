@@ -97,7 +97,7 @@ const Contact = () => {
                                     />
                                 </svg>
                             </div>
-                            <div className="text-blue hover:text-darkBlue ml-8">
+                            <div className="text-blue hover:text-darkblue ml-8">
                                 <p>
                                     <a href="mailto:info@mymup.org">
                                         info@mymup.org
@@ -150,7 +150,7 @@ const Contact = () => {
 
                         <button
                             type="submit"
-                            className="px-10 py-4 border border-transparent text-xs font-bold rounded-sm shadow-sm uppercase text-darkGrey bg-yellow"
+                            className="px-10 py-4 border border-transparent text-sm font-bold rounded-sm shadow-sm uppercase text-darkGrey bg-yellow"
                         >
                             Send message
                         </button>
@@ -159,7 +159,7 @@ const Contact = () => {
             </div>
 
             <div className="w-full">
-                {/* <LoadScript
+                <LoadScript
                     googleMapsApiKey="AIzaSyC1tpFlbEhKzoF-GbaBrzjyeLlLbE6XVQk"
                     className="h-full w-full object-cover"
                 >
@@ -168,7 +168,7 @@ const Contact = () => {
                         zoom={13}
                         center={defaultCenter}
                     />
-                </LoadScript> */}
+                </LoadScript>
             </div>
         </div>
     );

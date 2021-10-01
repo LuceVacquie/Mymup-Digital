@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="flex flex-col bg-lightGrey md:flex-row">
             <div className="flex-1">
                 <div className="h-full md:h-1/2">
-                    {/* <LoadScript
+                    <LoadScript
                         googleMapsApiKey="AIzaSyC1tpFlbEhKzoF-GbaBrzjyeLlLbE6XVQk"
                         className="h-full w-full object-cover"
                     >
@@ -25,7 +25,7 @@ const Contact = () => {
                             zoom={13}
                             center={defaultCenter}
                         />
-                    </LoadScript> */}
+                    </LoadScript>
                 </div>
             </div>
 
@@ -83,7 +83,7 @@ const Contact = () => {
 
                         <button
                             type="submit"
-                            className="px-10 py-4 border border-transparent text-xs font-medium rounded-sm shadow-sm uppercase text-darkGrey bg-yellow"
+                            className="px-10 py-4 border border-transparent text-sm font-bold rounded-sm shadow-sm uppercase text-darkGrey bg-yellow"
                         >
                             Send message
                         </button>

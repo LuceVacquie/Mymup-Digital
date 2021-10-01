@@ -69,7 +69,7 @@ const Navbar = () => {
                                         <div className="hidden lg:flex items-center justify-end lg:flex-1 lg:w-0">
                                             <a
                                                 href="/contact"
-                                                className="whitespace-nowrap flex items-center justify-center px-10 py-4 lg:py-6 border border-transparent rounded-sm text-xs font-bold text-darkGrey bg-yellow uppercase"
+                                                className="whitespace-nowrap flex items-center justify-center px-10 py-4 border border-transparent rounded-sm text-sm font-extrabold text-darkGrey bg-yellow uppercase"
                                             >
                                                 ENQUIRE NOW
                                             </a>
@@ -138,7 +138,7 @@ const Navbar = () => {
                                                     <div className="mt-6">
                                                         <a
                                                             href="/contact"
-                                                            className="w-full flex items-center justify-center px-10 py-4 border border-transparent rounded-sm text-xs font-bold text-darkGrey bg-yellow uppercase"
+                                                            className="w-full flex items-center justify-center px-10 py-4 border border-transparent rounded-sm text-sm font-extrabold text-darkGrey bg-yellow uppercase"
                                                         >
                                                             ENQUIRE NOW
                                                         </a>

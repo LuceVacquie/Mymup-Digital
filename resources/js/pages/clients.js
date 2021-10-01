@@ -8,7 +8,8 @@ import HeroSection from "../components/HeroSection";
 import Commissioners from "../components/clients/Commissioners";
 import Mhst from "../components/clients/Mhst";
 import ThirdSector from "../components/clients/Third-sector";
-import ContactSection from "../components/ContactSection"
+import ComparisonTable from "../components/ComparisonTable";
+import ContactSection from "../components/ContactSection";
 
 const Clients = () => {
     return (
@@ -20,6 +21,8 @@ const Clients = () => {
             <Mhst />
 
             <ThirdSector />
+
+            <ComparisonTable/>
 
             <ContactSection />
         </div>

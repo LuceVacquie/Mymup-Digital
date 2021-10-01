@@ -31,7 +31,7 @@ const Header = () => {
                             Call on
                             <a
                                 href={`tel:${phoneNumber}`}
-                                className="text-mediumGrey"
+                                className="text-mediumGrey hover:text-blue"
                             >
                                 {" "}
                                 {phoneNumber}
@@ -59,7 +59,7 @@ const Header = () => {
                             Email
                             <a
                                 href={`mailto:${email}`}
-                                className="text-mediumGrey"
+                                className="text-mediumGrey hover:text-blue"
                             >
                                 {" "}
                                 {email}

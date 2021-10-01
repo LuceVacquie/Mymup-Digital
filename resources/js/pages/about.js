@@ -18,7 +18,7 @@ const About = () => {
 
             <HighImpact />
 
-            <div className="w-screen flex justify-center">
+            <div className="w-screen flex justify-center bg-lightGrey">
                 <TestimonialSlider />
             </div>
 
