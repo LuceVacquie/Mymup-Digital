@@ -17877,7 +17877,7 @@ var ContactSection = function ContactSection() {
         })]
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "flex flex-col items-center bg-darkblue w-1/2 p-12 md:p-16 lg:flex-row 2xl:p-28",
+      className: "flex flex-col items-center bg-darkBlue w-1/2 p-12 md:p-16 lg:flex-row 2xl:p-28",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("svg", {
           xmlns: "http://www.w3.org/2000/svg",
