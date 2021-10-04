@@ -22,7 +22,7 @@ const content = [
 const MainCustomers = () => {
     return (
         <div className="bg-lightGrey">
-            <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8">
+            <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-20 sm:px-6 lg:px-8 sm:py-28">
                 <div className="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
                     <div>
                         <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">

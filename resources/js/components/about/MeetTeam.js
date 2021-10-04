@@ -53,7 +53,7 @@ const teamMembers = [
 const MeetTeam = () => {
     return (
         <div className="">
-            <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8">
+            <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-20 sm:px-6 lg:px-8 sm:py-28">
                 <h2 className="text-center text-4xl sm:text-5xl text-darkGrey mb-8 sm:mb-12">
                     Meet the Team
                 </h2>

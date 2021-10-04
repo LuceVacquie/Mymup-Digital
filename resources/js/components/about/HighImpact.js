@@ -8,23 +8,25 @@ import About3 from "../../../../public/assets/about-3.jpg";
 const HighImpact = () => {
     return (
         <div className="bg-white">
-            <div className="max-w-2xl md:max-w-3xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8 lg:max-w-5xl xl:max-w-6xl">
-                <div className="flex flex-wrap justify-between xl:space-x-10">
+            <div className="max-w-2xl mx-auto px-4 py-20 sm:px-6 md:max-w-3xl lg:px-8 sm:py-28 lg:max-w-5xl xl:max-w-6xl">
+                <div className="flex flex-col justify-between space-y-8 sm:grid sm:grid-cols-2 sm:space-y-0 sm:gap-8 lg:grid-cols-3">
+
                     <div
-                        className="w-full h-64 md:h-80 md:w-1/2 lg:w-1/3 bg-cover bg-no-repeat bg-center"
+                        className="w-full h-64 bg-cover bg-no-repeat bg-center"
                         style={{ backgroundImage: `url(${About1})` }}
                     ></div>
+
                     <div
-                        className="w-full h-64 md:h-80 md:w-1/2 lg:w-1/4 bg-cover bg-no-repeat bg-center"
+                        className="w-full h-64 bg-cover bg-no-repeat bg-center"
                         style={{ backgroundImage: `url(${About2})` }}
                     ></div>
+
                     <div
-                        className="w-full h-64 md:h-80 md:w-1/2 lg:w-2/5 bg-cover bg-no-repeat bg-center"
+                        className="w-full h-64 bg-cover bg-no-repeat bg-center"
                         style={{ backgroundImage: `url(${About3})` }}
                     ></div>
 
-                    {/* <div className="flex justify-between space-x-10 items-center mt-12"> */}
-                    <p className="text-darkGrey font-semibold w-1/2 mt-12 lg:w-2/5 text-3xl xl:text-4xl ">
+                    <p className="text-darkGrey font-semibold text-4xl sm:my-auto">
                         Enabling you to deliver{" "}
                         <span className="text-blue font-light">
                             high impact{" "}
@@ -32,7 +34,7 @@ const HighImpact = () => {
                         digital services.
                     </p>
 
-                    <div className="w-full mt-12 lg:w-3/5 text-mediumGrey">
+                    <div className="w-full text-mediumGrey text-lg sm:col-span-2">
                         <p className="mb-4">
                             Supported by research and evaluation tools we will
                             transform, modernise and improve treatment pathways
@@ -45,8 +47,8 @@ const HighImpact = () => {
                             every development.
                         </p>
                     </div>
+
                 </div>
-                {/* </div> */}
             </div>
         </div>
     );

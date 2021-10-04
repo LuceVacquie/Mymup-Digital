@@ -9,16 +9,9 @@ const TeamCard = ({ img, alt, name, jobRole }) => {
             onMouseOut={() => setIsHovered(false)}
             className="p-2 w-1/2 md:w-1/3 "
         >
-            <div
-                className="bg-white border border-lightGrey"
-                style={{
-                    boxShadow: isHovered
-                        ? "0 4px 8px 0 rgba(0, 0, 0, 0.2)"
-                        : "none",
-                }}
-            >
+            <div className="bg-white border border-lightGrey hover:shadow-md">
                 <img src={img} alt={alt} className="w-full p-2" />
-                <div className="px-4 py-4 lg:py-8 text-center">
+                <div className="px-4 py-4 lg:py-8 text-center transition duration-600 ease" style={{ transform: isHovered ?  "none" : `translate3d(0, -100, 0)` }}>
                     <p className="text-darkGrey text-lg font-bold">{name}</p>
                     <p className="text-darkGrey text-sm lg:text-base">
                         {jobRole}

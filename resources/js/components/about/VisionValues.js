@@ -7,7 +7,7 @@ import Values from "../../../../public/assets/our-values.jpg";
 const VisionValues = () => {
     return (
         <div className="bg-lightGrey">
-            <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-8 sm:py-16 sm:px-6 lg:px-8">
+            <div className="max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-20 sm:px-6 lg:px-8 sm:py-28">
                 <div className="flex flex-col md:flex-row justify-between md:space-x-10 lg:space-x-20">
                     <div className="flex-1 mt-12 sm:mt-16 lg:mt-0">
                         <div className="w-full lg:px-0 lg:m-0">
