@@ -9,19 +9,21 @@ const ComparisonTable = () => {
                     What do we offer?
                 </h2>
                 <div className="flex flex-col">
-                    <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                    <div className="overflow-x-auto -my-2 sm:-mx-6 lg:-mx-8">
                         <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                             <div className="shadow border-b border-gray-200 sm:rounded-lg">
                                 <table className="relative bg-white min-w-full divide-y divide-gray-200 text-center">
+
                                     <colgroup>
-                                        <col span="1" className="sticky left-0 z-10"/>
+                                        <col span="1" className="sticky left-0"/>
                                     </colgroup>
                                     <colgroup>
-                                        <col span="1" className="bg-blue sticky left-0 z-10"/>
+                                        <col span="1" className="bg-blue"/>
                                     </colgroup>
                                     <colgroup>
-                                        <col span="4" className="overflow-x-scroll bg-pink"/>
+                                        <col span="4" className="bg-pink"/>
                                     </colgroup>
+
                                     <thead className="bg-pink text-sm font-bold text-white uppercase">
                                         <tr>
                                             <th

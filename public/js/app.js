@@ -18982,7 +18982,7 @@ var ComparisonTable = function ComparisonTable() {
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "flex flex-col",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          className: "-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8",
+          className: "overflow-x-auto -my-2 sm:-mx-6 lg:-mx-8",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
             className: "py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
@@ -18992,17 +18992,17 @@ var ComparisonTable = function ComparisonTable() {
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("colgroup", {
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("col", {
                     span: "1",
-                    className: "sticky left-0 z-10"
+                    className: "sticky left-0"
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("colgroup", {
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("col", {
                     span: "1",
-                    className: "bg-blue sticky left-0 z-10"
+                    className: "bg-blue"
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("colgroup", {
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("col", {
                     span: "4",
-                    className: "overflow-x-scroll bg-pink"
+                    className: "bg-pink"
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("thead", {
                   className: "bg-pink text-sm font-bold text-white uppercase",
