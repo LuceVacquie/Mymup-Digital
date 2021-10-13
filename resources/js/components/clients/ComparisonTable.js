@@ -15,7 +15,7 @@ const ComparisonTable = () => {
                                 <table className="relative bg-white min-w-full divide-y divide-gray-200 text-center">
 
                                     <colgroup>
-                                        <col span="1" className="sticky left-0"/>
+                                        <col span="1" className="sticky left-40"/>
                                     </colgroup>
                                     <colgroup>
                                         <col span="1" className="bg-blue"/>
